@@ -1,0 +1,55 @@
+#START#
+#
+#
+
+#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
+
+<poster>THE BLACK LIST</poster>
+<fanart>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</fanart>
+
+#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
+
+<info>
+	<message>[COLOR blue]SEASON 1[/COLOR]</message>
+	<message></message>
+	<message></message>
+	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
+</info>
+
+#PLAYLIST ITEMS#
+
+<items>
+
+	<title>The Blacklist 2x08 The Decembrist (2014)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://movreel.com/bc576iz8sg0e</link>
+
+	<title>The Blacklist 2x07 The Scimitar (2014)</title>
+	<thumbnail></thumbnail>
+	<link>http://360gig.com/wwewiala5rgh</link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+	
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+	
+</items>
+
+#
+#
+#END
