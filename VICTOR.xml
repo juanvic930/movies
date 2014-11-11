@@ -1,0 +1,47 @@
+#START#
+#
+#
+
+#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
+
+<poster>My Directory Title</poster>
+<fanart></fanart>
+
+#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
+
+<info>
+	<message></message>
+	<message></message>
+	<message></message>
+	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH
+</info>
+
+#DIRECTORIES#
+
+<directories>
+	
+	<name></name>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<name></name>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<name></name>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<name></name>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<name></name>
+	<thumbnail></thumbnail>
+	<link></link>
+
+</directories>
+
+#
+#
+#END
