@@ -1,54 +1,19 @@
-#START#
-#
-#
-
-#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
-
-<poster>THE BLACLIST</poster>
-<fanart>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</fanart>
-
-#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
+#######################################################################################################################################
+<poster>VIC</poster>
+<fanart>http://farm6.staticflickr.com/5460/10217454264_7eda59c6f3_o.png</fanart>
+#######################################################################################################################################
 
 <info>
-	<message></message>
-	<message></message>
-	<message></message>
-	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
+<message>[COLOR red]*** [/COLOR][COLOR aqua]UPDATED DAILY TO ENSURE BEST VERSION OUT[/COLOR][COLOR red] ***[/COLOR]                               [COLOR yellow]New versions will be marked with the date it was updated. So all those waiting on better copies ;) no worries, pay attention to the dates and you wont miss a beat :-)[/COLOR]</message>
+<thumbnail>http://farm4.staticflickr.com/3775/10217500445_df0cae6a02_o.png</thumbnail>
 </info>
 
-#PLAYLIST ITEMS#
+##############################################################################################################################
 
-<items>
-	<title>THE BLACKLIST</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>https://raw.githubusercontent.com/juanvic930/movies/master/THE%20BLACKLIST.xml</link>
+<title>THE BLACKLIST</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/THE%20BLACKLIST.xml</link>
 
-	<title>NCIS: Los Angeles</title>
-	<thumbnail>http://img215.imageshack.us/img215/2517/954412.jpg</thumbnail>
-	<link>https://raw.githubusercontent.com/juanvic930/movies/master/NCIS%20LOS%20ANGELES.xml</link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-</items>
-
-#
-#
-#END
+<title>NCIS: Los Angeles</title>
+<thumbnail>http://img215.imageshack.us/img215/2517/954412.jpg</thumbnail>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/NCIS%20LOS%20ANGELES.xml</link>
