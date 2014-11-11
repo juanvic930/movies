@@ -1,19 +1,30 @@
+<poster>VICTOR</poster>
+<fanart>/fanart>
 #######################################################################################################################################
-<poster>VIC</poster>
-<fanart>http://farm6.staticflickr.com/5460/10217454264_7eda59c6f3_o.png</fanart>
-#######################################################################################################################################
 
-<info>
-<message>[COLOR red]*** [/COLOR][COLOR aqua]UPDATED DAILY TO ENSURE BEST VERSION OUT[/COLOR][COLOR red] ***[/COLOR]                               [COLOR yellow]New versions will be marked with the date it was updated. So all those waiting on better copies ;) no worries, pay attention to the dates and you wont miss a beat :-)[/COLOR]</message>
-<thumbnail>http://farm4.staticflickr.com/3775/10217500445_df0cae6a02_o.png</thumbnail>
-</info>
+          --------------------------------------------------
+<notify>
+<new></new>
+<message1>For Stash Content Updates</message1>
+<message2></message2>
+<old></old>
+</notify>
 
-##############################################################################################################################
+<message1></message1>
+<message2></message2>
+<message3></message3>
 
-<title>THE BLACKLIST</title>
-<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
-<link>https://raw.githubusercontent.com/juanvic930/movies/master/THE%20BLACKLIST.xml</link>
 
-<title>NCIS: Los Angeles</title>
-<thumbnail>http://img215.imageshack.us/img215/2517/954412.jpg</thumbnail>
+
+#####################################################################################################################
+
+
+<name>[COLOR yellow]NCIS LOS ANGELES[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/NCIS%20LOS%20ANGELES.xml</link>
+<thumbnail>http://img215.imageshack.us/img215/2517/954412.jpg</thumbnail>
+<date>VIC</date>
+
+<name>[COLOR aqua]THE BLACKLIST[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/THE%20BLACKLIST.xml</link>
+<thumbnail></thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<date>VIC</date>
