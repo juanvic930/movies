@@ -4,8 +4,8 @@
 
 #PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
 
-<poster>TVSHOWS</poster>
-<fanart></fanart>
+<poster>THE BLACLIST</poster>
+<fanart>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</fanart>
 
 #INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
 
@@ -20,13 +20,13 @@
 
 <items>
 
-	<title>The Blacklist 2x08 The Decembrist (2014)</title>
+	<title>THE BLACKLIST</title>
 	<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/bc576iz8sg0e</link>
+	<link>https://raw.githubusercontent.com/juanvic930/movies/tvshows/THE%20BLACK%20LIST</link>
 
 	<title></title>
 	<thumbnail></thumbnail>
-	<link></link>
+	<link>https://raw.githubusercontent.com/juanvic930/movies/tvshows/THE%20BLACK%20LIST</link>
 
 	<title></title>
 	<thumbnail></thumbnail>

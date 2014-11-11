@@ -1,47 +1,30 @@
-#START#
-#
-#
+<poster>VICTOR</poster>
+<fanart>/fanart>
+#######################################################################################################################################
 
-#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
+          --------------------------------------------------
+<notify>
+<new></new>
+<message1>For Stash Content Updates</message1>
+<message2></message2>
+<old></old>
+</notify>
 
-<poster>My Directory Title</poster>
-<fanart></fanart>
+<message1></message1>
+<message2></message2>
+<message3></message3>
 
-#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
 
-<info>
-	<message></message>
-	<message></message>
-	<message></message>
-	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH
-</info>
 
-#DIRECTORIES#
+#####################################################################################################################
 
-<directories>
-	
-	<name></name>
-	<thumbnail></thumbnail>
-	<link></link>
 
-	<name></name>
-	<thumbnail></thumbnail>
-	<link></link>
+<name>[COLOR yellow]MOVIES[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/PELICULAS.xml</link>
+<thumbnail></thumbnail>
+<date>VIC</date>
 
-	<name></name>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<name></name>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<name></name>
-	<thumbnail></thumbnail>
-	<link></link>
-
-</directories>
-
-#
-#
-#END
+<name>[COLOR aqua]TVSHOWS[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS.xml</link>
+<thumbnail></thumbnail></thumbnail>
+<date>VIC</date>
