@@ -1,55 +1,41 @@
-#START#
-#
-#
-
-#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
-
-<poster>THE BLACKLIST</poster>
-<fanart></fanart>
-
-#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
+#######################################################################################################################################
+<poster>HackerMil</poster>
+<fanart>http://farm6.staticflickr.com/5460/10217454264_7eda59c6f3_o.png</fanart>
+#######################################################################################################################################
 
 <info>
-	<message></message>
-	<message></message>
-	<message></message>
-	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
+<message>[COLOR red]*** [/COLOR][COLOR aqua]UPDATED DAILY TO ENSURE BEST VERSION OUT[/COLOR][COLOR red] ***[/COLOR]                               [COLOR yellow]New versions will be marked with the date it was updated. So all those waiting on better copies ;) no worries, pay attention to the dates and you wont miss a beat :-)[/COLOR]</message>
+<thumbnail>http://farm4.staticflickr.com/3775/10217500445_df0cae6a02_o.png</thumbnail>
 </info>
 
-#PLAYLIST ITEMS#
+##############################################################################################################################
 
-<items>
+<item>
+<title>The Blacklist 2x08 The Decembrist (2014)</title>
+<link>
+<sublink>http://movreel.com/bc576iz8sg0e</sublink>
+<sublink>http://360gig.com/1xsfgrj5m7bz</sublink>
+<sublink></sublink>
+</link>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+</item>
 
-	<title>The Blacklist 2x08 The Decembrist (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/bc576iz8sg0e</link>
+<item>
+<title>The Blacklist 2x07 The Scimitar (2014)</title>
+<link>
+<sublink>http://360gig.com/wwewiala5rgh</sublink>
+<sublink>http://hugefiles.net/nsw64pi66jvr</sublink>
+<sublink></sublink>
+</link>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+</item>
 
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-</items>
-
-#
-#
-#END
+<item>
+<title></title>
+<link>
+<sublink></sublink>
+<sublink></sublink>
+<sublink></sublink>
+</link>
+<thumbnail></thumbnail>
+</item>
