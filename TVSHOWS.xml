@@ -1,60 +1,41 @@
-#START#
-#
-#
-
-#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
-
-<poster>TVSHOWS</poster>
-<fanart></fanart>
-
-#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
+#######################################################################################################################################
+<poster>HackerMil</poster>
+<fanart>http://farm6.staticflickr.com/5460/10217454264_7eda59c6f3_o.png</fanart>
+#######################################################################################################################################
 
 <info>
-	<message></message>
-	<message></message>
-	<message></message>
-	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
+<message>[COLOR red]*** [/COLOR][COLOR aqua]UPDATED DAILY TO ENSURE BEST VERSION OUT[/COLOR][COLOR red] ***[/COLOR]                               [COLOR yellow]New versions will be marked with the date it was updated. So all those waiting on better copies ;) no worries, pay attention to the dates and you wont miss a beat :-)[/COLOR]</message>
+<thumbnail>http://farm4.staticflickr.com/3775/10217500445_df0cae6a02_o.png</thumbnail>
 </info>
 
-#PLAYLIST ITEMS#
+##############################################################################################################################
 
-<items>
 
-	<title>The Blacklist 2x08 The Decembrist (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>
-	<sublink>http://movreel.com/bc576iz8sg0e</sublink>
-	<sublink>http://360gig.com/1xsfgrj5m7bz</sublink>
-	<sublink>http://billionuploads.com/t30xd3qka5un</sublink>
-	<sublink></sublink>
-	</link>
+<item>
+<title>Autómata (2014) HD</title>
+<link>
+<sublink>http://192.96.204.217:182/d/wv72jofmeuo4hnep5y7qdooumv6xeuqi6nf2y2syhbu3cccwnct3bira/video.mkv</sublink>
+<sublink>http://mrfile.me/ra0rao71fiqh</sublink>
+<sublink>http://billionuploads.com/qbjy7uwr6fko</sublink>
+<sublink>http://movreel.com/vc8i2d3vxtjr</sublink>
+<sublink>http://hugefiles.net/c7lze074jbul</sublink>
+<sublink>http://180upload.com/yj91bkt0ai8x</sublink>
+</link>
+<thumbnail>http://image.tmdb.org/t/p/original/uBrxBoLaUIWt2ZMSArWTUpzdy9L.jpg</thumbnail>
+</item>
 
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-</items>
-
-#
-#
-#END
+<item>
+<title>The Calling (2014) HD</title>
+<link>
+<sublink>http://mrfile.me/1wemxvmv44ey/The.Calling.2014.720p.WEBRIP.H264.AAC-MAJESTiC.mp4.html</sublink>
+<sublink>http://BillionUploads.com/qxxqpzzq0pm6</sublink>
+<sublink>http://hugefiles.net/7vcqj3d1921k</sublink>
+<sublink>http://180upload.com/4ziwaa0m0ssj</sublink>
+<sublink>http://mightyupload.com/vgi2vujxpvi1</sublink>
+<sublink>http://billionuploads.com/a2jkcj11xbaf</sublink>
+<sublink>http://movreel.com/5ob8ozryt5zc</sublink>
+<sublink>http://hugefiles.net/ug6kxsv9nh22</sublink>
+<sublink>http://180upload.com/4s15b9vrrtmh</sublink>
+</link>
+<thumbnail>http://image.tmdb.org/t/p/original/sIHJfvTT2zU7O7OCRv5ut4MWYGY.jpg</thumbnail>
+</item>
