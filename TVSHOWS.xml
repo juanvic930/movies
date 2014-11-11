@@ -1,14 +1,55 @@
-#######################################################################################################################################
-<poster>HackerMil</poster>
-<fanart>http://farm6.staticflickr.com/5460/10217454264_7eda59c6f3_o.png</fanart>
-#######################################################################################################################################
+#START#
+#
+#
+
+#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
+
+<poster>THE BLACLIST</poster>
+<fanart>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</fanart>
+
+#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR aqua]UPDATED DAILY TO ENSURE BEST VERSION OUT[/COLOR][COLOR red] ***[/COLOR]</message>
-<thumbnail>http://farm4.staticflickr.com/3775/10217500445_df0cae6a02_o.png</thumbnail>
+	<message></message>
+	<message></message>
+	<message></message>
+	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
 </info>
 
-##############################################################################################################################
+#PLAYLIST ITEMS#
 
+<items>
 
-https://raw.githubusercontent.com/juanvic930/movies/master/THE%20BLACK%20LIST
+	<title>THE BLACKLIST</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BNTIxODc2Mzk3Nl5BMl5BanBnXkFtZTgwMTE5MjQxMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>https://raw.githubusercontent.com/juanvic930/movies/master/THE%20BLACK%20LIST</link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+	
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+	
+</items>
+
+#
+#
+#END
