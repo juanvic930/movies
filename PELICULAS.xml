@@ -1,11 +1,10 @@
 #START#
 #
 #
-
 #PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
 
-<poster>PELICULAS</poster>
-<fanart>http://s2.hipertextual.com/wp-content/blogs.dir/7/files/2013/08/AdmitOne-5-800x462.jpg</fanart>
+<poster>victor</poster>
+<fanart>http://images2.fanpop.com/image/photos/14000000/Movie-Posters-johnny-depps-movie-characters-14056947-800-600.jpg</fanart>
 
 #INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
 
@@ -15,7 +14,6 @@
 </info>
 
 #PLAYLIST ITEMS#
-
 <items>
 
 	<title>Dracula Untold (2014)</title>
