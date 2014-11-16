@@ -1,5 +1,5 @@
 <poster>VICTOR</poster>
-<fanart>/fanart>
+<fanart></fanart>
 #######################################################################################################################################
 
           --------------------------------------------------
@@ -21,7 +21,7 @@
 
 <name>[COLOR yellow]MOVIES[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/PELICULAS.xml</link>
-<thumbnail></thumbnail>
+<thumbnail>http://demilked.uuuploads.com/movie-poster-cliches/movie-poster-cliches-15.jpg</thumbnail>
 <date>VIC</date>
 
 <name>[COLOR aqua]TVSHOWS[/COLOR]</name>
