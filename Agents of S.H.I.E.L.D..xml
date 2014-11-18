@@ -1,55 +1,9 @@
-#START#
-#
-#
-
-#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
-
-<poster>Agents of S.H.I.E.L.D.</poster>
-<fanart>http://ia.media-imdb.com/images/M/MV5BMTM4Nzc4MDQ3OF5BMl5BanBnXkFtZTgwMTYzMTAwMDE@._V1_SX500_SY999_.jpg?</fanart>
-
-#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
-
-<info>
-	<message></message>
-	<message></message>
-	<message></message>
-	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
-</info>
-
-#PLAYLIST ITEMS#
-
 <items>
+<title>Agents of S.H.I.E.L.D. 2x07 The Writing on the Wall (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTM4Nzc4MDQ3OF5BMl5BanBnXkFtZTgwMTYzMTAwMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>http://movreel.com/brce0em6j5vc</link>
 
-	<title>Agents of S.H.I.E.L.D. 2x07 The Writing on the Wall (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTM4Nzc4MDQ3OF5BMl5BanBnXkFtZTgwMTYzMTAwMDE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/brce0em6j5vc</link>
 
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
 
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
 
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
 </items>
-
-#
-#
-#END
