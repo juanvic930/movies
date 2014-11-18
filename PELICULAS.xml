@@ -16,6 +16,14 @@
 #PLAYLIST ITEMS#
 <items>
 
+       	<title>21 Jump Street (2012)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTc3NzQ3OTg3NF5BMl5BanBnXkFtZTcwMjk5OTcxNw@@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://movreel.com/rk3gz4alz7bm</link>
+	
+	<title>22 Jump Street (2014)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTcwNzAxMDU1M15BMl5BanBnXkFtZTgwNDE2NTU1MTE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://movreel.com/bb7htv22alrx</link>
+ 
 	<title>Guardians of the Galaxy (2014)</title>
 	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX500_SY999_.jpg?</thumbnail>
 	<link>http://movreel.com/2jcaru937ul2</link>
@@ -152,9 +160,21 @@
 	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTY1NTE2NjM2NV5BMl5BanBnXkFtZTgwMzA4NjkzMzE@._V1_SX500_SY999_.jpg?</thumbnail>
 	<link>http://movreel.com/md0qpmr5l5n2</link>
 	
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
+	<title>Step Up All In (2014)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTUzMjUyODA1Nl5BMl5BanBnXkFtZTgwMjIwNTQ5MTE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://movreel.com/r12mqsbqpcel</link>
+	
+	<title>Good People (2014)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTQxOTk5ODc0Nl5BMl5BanBnXkFtZTgwNDA3MzExMjE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://movreel.com/o8pkv1n9qvcz</link>
+	
+	<title>Horns (2013)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTUxMDg2MDMyN15BMl5BanBnXkFtZTgwNDY1Mjg0MjE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://movreel.com/a43r5zccsz5v</link>
+	
+	<title>Sin City: A Dame to Kill For (2014)</title>
+	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMjA5ODYwNjgxMF5BMl5BanBnXkFtZTgwMTcwNzAyMjE@._V1_SX500_SY999_.jpg?</thumbnail>
+	<link>http://billionuploads.com/lucdwn11ogut</link>
 	
 	<title></title>
 	<thumbnail></thumbnail>
@@ -163,11 +183,7 @@
 	<title></title>
 	<thumbnail></thumbnail>
 	<link></link>
-	
-	<title></title>
-	<thumbnail></thumbnail>
-	<link></link>
-	
+
 </items>
 
 #
