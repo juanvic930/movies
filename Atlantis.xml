@@ -1,16 +1,25 @@
+#START#
+#
+#
+
 #######################################################################################################################################
-<poster></poster>
+
+<poster>Atlantis</poster>
 <fanart></fanart>
+
 #######################################################################################################################################
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR aqua]SEASON [/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]*** [/COLOR][COLOR aqua]SEASON 2 [/COLOR][COLOR red] ***[/COLOR]</message>
 </info>
 
 ##############################################################################################################################
 
 <items>
-	<title></title>
-	<link></link>
-	<thumbnail></thumbnail>
+	<title>Atlantis 2x01 A New Dawn (2014)</title>
+	<link>http://movreel.com/nev9g924vxw4</link>
+	<thumbnail>http://4.bp.blogspot.com/-G7N7JbBzYYw/UlL33_gH1DI/AAAAAAAAAVQ/dT3DvgU2kYE/s1600/Atlantis.png</thumbnail>
 </items>
+#
+#
+#END
