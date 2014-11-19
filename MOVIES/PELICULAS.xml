@@ -1,47 +1,38 @@
-#START#
-#
-#
-#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
-
-<poster>PELICULAS</poster>
-<fanart></fanart>
-
-#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
-
-<info>
-	<message>[COLOR red]JUANVIC930@HOTMAIL.COM[/COLOR]</message>
-	<message></message>
-</info>
-
-#PLAYLIST ITEMS#
-<items>
-
-	<item>
-       	<title>21 Jump Street (2012)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTc3NzQ3OTg3NF5BMl5BanBnXkFtZTcwMjk5OTcxNw@@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/21%20Jump%20Street%20links.xml</link>
-	</item>
+<item>
+<title>21 Jump Street (2012)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTc3NzQ3OTg3NF5BMl5BanBnXkFtZTcwMjk5OTcxNw@@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/21%20Jump%20Street%20links.xml</link>
+</item>
 	
-	<title>22 Jump Street (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTcwNzAxMDU1M15BMl5BanBnXkFtZTgwNDE2NTU1MTE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/bb7htv22alrx</link>
- 
-	<title>Guardians of the Galaxy (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/2jcaru937ul2</link>
+<item>	
+<title>22 Jump Street (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTcwNzAxMDU1M15BMl5BanBnXkFtZTgwNDE2NTU1MTE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>http://movreel.com/bb7htv22alrx</link>
+</item>
 
-        <title>As Above, So Below (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTQzNzg0NDI2MF5BMl5BanBnXkFtZTgwMzgxNzY2MTE@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/17qcjjbakkrb</link>
-	
-	<title>Convict (2014)</title>
-	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTgwOTg3MTI4MF5BMl5BanBnXkFtZTcwMTMzMDI1OQ@@._V1_SX500_SY999_.jpg?</thumbnail>
-	<link>http://movreel.com/6dpc0np8xum7</link>
-	
-	<title>Dracula Untold (2014)</title>
-	<thumbnail>http://image.tmdb.org/t/p/original/iUaMRm56cXt3G5tEiJxfPTlj9tr.jpg</thumbnail>
-	<link>http://billionuploads.com/93gtbjdlhrar</link>
+<item>
+<title>Guardians of the Galaxy (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX500_SY999_.jpg?</thumbnail>
+<link>http://movreel.com/2jcaru937ul2</link>
+</item>
 
+<item>
+<title>As Above, So Below (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTQzNzg0NDI2MF5BMl5BanBnXkFtZTgwMzgxNzY2MTE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>http://movreel.com/17qcjjbakkrb</link>
+</item>
+
+<item>
+<title>Convict (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTgwOTg3MTI4MF5BMl5BanBnXkFtZTcwMTMzMDI1OQ@@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>http://movreel.com/6dpc0np8xum7</link>
+</item>
+
+<item>
+<title>Dracula Untold (2014)</title>
+<thumbnail>http://image.tmdb.org/t/p/original/iUaMRm56cXt3G5tEiJxfPTlj9tr.jpg</thumbnail>
+<link>http://billionuploads.com/93gtbjdlhrar</link>
+</item>
 	<title>If I Stay (2014)</title>
 	<thumbnail>http://ia.media-imdb.com/images/M/MV5BMjI4NjkxODMyMF5BMl5BanBnXkFtZTgwODYwODQ5MTE@._V1_SX500_SY999_.jpg</thumbnail>
 	<link>http://movreel.com/7as233tlq5vg</link>
