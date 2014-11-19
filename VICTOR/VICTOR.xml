@@ -20,11 +20,11 @@
 
 
 <name>[COLOR yellow]MOVIES[/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/movies/master/PELICULAS.xml</link>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/PELICULAS.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
 
 <name>[COLOR aqua]TVSHOWS[/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS.xml</link>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/TVSHOWS.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
