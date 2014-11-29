@@ -1,0 +1,59 @@
+#START#
+#
+#
+
+#PLAYLIST TITLE IN ISTREAM AND BACKGROUND ART
+
+<poster>My Playlist Title</poster>
+<fanart></fanart>
+
+#INFORMATIONAL MESSAGES TO VIEWERS - ONLY USE IF YOU WANT TO#
+
+<info>
+	<message></message>
+	<message></message>
+	<message></message>
+	<message>[CR]</message>  #SEPERATOR - DELETE IF YOU WISH...
+</info>
+
+#PLAYLIST ITEMS#
+
+<items>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+	
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+
+	<title></title>
+	<thumbnail></thumbnail>
+	<link></link>
+	
+</items>
+
+#
+#
+#END
