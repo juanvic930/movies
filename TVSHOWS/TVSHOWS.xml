@@ -18,6 +18,16 @@
 
 #####################################################################################################################
 
+<name>[COLOR red]CASTLE[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/Castle.xml</link>
+<thumbnail>http://img197.imageshack.us/img197/4241/834626.jpg</thumbnail>
+<date>VIC</date>
+
+<name>[COLOR red]FOREVER[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/Forever.xml</link>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMTc2MDY0OTEwN15BMl5BanBnXkFtZTgwNDI2Njk3MTE@._V1_SX500_SY999_.jpg?</thumbnail>
+<date>VIC</date>
+
 <name>[COLOR yellow]Two and a Half Men[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/Two%20and%20a%20Half%20Men.xml</link>
 <thumbnail>http://i.imgur.com/Ml78W2C.jpg</thumbnail>
