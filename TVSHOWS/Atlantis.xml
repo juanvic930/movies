@@ -1,29 +1,23 @@
-#START#
-#
-#
-
-#######################################################################################################################################
-
 <poster>Atlantis</poster>
-<fanart></fanart>
+<fanart>http://ia.media-imdb.com/images/M/MV5BNzY3MjcyNzU3NV5BMl5BanBnXkFtZTgwNzc0NTEwMDE@._V1_SX500_SY999_.jpg?</fanart>
 
-#######################################################################################################################################
+<item>
+<title>2x03 Telemon (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BNzY3MjcyNzU3NV5BMl5BanBnXkFtZTgwNzc0NTEwMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>
+<sublink>http://movreel.com/pnijfxjxc4co</sublink>
+</link>
 
-<info>
-<message>[COLOR red]*** [/COLOR][COLOR aqua]SEASON 2 [/COLOR][COLOR red] ***[/COLOR]</message>
-</info>
+<title>2x02 A New Dawn: Part Two (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BNzY3MjcyNzU3NV5BMl5BanBnXkFtZTgwNzc0NTEwMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>
+<sublink>http://movreel.com/uv2569lr5dg4</sublink>
+</link>
 
-##############################################################################################################################
+<title>2x01 A New Dawn (2014)</title>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BNzY3MjcyNzU3NV5BMl5BanBnXkFtZTgwNzc0NTEwMDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<link>
+<sublink>http://movreel.com/nev9g924vxw4</sublink>
+</link>
 
-<items>
-        <title>Atlantis 2x02 A New Dawn: Part Two (2014)</title>
-        <link>http://movreel.com/uv2569lr5dg4</link>
-        <thumbnail>http://4.bp.blogspot.com/-G7N7JbBzYYw/UlL33_gH1DI/AAAAAAAAAVQ/dT3DvgU2kYE/s1600/Atlantis.png</thumbnail>
-        
-	<title>Atlantis 2x01 A New Dawn (2014)</title>
-	<link>http://movreel.com/nev9g924vxw4</link>
-	<thumbnail>http://4.bp.blogspot.com/-G7N7JbBzYYw/UlL33_gH1DI/AAAAAAAAAVQ/dT3DvgU2kYE/s1600/Atlantis.png</thumbnail>
-</items>
-#
-#
-#END
+</item>
