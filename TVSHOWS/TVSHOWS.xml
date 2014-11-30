@@ -19,7 +19,7 @@
 #####################################################################################################################
 
 <info>
-<message>[COLOR red]**************************** [/COLOR][COLOR lime]SUNDAY[/COLOR][COLOR red] ***************************[/COLOR]</message>
+<message>[COLOR red]********************************* [/COLOR][COLOR lime]SUNDAY[/COLOR][COLOR red] ********************************[/COLOR]</message>
 </info>
 
 <name>[COLOR red]HOMELAND[/COLOR]</name>
@@ -33,7 +33,7 @@
 <date>VIC</date>
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR lime]MONDAY[/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]********************************* [/COLOR][COLOR lime]MONDAY[/COLOR][COLOR red] *******************************[/COLOR]</message>
 </info>
 
 <name>[COLOR red]THE BLACKLIST[/COLOR]</name>
@@ -67,7 +67,7 @@
 <date>VIC</date>
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR lime]TUESDAY[/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]******************************* [/COLOR][COLOR lime]TUESDAY[/COLOR][COLOR red] ******************************[/COLOR]</message>
 </info>
 
 <name>[COLOR green]PERSON OF INTEREST[/COLOR]</name>
@@ -81,7 +81,7 @@
 <date>VIC</date>
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR lime]WEDNESDAY[/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]**************************** [/COLOR][COLOR lime]WEDNESDAY[/COLOR][COLOR red] ***************************[/COLOR]</message>
 </info>
 
 <name>[COLOR yellow]CHICAGO PD[/COLOR]</name>
@@ -95,7 +95,7 @@
 <date>VIC</date>
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR lime]TRURSDAY[/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]*************************** [/COLOR][COLOR lime]TRURSDAY[/COLOR][COLOR red] ***************************[/COLOR]</message>
 </info>
 
 <name>[COLOR yellow]Two and a Half Men[/COLOR]</name>
@@ -109,7 +109,7 @@
 <date>VIC</date>
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR lime]FRIDAY[/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]******************************* [/COLOR][COLOR lime]FRIDAY[/COLOR][COLOR red] *******************************[/COLOR]</message>
 </info>
 
 <name>[COLOR blue]Blue Bloods[/COLOR]</name>
@@ -118,7 +118,7 @@
 <date>VIC</date>
 
 <info>
-<message>[COLOR red]*** [/COLOR][COLOR lime]SATURDAY[/COLOR][COLOR red] ***[/COLOR]</message>
+<message>[COLOR red]***************************** [/COLOR][COLOR lime]SATURDAY[/COLOR][COLOR red] *****************************[/COLOR]</message>
 </info>
 
 <name>[COLOR yellow]ATLANTIS[/COLOR]</name>
