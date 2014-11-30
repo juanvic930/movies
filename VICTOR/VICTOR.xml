@@ -24,7 +24,12 @@
 <thumbnail></thumbnail>
 <date>VIC</date>
 
-<name>[COLOR aqua]TVSHOWS[/COLOR]</name>
+<name>[COLOR yellow]TVSHOWS[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/TVSHOWS.xml</link>
+<thumbnail></thumbnail>
+<date>VIC</date>
+
+<name>[COLOR yellow]PELICULAS[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/PELICULAS/PELICULAS%20EN%20ESPANOL.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
