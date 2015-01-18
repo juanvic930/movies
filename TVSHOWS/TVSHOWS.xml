@@ -142,6 +142,16 @@
 <message>[COLOR red]********************************* [/COLOR][COLOR lime]FRIDAY[/COLOR][COLOR red] *********************************[/COLOR]</message>
 </info>
 
+<name>[COLOR yellow]12 Monkeys[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/12%20Monkeys.xml</link>
+<thumbnail>http://ia.media-imdb.com/images/M/MV5BMjM1MzQyOTg3MF5BMl5BanBnXkFtZTgwNzUyODMwNDE@._V1_SX500_SY999_.jpg?</thumbnail>
+<date>VIC</date>
+
+<name>[COLOR yellow]The Musketeers[/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/The%20Musketeers.xml</link>
+<thumbnail>http://ichef.bbci.co.uk/images/ic/976x549/p01q2624.jpg</thumbnail>
+<date>VIC</date>
+
 <name>[COLOR yellow]Blue Bloods[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/Blue%20Bloods%20(2).xml</link>
 <thumbnail>http://images4.fanpop.com/image/photos/19800000/The-Reagan-Family-blue-bloods-cbs-19818284-665-1000.jpg</thumbnail>
