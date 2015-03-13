@@ -296,8 +296,8 @@
 <title>BANDAMAX</title>
 <link>http://200.76.77.237/LIVE/H01/CANAL732/PROFILE03.m3u8?</link>
 
-<title>univision</title>
-<link>http://188.142.34.122:4022/udp/239.193.128.7:1234</link>
+<title>UNIVISION</title>
+<link>rtmp://173.193.242.248/live playpath=anahii?id=5286 swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf live=1 pageUrl=http://www.streamify.tv/embedplayer/ANAHIi/1/600/400 conn=S:OK --live</link>
 
 <title></title>
 <link></link>
