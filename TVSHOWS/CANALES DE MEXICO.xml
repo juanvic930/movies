@@ -297,7 +297,7 @@
 <link>http://200.76.77.237/LIVE/H01/CANAL732/PROFILE03.m3u8?</link>
 
 <title>univision</title>
-<link>rtmp://50.7.78.138:443/live?lo4vrLyYXlfY7vyoZS9M0wNaeH4rao69<playpath>live_univision_hd28 <swfUrl>http://vaughnlive.tv/4278688338/swf/VaughnSoftPlayer.swf <pageUrl>http://vaughnlive.tv/univision_hd28 token=30dabc4871922a1314192e925ab7961d</link>
+<link>rtmp://50.7.78.138:443/live?lo4vrLyYXlfY7vyoZS9M0wNaeH4rao69 playpath=live_univision_hd28 swfUrl=http://vaughnlive.tv/4278688338/swf/VaughnSoftPlayer.swf live=1 pageUrl=http://vaughnlive.tv/univision_hd28 token=30dabc4871922a1314192e925ab7961d</link>
 
 <title></title>
 <link></link>
