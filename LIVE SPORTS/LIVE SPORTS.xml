@@ -1,0 +1,387 @@
+<poster>TV DE MEXICO</poster>
+<fanart>http://3.bp.blogspot.com/-jvGeyJvTh1E/T069Tfmdx_I/AAAAAAAABkY/4oF-c3TdirA/s1600/Grilla+de+Canales+Cablevisi%C3%B3n+Marzo+2012+para+Blog.png</fanart>
+
+<item>
+<title>Sky sports news</title>
+<link>http://198.27.94.105/hls/skysportsnews_1.m3u8</link>
+
+<title>Bt sports 1</title>
+<link>http://198.27.94.105/hls/bt1_1.m3u8</link>
+
+<title>Bt sports 2</title>
+<link>http://198.27.94.105/hls/bt2_1.m3u8</link>
+
+<title>Sky sports 1</title>
+<link>http://78.129.179.33:1935/edge/342/playlist.m3u8?token&bid=12&pid=5&uid=250668&did=4f7b236fb7362bb13b91a099ba65374e&g=1&gm=1&platform=3</link>
+
+<title>Sky sports 2</title>
+<link>http://198.27.94.105/hls/skysports2_1.m3u8</link>
+
+<title>Sky sports 3</title>
+<link>http://78.129.179.33:1935/edge/70/playlist.m3u8?token&bid=12&pid=5&uid=250668&did=4f7b236fb7362bb13b91a099ba65374e&g=1&gm=1&platform=3</link>
+
+<title>Sky sports 4</title>
+<link>http://198.27.94.105/hls/skysports4_1.m3u8</link>
+
+<title>British eurosports 1</title>
+<link>http://37.48.118.32/live/eurosport110.stream/playlist.m3u8</link>
+
+<title>British eurosport 2</title>
+<link>http://37.48.118.32/live/eurosport22.stream/playlist.m3u8</link>
+
+<title>FOX SPORTS</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL522/PROFILE03.m3u8?</link>
+
+<title>FOX SPORTS 2</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL527/PROFILE03.m3u8?</link>
+
+<title>ESPN UK</title>
+<link>http://198.27.94.105/hls/espnuk_1.m3u8</link>
+
+<title>ESPN2</title>
+<link>http://200.76.77.237/LIVE/H01/CANAL561/PROFILE03.m3u8</link>
+
+<title>Sky boxnation</title>
+<link>rtmpe://46.246.29.160:1935/l swfUrl=http://hdcast.org/eplayer.swf live=1 pageUrl=http://www.hdcast.org/embedlive4.php?u=sskys3&vw=650&vh=470&domain=cricbox.tv/amine1313dz token=Fo5_n0w?U.rA6l3-70w47ch playpath=sboxn</link>
+
+<title>Willow Cricket</title>
+<link>http://bit.do/ZDxn</link>
+
+<title>BeinSports 1</title>
+<link>http://65.111.174.111:1935/iptv/beinsports1.stream/playlist.m3u8?husham.com</link>
+
+<title>BeinSports 2</title>
+<link>http://65.111.174.111:1935/iptv/beinsports2.stream/playlist.m3u8?husham.com</link>
+
+<title>EuroSport 1</title>
+<link>http://37.48.118.32/live/eurosport110.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNC8yMDE1IDI6Mjc6NTMgQU0maGFzaF92YWx1ZT1jZ21ZcUxyd3pHb1lWd3FwR1cybXRnPT0mdmFsaWRtaW51dGVzPTIw?husham.com</link>
+
+<title>EuroSport 2</title>
+<link>http://37.48.118.32/live/eurosport22.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNC8yMDE1IDI6Mjc6NTcgQU0maGFzaF92YWx1ZT12UmN5UHh1dzVudEtEN0dadVNxWm5nPT0mdmFsaWRtaW51dGVzPTIw?husham.com</link>
+
+<title>ESPN UK</title>
+<link>http://198.27.94.105/hls/espnuk.m3u8</link>
+
+<title>ESPN Link 2</title>
+<link>http://37.48.118.32/live/esnp22.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNC8yMDE1IDI6MjY6MzQgQU0maGFzaF92YWx1ZT1KaVVUM1lhUXh4cE9VTlhRZXdma0pRPT0mdmFsaWRtaW51dGVzPTIw?husham.com</link>
+
+<title>ESPN BaseBall Today</title>
+<link>http://198.179.31.181:1935/vodlast/1147.low.m4v/playlist.m3u8</link>
+
+<title>ESPN Football Today</title>
+<link>http://198.179.31.181:1935/vodlast/1469.low.m4v/playlist.m3u8</link>
+
+<title>Fox Sport News</title>
+<link>http://foxsportshdhls-lh.akamaihd.net/i/fsnewshls_0@136427/index_1096_av-p.m3u8?husham.com</link>
+
+<title>Fox Sport</title>
+<link>http://37.48.118.32/live/foxsp1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNC8yMDE1IDI6MjY6NTggQU0maGFzaF92YWx1ZT1ISFlRc3RXVkhLQmJMQXROUDNCYTdBPT0mdmFsaWRtaW51dGVzPTIw?husham.com</link>
+
+<title>Fox Sport 2</title>
+<link>http://37.48.118.32/live/foxsp2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNC8yMDE1IDI6Mjc6MDIgQU0maGFzaF92YWx1ZT1XMHppenhPZnVSckpCNnBITEE4RWJ3PT0mdmFsaWRtaW51dGVzPTIw?husham.com</link>
+
+<title>UFC Next</title>
+<link>http://198.179.31.196/live/713.low.stream/playlist.m3u8?id=0ad5aac39bb13fbebbff7021b3bfbcc85f4137530269536833037339b83e8c65f28dddd050bf85859969531bf0a8fe2860347c1423a1c1079b0e73ae91f9dbb97a005e74af6ba30722c76ab6550c8ee017c1778d55e768a68441ea78d75e62c5f334e683eb65f08dfbeb8907594ee09ba247ce4c668f272ee471e62e5af3e3743da0f4c3ad53560117adfb5eb2e31afe3f40e7f9239ed450</link>
+
+<title>FightBox</title>
+<link>http://live302.edge.filmon.com/live/1621.low.stream/playlist.m3u8?id=0ad5aac39bb13fbe5cc4ec63133be9df1d8a749279ae00d3815ccbf6e7dc9ea3b55df0c512947555fc5dbc75ce747cbe1cf39911160cad9d2cd465dad42249b12c30213a663c989bc87d53630bc944604c3722848c3a2113d510d7b4d522b9283951e7f3762271a4dac74c5095f57dd076693ef65e5ed43d297386476ce4a062b3f3eebf3ac53fd3aacaad64f78db54489cbc771ef5bdeb3</link>
+
+<title>PAC 12 Arizona HD </title>
+<link>http://www.xrxs.net/video/live-p12ariz-4728.m3u8</link>
+
+<title>Pac 12 Arizona HD</title>
+<link>http://xrxs.net/video/live-p12ariz-4728.m3u8</link>
+
+<title>PAC 12 Bay Area HD</title>
+<link>http://www.xrxs.net/video/live-p12baya-4728.m3u8</link>
+
+<title>PAC 12 Mountain HD</title>
+<link>http://xrxs.net/video/live-p12moun-4728.m3u8</link>
+
+<title>PAC 12 National HD</title>
+<link>http://www.xrxs.net/video/live-p12netw-4728.m3u8</link>
+
+<title>PAC 12 Oregon HD</title>
+<link>http://xrxs.net/video/live-p12oreg-4728.m3u8</link>
+
+<title>PAC 12 Los Angeles HD</title>
+<link>http://xrxs.net/video/live-p12losa-4728.m3u8</link>
+
+<title>HD 2 SPORT</title>
+<link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_sport/mp4:silk_sport swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/</link>
+
+<title>HD Georgia</title>
+<link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_football/mp4:silk_football swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/</link>
+
+<title>USA-BASKET UNI.(Arizona)</title>
+<link>http://xrxs.net/video/live-p12ariz-1164.m3u8</link>
+
+<title>USA-BASKET UNI.(Los Angeles)</title>
+<link>http://xrxs.net/video/live-p12losa-1164.m3u8</link>
+
+<title>USA-BASKET UNI.(Moutain)</title>
+<link>http://xrxs.net/video/live-p12moun-1164.m3u8</link>
+
+<title>USA-BASKET UNI.(Oregon)</title>
+<link>http://xrxs.net/video/live-p12oreg-1164.m3u8</link>
+
+<title>USA-BASKET UNI.(Washington)</title>
+<link>http://xrxs.net/video/live-p12wash-2328.m3u8</link>
+
+<title>Big Ten Network HD</title>
+<link>http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8</link>
+
+<title>Hint or B4u TV</title>
+<link>http://80.243.182.106:8080/sonysix123/sonysix123/index.m3u8?husham.com</link>
+
+<title>Sports TV</title>
+<link>http://stream.sportstv.com.tr/sportstv/SportsTV3/playlist.m3u8?husham.com</link>
+
+<title>Rai Sport 1</title>
+<link>mmsh://212.162.68.163:80/raisport+</link>
+
+<title>Rai Sport 2</title>
+<link>mmsh://212.162.68.163:80/raisport2</link>
+
+<title>Rai Premium</title>
+<link>mmsh://212.162.68.162/rai_premium</link>
+
+<title>Rai Scuola</title>
+<link>mmsh://212.162.68.163:80/rai_scuola</link>
+
+<title>Rai Storia</title>
+<link>mmsh://212.162.68.163/rai_storia</link>
+
+<title>Berita Satu Sport HD</title>
+<link>http://beritasatulive-lh.akamaihd.net/i/b1sport_1@121529/index_720_av-p.m3u8</link>
+
+<title>Antena 3 Sports</title>
+<link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8?husham.com</link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+<title></title>
+<link></link>
+
+
+</item>
