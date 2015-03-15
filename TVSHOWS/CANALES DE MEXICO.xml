@@ -297,7 +297,7 @@
 <link>http://200.76.77.237/LIVE/H01/CANAL732/PROFILE03.m3u8?</link>
 
 <title>UNIVISION 34</title>
-<link>rtmp://173.193.242.248/live playpath=anahii?id=5286 swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf live=1 pageUrl=http://www.streamify.tv/anahii conn=S:OK -live</link>
+<link>rtmp://173.193.242.248/live playpath=anahii?id=5286 swfUrl=http://www.streamify.tv/resources/scripts/eplayer.swf live=1 pageUrl=http://www.streamify.tv/anahii conn=S:OK --live</link>
 
 <title></title>
 <link></link>
