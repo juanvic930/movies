@@ -297,7 +297,7 @@
 <link>http://200.76.77.237/LIVE/H01/CANAL732/PROFILE03.m3u8?</link>
 
 <title>TELEMUNDO 39</title>
-<link>rtmp://$OPT:rtmp-raw=rtmp://192.240.125.26:443/live?wsYN7CK3biLddLxZIXtCJebmOlJalOLl playpath=live_telemundo29 swfUrl=http://vaughnlive.tv/4279553565/swf/VaughnSoftPlayer.swf live=1 pageUrl=http://vaughnlive.tv/embed/video/telemundo29?viewers=true&watermark=left&autoplay=true token=30dabc4871922a1314192e925ab7961d</link>
+<link>rtmp://$OPT:rtmp-raw=rtmp://192.240.125.26:443/live?wsYN7CK3biLddLxZIXtCJebmOlJalOLl playpath=live_telemundo29 swfUrl=http://vaughnlive.tv/4279553565/swf/VaughnSoftPlayer.swf live=1 pageUrl=http://vaughnlive.tv/embed/video/telemundo29?viewers=true&watermark=left&autoplay=true timeout=30 Conn=S:OK --live</link>
 
 <title>UNIVISION DEPORTES</title>
 <link>rtmp://37.48.93.39/live playpath=asdf3asdfasdfasss?id=224082 swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf live=1 pageUrl=http://www.mipsplayer.com/embedplayer/asdf3asdfasdfasss/1/650/450 conn=S:OK</link>
