@@ -6,9 +6,32 @@
 <thumbnail>http://www.aranaleagues.com.au/wp-content/uploads/2015/04/Mayweather-v-Pacquiao-FOXSPORTS-16x9.jpg</thumbnail>
 <link>http://llnw.live.simplestream.com/coder1/coder.channels.channel5/hls/3/playlist.m3u8</link>
 
-<title></title>
+<title>ppv showtime</title>
 <thumbnail><thumbnail>
+<link>rtmp://174.36.1.75/live playpath=203003?313433303631343333395f3834396462366334643032313165636137303135373265333038393936353562 swfUrl=http://static.castalba.tv/player5.9.swf live=1 pageUrl=http://castalba.tv/channel/26952</link>
+
+<tile>AV 13</tile>
+<thumbnail></thumbnail>
+<link>http://199.168.116.12:1935/app/avision22s-channel/playlist.m3u8</link>
+
+<tile></tile>
+<thumbnail></thumbnail>
 <link></link>
 
+<tile></tile>
+<thumbnail></thumbnail>
+<link></link>
+
+<tile></tile>
+<thumbnail></thumbnail>
+<link></link>
+
+<tile></tile>
+<thumbnail></thumbnail>
+<link></link>
+
+<tile></tile>
+<thumbnail></thumbnail>
+<link></link>
 
 </item>
