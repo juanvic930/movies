@@ -3,12 +3,12 @@
 
 <item>
 
-<title>ppv showtime</title>
-<thumbnail>https://raw.githubusercontent.com/juanvic930/movies/master/PPV/PPV%20EVENTS.xml<thumbnail>
-<link>rtmp://174.36.1.75/live playpath=203003?313433303631343333395f3834396462366334643032313165636137303135373265333038393936353562 swfUrl=http://static.castalba.tv/player5.9.swf live=1 pageUrl=http://castalba.tv/channel/26952</link>
+<title>[COLOR red]18 YOGA[/COLOR]</title>
+<thumbnail>http://cdnimg.badoink.com/content/screenshots/b/a/e/7/1/308038_14_1.jpg<thumbnail>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/LIVE%20SPORTS/LIVE%20SPORTS.xml</link>
 
-<tile>AV 13</tile>
-<thumbnail>https://raw.githubusercontent.com/juanvic930/movies/master/PPV/PPV%20EVENTS.xml</thumbnail>
+<tile>[COLOR red]TINY4K[/COLOR]</tile>
+<thumbnail>http://i.tiny4kmedia.com/content/videos/000/046/475/handtouched_ss/sample_475x268.jpg?1402442217</thumbnail>
 <link>http://199.168.116.12:1935/app/avision22s-channel/playlist.m3u8</link>
 
 <tile></tile>
