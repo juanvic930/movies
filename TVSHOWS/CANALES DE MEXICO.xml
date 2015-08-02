@@ -8,7 +8,7 @@
 
 <title>CANAL 5</title>
 <thumbnail>http://foromedios.com/uploads/gallery/category_2/gallery_9563_2_13615.png</thumbnail>
-<link>http://31.220.40.118:80/LiveEdge/Canal5MX/playlist.m3u8?token=25617f36da37a7803ecd16762f437162</link>
+<link>rtmp://109.123.117.212/live playpath=xinjun20?id=231495&pk=c4ae2fae5d0427ec466336db5863f417baa0ada72b3bd885bb0288af14276f2d swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf live=1 pageUrl=http://www.mipsplayer.com/embedplayer/xinjun20/1/590/390</link>
 
 <title>FORO TV</title>
 <thumbnail>http://foromedios.com/uploads/gallery/category_2/med_gallery_9563_2_3938.png</thumbnail>
