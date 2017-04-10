@@ -1,29 +1,10 @@
-<poster>VICTOR</poster>
-<fanart></fanart>
-#######################################################################################################################################
-
-          --------------------------------------------------
-<notify>
-<new></new>
-<message1>For Stash Content Updates</message1>
-<message2></message2>
-<old></old>
-</notify>
-
-<message1></message1>
-<message2></message2>
-<message3></message3>
-
-
-
-#####################################################################################################################
-
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
 <name>[COLOR yellow]MOVIES[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/PELICULAS.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
-
+</item>
 <name>[COLOR yellow]TVSHOWS[/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/TVSHOWS.xml</link>
 <thumbnail></thumbnail>
