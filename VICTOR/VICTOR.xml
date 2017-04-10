@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item>
+<items>
 <title>[COLOR yellow]MOVIES[/COLOR]</title>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/PELICULAS.xml</link>
 <thumbnail></thumbnail>
@@ -24,4 +24,4 @@
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/LIVE%20TV.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
-</item>
+</items>
