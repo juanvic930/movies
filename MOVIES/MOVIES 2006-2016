@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<![CDATA[href="(.*?)">.*?<\/a>.*?:...(.*?) ]]>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2016[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2016/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2016/</page>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR  red]SERVER DL5/2015[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2015/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2015/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2014[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2014/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2014/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2013[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2013/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2013/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2012[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2012/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2012/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2011[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2011/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2011/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2010[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2010/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2010/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2009[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2009/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2009/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2008[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2008/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2008/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2007[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2007/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2007/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  red]SERVER DL5/2006[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2006/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2006/</page>
+</regex>
+</item>
