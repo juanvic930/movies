@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ 
+<item>
+<title>[B][COLOR  white]MOVIES 2006/2016[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/cT7GXqKK</externallink>
+</item>
+ 
+<item>
+<title>[B][COLOR  white]MOVIES 2017[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com/raw/GHuEBntP</externallink>
+</item>
+![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]
+<item>
+<title>[B][COLOR  white]MY-FILM.ORG[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl.my-film.org/reza/film/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.my-film.org/reza/film/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  white]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl.hastidownload.biz/2/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?.mkv)">(.*?).mkv]]></expres>
+<page>http://dl.hastidownload.biz/2/</page>
+</regex>
+</item>
+ 
+<item>
+<title>[B][COLOR  white]NEGAR-FILM[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://sr.negarfilm.com/film-khareji/95/12/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://sr.negarfilm.com/film-khareji/95/12/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  white]VIOMUSIC.ORG[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl3.vaiomusic.org/Movie/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl3.vaiomusic.org/Movie/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  white]MOV.IN[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl.sv-mov.in/shahriyar/movie/archive/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.sv-mov.in/shahriyar/movie/archive/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  white]DL.SMOVIES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl.smovies.ir/film/khareji/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.smovies.ir/film/khareji/</page>
+</regex>
+</item>
+<item>
+<title>[B][COLOR  white]COLLECTION[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl.sv-mov.in/collection/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.sv-mov.in/collection/</page>
+</regex>
+</item>
