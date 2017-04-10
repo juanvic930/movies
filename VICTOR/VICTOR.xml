@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
-<name>[COLOR yellow]MOVIES[/COLOR]</name>
+<title>[COLOR yellow]MOVIES[/COLOR]</title>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/PELICULAS.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
-</item>
-<name>[COLOR yellow]TVSHOWS[/COLOR]</name>
+
+<title>[COLOR yellow]TVSHOWS[/COLOR]</title>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/TVSHOWS.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
 
-<name>[COLOR yellow]LIVE TV MEXICO[/COLOR]</name>
+<title>[COLOR yellow]LIVE TV MEXICO[/COLOR]</title>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/CANALES%20DE%20MEXICO.xml</link>
 <thumbnail>http://i2.minus.com/iOLNNXxqOWcOe.png</thumbnail>
 <date>VIC</date>
 
-<name>[COLOR yellow]18 +[/COLOR]</name>
+<title>[COLOR yellow]18 +[/COLOR]</title>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/PORN/18%20%2B.xml</link>
 <thumbnail>http://i00.i.aliimg.com/photo/v3/474357200/nude_nude_wall_art_nude_girl_boby.jpg</thumbnail>
 <date>VIC</date>
 
-<name>[COLOR yellow]LIVE TV[/COLOR]</name>
+<title>[COLOR yellow]LIVE TV[/COLOR]</title>
 <link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/LIVE%20TV.xml</link>
 <thumbnail></thumbnail>
 <date>VIC</date>
+</item>
