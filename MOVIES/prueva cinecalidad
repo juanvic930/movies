@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ESTRENOS FULLHD[/B] [/COLOR][COLOR skyblue]Peliculas en Latino[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex><name>makelist</name>
+<listrepeat><![CDATA[
+          <title>[COLOR deepskyblue][makelist.param3][/COLOR]</title>
+		  <link>$$LSPlayOnlyOne$$</link>
+		  <link>$doregex[resolver2]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0&Referer=http://www.cinecalidad.com/pelicula/[makelist.param1]</link>
+          <link>$doregex[resolver]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0&Referer=http://www.cinecalidad.com/pelicula/[makelist.param1]</link>
+		  <thumbnail>[makelist.param2]</thumbnail>
+   ]]></listrepeat>
+<expres><![CDATA[>.*?<a href=".*?\/pelicula\/(.*?)".*?src="(.*?)".*?title="(.*?)"]]></expres>
+<page>http://www.cinecalidad.com/</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar></regex>
+
+
+
+
+<regex><name>resolver</name>
+<expres><![CDATA[#$pyFunction
+import re ,requests
+import urlresolver
+def parseint(string):
+    return int(''.join([x for x in string if x.isdigit()]))
+
+def GetLSProData(page_data,Cookie_Jar,m):
+
+  values = re.search(r'service=="OnlineTheVideos"\)\{h=dec\("(.*?)"\)\+dec\("(.*?)"', page_data, re.DOTALL)
+  var1=values.group(1)
+  var2=values.group(2)
+  var1+=''.join(' ')
+  var1+=''.join(var2)
+  str=var1
+  d = "" ; str = str.split(" ")
+  i=0
+  for i in range(0,len(str)): 
+   pp=(parseint(str[i])-7)
+   d+=''.join(unichr(pp))
+  
+  streamLink = urlresolver.resolve(d)
+  return streamLink
+]]></expres>
+  <page>http://www.cinecalidad.to/genero-peliculas/ciencia-ficcion[makelist.param1]</page>
+  <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar></regex>
+
+
+
+<regex><name>resolver2</name>
+<expres><![CDATA[#$pyFunction
+import re ,requests
+import urlresolver
+def parseint(string):
+    return int(''.join([x for x in string if x.isdigit()]))
+
+def GetLSProData(page_data,Cookie_Jar,m):
+
+  values = re.search(r'service=="OnlineYourUpload"\)\{h=dec\("(.*?)"\)\+dec\("(.*?)"', page_data, re.DOTALL)
+  var1=values.group(1)
+  var2=values.group(2)
+  var1+=''.join(' ')
+  var1+=''.join(var2)
+  str=var1
+  d = "" ; str = str.split(" ")
+  i=0
+  for i in range(0,len(str)): 
+   pp=(parseint(str[i])-7)
+   d+=''.join(unichr(pp))
+  
+  streamLink = urlresolver.resolve(d)
+  return streamLink
+]]></expres>
+  <page>http://www.cinecalidad.to/genero-peliculas/ciencia-ficcion[makelist.param1]</page>
+  <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar></regex>
+<thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+</item>
+ 
