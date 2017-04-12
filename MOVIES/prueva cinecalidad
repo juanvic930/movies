@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[COLOR deepskyblue]BANDA ANCHA [COLOR skyblue][/COLOR][/COLOR]</title>
+<link>https://d3tqt20u0qzspi.cloudfront.net/live/ngrp:bandaancha_all/playlist.m3u8</link>
+</item>
+
+<item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ESTRENOS FULLHD[/B] [/COLOR][COLOR skyblue]Peliculas en Latino[/COLOR] </title>
 <link>$doregex[makelist]</link>
 
