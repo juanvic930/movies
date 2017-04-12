@@ -80,3 +80,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
  
+<item>
+<title>pelis</title>
+<link>ignorame</link>
+<externallink>http://ver-peliculas.org//categorias/peliculas-de-accion.html</externallink>
+</item>
+
+
+
+
+
