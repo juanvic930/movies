@@ -82,8 +82,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
 <item>
 <title>pelis</title>
-<link>ignorame</link>
-<externallink>http://ver-peliculas.org/peliculas/8-lucy-2014-online.q56i</externallink>
+<link>http://ver-peliculas.org/peliculas/8-lucy-2014-online.q56i</link>
+
 </item>
 
 
