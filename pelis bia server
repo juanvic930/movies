@@ -208,7 +208,7 @@
 <title> [makelist.param2]</title>
 <link>http://dl.my-film.org/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?)<</expres>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]</expres>
 <page>http://dl.my-film.org/serial/[makelist3.param1][makelist2.param2]</page>
 <referer></referer>
 <cookieJar></cookieJar>
