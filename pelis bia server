@@ -230,7 +230,7 @@
 		<fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
         ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<expres>href="(.*?)(20.*?mkv.*?)"</expres>
 <page>http://dl.smovies.ir/film/khareji/</page>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar>
