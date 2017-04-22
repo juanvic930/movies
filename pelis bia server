@@ -216,3 +216,36 @@
  <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
+
+
+   <item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]Estrenos DVDSCR[/B] [/COLOR][COLOR skyblue]VO[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1][makelist2.param2]</title>
+        <link>$doregex[makelist]</link>
+		<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+        ]]></listrepeat>
+<expres>href="(.*?)(.*?)"</expres>
+<page>http://dl.my-film.org/reza/film/?C=M&amp;O=D</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>http://dl.my-film.org/reza/film/[makelist2.param1][makelist2.param2]</link>
+<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
+<page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+</item>
