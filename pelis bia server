@@ -231,7 +231,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
         ]]></listrepeat>
 <expres>href="(.*?)(.*?)"</expres>
-<page>http://dl.my-film.org/reza/film/?C=M&amp;O=D</page>
+<page>http://dl.my-film.org/reza/film/</page>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar>
 </regex>
