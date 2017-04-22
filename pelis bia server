@@ -231,7 +231,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
         ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://dl.my-film.org/reza/film/</page>
+<page>http://dl.smovies.ir/film/khareji/</page>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar>
 </regex>
@@ -240,7 +240,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>http://dl.my-film.org/reza/film/[makelist2.param1][makelist2.param2]</link>
+<link>http://dl.smovies.ir/film/khareji/[makelist2.param1][makelist2.param2]</link>
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
