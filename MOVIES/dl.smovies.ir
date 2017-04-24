@@ -1,0 +1,99 @@
+
+
+
+
+<item>
+<title>ALL MOVIES</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]      [makelist2.param2]  </title>
+        <link>$doregex[makelist]</link>
+		<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+        ]]></listrepeat>
+<expres>href="(.*?)(20.*?)"</expres>
+<page>http://dl.smovies.ir/film/khareji/?C=M;O=D</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]     [makelist2.param2]  </title>
+<link>http://dl.smovies.ir/film/khareji/[makelist2.param1][makelist2.param2]</link>
+<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
+<page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
+</item>
+
+<item>
+<title>ONLY 720</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]      [makelist2.param2]  </title>
+        <link>$doregex[makelist]</link>
+		<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+        ]]></listrepeat>
+<expres>href="(.*?)(20.*?720.*?)"</expres>
+<page>http://dl.smovies.ir/film/khareji/?C=M;O=D</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]     [makelist2.param2]  </title>
+<link>http://dl.smovies.ir/film/khareji/[makelist2.param1][makelist2.param2]</link>
+<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
+<page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
+</item>
+
+<item>
+<title>ONLY 1080p</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]      [makelist2.param2]  </title>
+        <link>$doregex[makelist]</link>
+		<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+        ]]></listrepeat>
+<expres>href="(.*?)(20.*?1080.*?)"</expres>
+<page>http://dl.smovies.ir/film/khareji/?C=M;O=D</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]     [makelist2.param2]  </title>
+<link>http://dl.smovies.ir/film/khareji/[makelist2.param1][makelist2.param2]</link>
+<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
+<page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
+</item>
