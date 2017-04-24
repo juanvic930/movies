@@ -1,7 +1,7 @@
 
 
   <item>
-<title> Series 2</title>
+<title> SERVER 2</title>
 <link>$doregex[makelist4]</link>
 
 <regex>
