@@ -184,7 +184,7 @@
 <title>[COLOR white] [makelist3.param2] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?)<</expres>
+<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
 <page>http://dl.my-film.org/serial/</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -196,7 +196,7 @@
 <title>[makelist2.param2] </title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?)<</expres>
+<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
 <page>http://dl.my-film.org/serial/[makelist3.param1]</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -208,7 +208,7 @@
 <title> [makelist.param2]</title>
 <link>http://dl.my-film.org/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?)<</expres>
+<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
 <page>http://dl.my-film.org/serial/[makelist3.param1][makelist2.param2]</page>
 <referer></referer>
 <cookieJar></cookieJar>
