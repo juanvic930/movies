@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[B][COLOR white]ALL TV SHOWS[/COLOR][/B]</title>
+<title>[B][COLOR white]SERVER 1[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
  
 <regex>
