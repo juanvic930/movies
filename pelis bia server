@@ -244,7 +244,7 @@
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
+<expres>Title":"(.*?)".*Poster":"(.*?)".*imdbID":"(.*?)".*Plot":"(.*?)"</expres>
 <page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
