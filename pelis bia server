@@ -249,3 +249,52 @@
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
+
+
+<item>
+<title> Movies Collection 1(720p|1080p)</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.my-film.org/reza/film/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.my-film.org/reza/film/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
+<item>
+<title> Movies Collection 2(720p|1080p)</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.my-film.org/reza/film/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.smovies.ir/film/khareji/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
+<item>
+<title> Movies Collection 3(720p|1080p)</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.my-film.org/reza/film/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.hastidownload.biz/2/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
