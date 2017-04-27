@@ -288,11 +288,11 @@
 <regex>
 <name>hd</name>
 <listrepeat><![CDATA[
-<title>[hd.param2].1080p[hd.param1]</title>
-<link>http://dl.hastidownload.biz/2/[hd.param2].1080p[hd.param1]</link>
+<title>[hd.param2].720p[hd.param1]</title>
+<link>http://dl.hastidownload.biz/2/[hd.param2].720p[hd.param1]</link>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[1080p(.+?.mkv)">(.*?).1080p]]></expres>
+<expres><![CDATA[720p(.+?.mkv)">(.*?).720p]]></expres>
 <page>http://dl.hastidownload.biz/2/</page>
 </regex>
 </item>
