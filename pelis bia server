@@ -375,3 +375,17 @@
 <page>http://dl.my-film.org/reza/film/</page>
 </regex>
 </item>
+
+<item>	
+<title>[B][COLOR  white]mi regex[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://dl5.downloadoo.ir/Masih/Film/2015/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)".*?>.*?<]]></expres>
+<page>http://dl5.downloadoo.ir/Masih/Film/2015/</page>
+</regex>
+</item>
