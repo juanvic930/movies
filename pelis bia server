@@ -323,7 +323,7 @@
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[thumbnail"><a href="(.*?)"><img src="(.*?)".*?alt="(.*?)"]]></expres>
+<expres><href="?(.*?)"?\s+\((.{4})\)</expres>
 <page>http://www.imdb.com/[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
@@ -355,8 +355,8 @@
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[thumbnail"><a href="(.*?)"><img src="(.*?)".*?alt="(.*?)"]]></expres>
-<page>https://www.themoviedb.org/[makelist2.param1]</page>
+<expres><![CDATAhref="?(.*?)"?\s+\((.{4})\)</expres>
+<page>http://www.imdb.com/[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
 </item>
