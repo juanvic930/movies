@@ -324,7 +324,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
-<page>http://www.imdb.com/?ref_=[makelist2.param1]</page>
+<page>http://www.imdb.com/?[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
 </item>
@@ -356,7 +356,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
-<page>http://www.imdb.com/tt=[makelist2.param1]</page>
+<page>http://www.imdb.com/[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
 </item>
