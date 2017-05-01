@@ -323,7 +323,7 @@
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres>href="\/title\/.*?\/\?ref_=adv_li_tt"\n>(.*?)</expres>
+<expres>'!loadlate="(.*?)"!'</expres>
 <page>http://www.imdb.com/[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
@@ -355,7 +355,7 @@
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres><a href="\/title\/.*?\/\?ref_=adv_li_tt"\n>(.*?)<\/a></expres>
+<expres>('!loadlate="(.*?)"!',$result,$match)</expres>
 <page>http://www.imdb.com/[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
