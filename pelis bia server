@@ -245,7 +245,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>Title":"(.*?)".*Poster":"(.*?)".*imdbID":"(.*?)".*Plot":"(.*?)"</expres>
-<page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
+<page>https://image.tmdb.org/t/p/original[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/adryflix.jpg</thumbnail><fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 </item>
@@ -323,8 +323,8 @@
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres>!loadlate="(.*?)"!</expres>
-<page>http://www.imdb.com/[makelist2.param1]</page>
+<expres>title":"(.*?)".*thumb":"(.*?)</expres>
+<page>https://image.tmdb.org/t/p/original[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
 </item>
