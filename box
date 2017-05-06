@@ -10,3 +10,15 @@
 <link><link>plugin://plugin.video.f4mTester/?url=http://s1.iptv66.tv:80/live/0105195719641/0105195719641/430.ts&amp;streamtype=TSDOWNLOADER&amp;name=[COLOR green]AZTECA 7[/COLOR]</link>
 <thumbnail></thumbnail>
 </item>
+
+<item> 
+<title>Azteca 7 HD</title>
+<link>$doregex[getsignal]|User-Agent=ipad</link>
+<regex>
+<name>getsignal</name>
+<expres>(.*)</expres>
+<page>http://web.info7.mx/tv/embed/getSignal.php</page>
+<referer>http://web.info7.mx</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53</agent>
+</regex>
+</item>
