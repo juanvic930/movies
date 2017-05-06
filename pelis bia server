@@ -389,3 +389,17 @@
 <page>http://dl5.downloadoo.ir/Masih/Film/2015/</page>
 </regex>
 </item>
+
+<item>
+<title>[B][COLOR  white]LOKO FREEWORLD[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>https://www.onenote.com/webapp/pages?token=oC0oC83DEcq53cPCX-4dAkJsgb_ZdBqAipIStOrPWAlkhGBpjG4fT45PRovg157OH9NaOuTpvGZWZ8QnUyRdx3mxVeZ0W3ME0&id=636296345003712979/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>https://www.onenote.com/webapp/pages?token=oC0oC83DEcq53cPCX-4dAkJsgb_ZdBqAipIStOrPWAlkhGBpjG4fT45PRovg157OH9NaOuTpvGZWZ8QnUyRdx3mxVeZ0W3ME0&id=636296345003712979/</page>
+</regex>
+</item>
