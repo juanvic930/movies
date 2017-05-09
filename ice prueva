@@ -1,0 +1,15 @@
+href=\/.*?.*?>.*
+
+<item>
+<title>[B][COLOR  white]ice prueva[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://www.icefilms.info/movies/added/1[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href=href=\/.*?.*?>.*]]></expres>
+<page>http://www.icefilms.info/movies/added/1Clips/</page>
+</regex>
+</item>
