@@ -1,0 +1,18 @@
+<item>
+<title>uefachampionsleague </title>
+<link>$doregex[get_m3u8]|User-Agent=iPad</link>
+<regex>
+<name>final_m3u8</name>
+<expres>iframe src="(.*?)"</expres>
+<page>http://liveonlinetv247.info/uefachampionsleague.php</page>
+</regex>
+<regex>
+<name>get_m3u8</name>
+<expres>src="(.*?m3u8.*?)"</expres>
+<page>$doregex[final_m3u8]</page>
+<agent>iPad</agent>
+<referer>http://liveonlinetv247.info/tvchannels.php</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
