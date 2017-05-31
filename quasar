@@ -1,5 +1,5 @@
 <item>
-<title> [B][COLOR lime]•[/COLOR]    [COLOR white]INDEX [/COLOR][COLOR white] MOVIES MOVIES [/COLOR] [/B]</title>
+<title> [B][COLOR lime]•[/COLOR]    [COLOR white]INDEX [/COLOR][COLOR white] MOVIES [/COLOR] [/B]</title>
 
  <link>$doregex[makelist2]</link>
 
@@ -27,7 +27,7 @@
 </item>
 
 <item>
-<title> [B][COLOR lime]•[/COLOR]    [COLOR white]INDEX [/COLOR][COLOR white] MOVIES MOVIES [/COLOR] [/B]</title>
+<title> [B][COLOR lime]•[/COLOR]    [COLOR white]INDEX [/COLOR][COLOR white] PRUEVA[/COLOR] [/B]</title>
 
  <link>$doregex[makelist2]</link>
 
@@ -38,7 +38,7 @@
 <link>plugin://plugin.video.quasar/play?uri=$doregex[linkto]</link>
 ]]></listrepeat>
 <expres>href="(.*?)" target="_blank">(.*?)ShAaNiG</expres>
-<page>https://www.shaanig.org/f30/</page>
+<page>https://www.shaanig.org/f84/bloodline-s03-complete-720p-nf-webrip-4-2gb-mkvcage-5209353/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
