@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
+<item>
+<title>[B][COLOR  white]MY-FILM.ORG 1</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.my-film.in/reza/film/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.my-film.in/reza/film/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
 <item>
 <title>[B][COLOR  white]MY-FILM.ORG[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -7,7 +21,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl.my-film.IN/reza/film/[makelist.param1]</link>
+<link>http://dl.my-film.in/reza/film/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
 <page>http://dl.my-film.in/reza/film/</page>
@@ -71,20 +85,6 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]REZA 720 X265[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl.my-film.in/Movie/BluRay%20720p-x265/?C=M&O=D[makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://dl.my-film.in/Movie/BluRay%20720p-x265/</page>
-</regex>
-</item>
-
-<item>
 <title>[B][COLOR  white]DL2.MY-FILM[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -144,7 +144,7 @@
 </item>
 
 <item>
-<title>REZA 729 X265 #2</title>
+<title>[B][COLOR  white]REZA 720 X265</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
