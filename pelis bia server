@@ -144,6 +144,22 @@
 </item>
 
 <item>
+<title>REZA 729 X265 #2</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.my-film.in/Movie/BluRay%20720p-x265/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.my-film.in/Movie/BluRay%20720p-x265/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
+<item>
 <title>[B][COLOR white]DL.TEHMOVIES[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
  
