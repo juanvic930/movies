@@ -57,7 +57,7 @@
    <link>http://ns313607.ovh.net/esp/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[avi|mp4])">(.*?)\.(?:Latino|LATINO)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[avi|mp4])">(.*?)\.(?:mp4|avi|MP4)]]></expres>
 <page>http://ns313607.ovh.net/esp/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
