@@ -7,10 +7,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl.my-film.org/reza/film/[makelist.param1]</link>
+<link>http://dl.my-film.IN/reza/film/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://dl.my-film.org/reza/film/</page>
+<page>http://dl.my-film.in/reza/film/</page>
 </regex>
 </item>
 
@@ -21,10 +21,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl.hastidownload.biz/2/[makelist.param1]</link>
+<link>http://dl.dlfile.pro/2/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?.mkv)">(.*?).mkv]]></expres>
-<page>http://dl.hastidownload.biz/2/</page>
+<page>http://dl.dlfile.pro/2/</page>
 </regex>
 </item>
  
@@ -71,16 +71,16 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]DL.SMOVIES[/COLOR][/B]</title>
+<title>[B][COLOR  white]REZA 720 X265[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl.smovies.ir/film/khareji/[makelist.param1]</link>
+<link>http://dl.my-film.in/Movie/BluRay%20720p-x265/?C=M&O=D[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://dl.smovies.ir/film/khareji/</page>
+<page>http://dl.my-film.in/Movie/BluRay%20720p-x265/</page>
 </regex>
 </item>
 
@@ -91,10 +91,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl2.my-film.org/reza/film/[makelist.param1]</link>
+<link>http://dl2.my-film.IN/reza/film/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://dl2.my-film.org/reza/film/</page>
+<page>http://dl2.my-film.IN/reza/film/</page>
 </regex>
 </item>
 
@@ -185,7 +185,7 @@
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
-<page>http://dl.my-film.org/serial/</page>
+<page>http://dl.my-film.in/serial/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -197,7 +197,7 @@
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
-<page>http://dl.my-film.org/serial/[makelist3.param1]</page>
+<page>http://dl.my-film.in/serial/[makelist3.param1]</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -206,10 +206,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title> [makelist.param2]</title>
-<link>http://dl.my-film.org/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
+<link>http://dl.my-film.in/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
-<page>http://dl.my-film.org/serial/[makelist3.param1][makelist2.param2]</page>
+<page>http://dl.my-film.in/serial/[makelist3.param1][makelist2.param2]</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -368,11 +368,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
 <title>[hd.param2].1080p[hd.param1]</title>
-<link>http://dl.my-film.org/reza/film/[hd.param2].1080p[hd.param1]</link>
+<link>http://dl.my-film.in/reza/film/[hd.param2].1080p[hd.param1]</link>
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[1080p(.+?.mkv)">(.*?).1080p]]></expres>
-<page>http://dl.my-film.org/reza/film/</page>
+<page>http://dl.my-film.in/reza/film/</page>
 </regex>
 </item>
 
