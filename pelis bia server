@@ -32,59 +32,35 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]HASTIDOWLOAD[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
+<title>[B][COLOR  white]DL3.VAIOMUSIC.ORG[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
 <regex>
-<name>makelist</name>
+<name>hd</name>
 <listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl.dlfile.pro/2/[makelist.param1]</link>
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl3.vaiomusic.org/Movie/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?.mkv)">(.*?).mkv]]></expres>
-<page>http://dl.dlfile.pro/2/</page>
-</regex>
-</item>
- 
-<item>
-<title>[B][COLOR  white]NEGAR-FILM[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://sr.negarfilm.com/film-khareji/95/12/[makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://sr.negarfilm.com/film-khareji/95/12/</page>
-</regex>
-</item>
-
-<item>
-<title>[B][COLOR  white]VIOMUSIC.ORG[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl3.vaiomusic.org/Movie/[makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
 <page>http://dl3.vaiomusic.org/Movie/</page>
 </regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
 <item>
 <title>[B][COLOR  white]MOVIES ES[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
+<link>$doregex[hd]</link>
 <regex>
-<name>makelist</name>
+<name>hd</name>
 <listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://ns313607.ovh.net/esp/[makelist.param1]</link>
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://ns313607.ovh.net/esp/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
 <page>http://ns313607.ovh.net/esp/</page>
 </regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
 <item>
