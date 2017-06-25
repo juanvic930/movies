@@ -103,7 +103,7 @@
    <link>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
 <page>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
