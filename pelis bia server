@@ -78,21 +78,6 @@
 </item>
 
 <item>
-<title>spanish</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-<title>[hd.param2].720p[hd.param1]</title>
-<link>http://ns313607.ovh.net/esp/[hd.param2].720p[hd.param1]</link>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[720p(.+?.*?)">(.*?).720p]]></expres>
-<page>http://ns313607.ovh.net/esp/</page>
-</regex>
-</item>
-
-<item>
 <title>[B][COLOR  white]DL.MY-FILM.IN 720-X265[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
@@ -104,6 +89,22 @@
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
 <page>http://dl.my-film.in/Movie/BluRay%20720p-x265/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  white]NEW MOVIES[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|MP4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
