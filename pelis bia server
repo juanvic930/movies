@@ -87,7 +87,7 @@
    <link>http://dl.my-film.in/Movie/BluRay1080p-x265/?C=M&O=D[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<expres><![CDATA[href="(.*?)">.*?<\/a>(?:1080p)]]></expres>
 <page>http://dl.my-film.in/Movie/BluRay1080p-x265/?C=M&O=D</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
