@@ -64,6 +64,20 @@
 </item>
 
 <item>
+<title>[B][COLOR  white]MOVIES ES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<link>http://ns313607.ovh.net/esp/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<page>http://ns313607.ovh.net/esp/</page>
+</regex>
+</item>
+
+<item>
 <title>[B][COLOR  white]DL2.MY-FILM[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
