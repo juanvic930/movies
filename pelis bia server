@@ -70,10 +70,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://ns313607.ovh.net/esp/[makelist.param1]</link>
+<link>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://ns313607.ovh.net/esp/</page>
+<page>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/</page>
 </regex>
 </item>
 
