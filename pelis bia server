@@ -54,11 +54,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://ns313607.ovh.net/esp/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://ns313607.ovh.net/esp/?C=M;O=D[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[avi|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://ns313607.ovh.net/esp/</page>
+<page>http://ns313607.ovh.net/esp/?C=M;O=D</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
@@ -78,17 +78,17 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]DL2.MY-FILM 2[/COLOR][/B]</title>
+<title>[B][COLOR  white]DL.MY-FILM.IN 720-X265[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl.my-film.in/Movie/BluRay1080p-x265/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl.my-film.in/Movie/BluRay%20720p-x265/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl.my-film.in/Movie/BluRay1080p-x265/</page>
+<page>http://dl.my-film.in/Movie/BluRay%20720p-x265/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
