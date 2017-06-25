@@ -87,7 +87,7 @@
 <link>http://ns313607.ovh.net/esp/[hd.param2].720p[hd.param1]</link>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[720p(.+?.avi)">(.*?).720p]]></expres>
+<expres><![CDATA[720p(.+?[avi|mp4])">(.*?).720p]]></expres>
 <page>http://ns313607.ovh.net/esp/</page>
 </regex>
 </item>
