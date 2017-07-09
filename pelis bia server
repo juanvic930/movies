@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
+<title>ADRYANLIST</title>
+<link>ignoreme</link>
+<externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
+</item>
+
+<item>
 <title>[B][COLOR  white]MOVIES.IR[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
