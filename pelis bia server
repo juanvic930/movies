@@ -42,10 +42,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://sr.smovies.ir/dl2/Film/2017/[makelist.param1]</link>
+<link>http://sr2.smovies.ir/Film/2017/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://sr.smovies.ir/dl2/Film/2017/</page>
+<page>http://sr2.smovies.ir/Film/2017/</page>
 </regex>
 </item>
 
