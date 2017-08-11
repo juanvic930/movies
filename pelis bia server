@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>FREEWORLD</title>
+<link>ignoreme</link>
+<externallink>http://legionworldtv.com/master/movies/freeworld.xml</externallink>
+</item>
+
 <item>
 <title>ADRYANLIST</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 </item>
-<item>
-<title>Going in Style (2017)[COLOR lime]720p[/COLOR]/[COLOR lime]1080p[/COLOR]</title>
-<link>http://sr.smovies.ir/dl2/Film/2017/Going.in.Style.2017.720p.BluRay.MkvCage.(Smovies.Ir).mkv$$lsname=[COLOR lime]720p[/COLOR]</link>
-<link>http://sr.smovies.ir/dl2/Film/2017/Going.in.Style.2017.1080p.BluRay.(Smovies.Ir).mkv$$lsname=[COLOR lime]1080p[/COLOR]</link>
-</item>
 
-<item>
-<title>[COLOR white]AMERICA TV[/COLOR] [[COLOR blue]SD[/COLOR]/[COLOR lime]HD[/COLOR]]</title>
-<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist_b596000.m3u8|User-Agent=iPhone$$lsname=[COLOR blue]SD[/COLOR]</link>
-<link>http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/chunklist.m3u8|Referer=http://vmf.edge-apps.net&amp;User-Agent=Mozilla/5.0$$lsname=[COLOR lime]HD[/COLOR]</link>
-<link>http://us.watcha.live/ch3/hi.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0$$lsname=[COLOR lime]HD[/COLOR]</link>
-<thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwYZZa5_cL8yBOozHASPsRbaRM4R0SWl1HYWcK7oMNRZbX_4tY</thumbnail>
-<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgheJThFULPZmj5RyyzfmaF0BSI6O4Vt1K_grkrOxd4EOymncg</fanart>
-</item>
 
 <item>
 <title>[B][COLOR  white]MOVIES.IR 2017[/COLOR][/B]</title>
