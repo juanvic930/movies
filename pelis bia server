@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>TELEVISION EN VIVO</title>
+<link>ignoreme</link>
+<externallink>http://galeon.com/pelixmax/Premium.m3u</externallink>
+</item>
+
+<item>
 <title>FREEWORLD</title>
 <link>ignoreme</link>
 <externallink>http://legionworldtv.com/master/movies/freeworld.xml</externallink>
