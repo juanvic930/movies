@@ -2,7 +2,7 @@
 
 <item>
 <title>NAT GEO WILD</title>
-<link><link>plugin://plugin.video.f4mTester/?url=http://portal.geniptv.com:8080/live/messef/ao539EpinD/5384.m3u8&amp;streamtype=TSDOWNLOADER&amp;name=[COLOR green]VIC[/COLOR]</link>
+<link><link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://portal.geniptv.com:8080/live/messef/ao539EpinD/5384.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
