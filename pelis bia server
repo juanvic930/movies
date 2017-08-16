@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>NAT GEO WILD</title>
-<link><link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://portal.geniptv.com:8080/live/messef/ao539EpinD/5384.m3u8</link>
+<title>MOVIES</title>
+<link>ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/movies.m3u</externallink>
 <thumbnail></thumbnail>
 </item>
 
 <item>
 <title>TELEVISION EN VIVO</title>
 <link>ignoreme</link>
-<externallink>http://galeon.com/pelixmax/Premium.m3u</externallink>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/latino.m3u</externallink>
 </item>
 
 <item>
