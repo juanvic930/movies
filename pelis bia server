@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
-<title>DISKOKOSMICO</title>
+<title>[B][COLOR  yellow]DISKOKOSMIKO[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/diskoregex</externallink>
 <thumbnail></thumbnail>
 </item>
 
 <item>
-<title>MOVIES</title>
+<title>[B][COLOR  yellow]MOVIES[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/movies.m3u</externallink>
 <thumbnail></thumbnail>
 </item>
 
 <item>
-<title>TELEVISION EN VIVO</title>
+<title>[B][COLOR  yellow]TELEVION EN VIVO SD[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/latino.m3u</externallink>
 </item>
@@ -26,7 +26,7 @@
 </item>
 
 <item>
-<title>ADRYANLIST</title>
+<title>[B][COLOR  yellow]ADRYANLIST[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 </item>
