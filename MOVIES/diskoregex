@@ -4,7 +4,7 @@
 <regex>
   <name>makelist3</name>
   <listrepeat><![CDATA[
-        <title>[COLOR skyblue][makelist3.param2] - [makelist3.param3][/COLOR][/COLOR][/B]</title>
+        <title>[COLOR white][makelist3.param2][makelist3.param3][/COLOR][/B]</title>
         <link>$doregex[makelist2]</link>
 http://legionworldtv.com/master/movies/icon.PNGhttp://legionworldtv.com/master/movies/fanart.PNG
         ]]></listrepeat>
@@ -15,7 +15,7 @@ http://legionworldtv.com/master/movies/icon.PNGhttp://legionworldtv.com/master/m
 <regex>
   <name>makelist2</name>
   <listrepeat><![CDATA[
-        <title>[COLOR skyblue][makelist2.param2][/COLOR][/COLOR][/B]</title>
+        <title>[COLOR white][makelist2.param2][/COLOR][/B]</title>
         <link>$doregex[makelist]</link>
 		[makelist2.param3]
         ]]></listrepeat>
@@ -27,7 +27,7 @@ http://legionworldtv.com/master/movies/icon.PNGhttp://legionworldtv.com/master/m
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title> [makelist.param3][/COLOR][/B]</title>
+        <title> [COLOR white][makelist.param3][/COLOR][/B]</title>
         <link>$doregex[getUrl]</link>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
