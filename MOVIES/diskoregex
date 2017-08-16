@@ -1,0 +1,57 @@
+<item>
+<title>[B][COLOR white]DISKOKOSMICO[/COLOR][/B]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist3.param2] - [makelist3.param3][/COLOR][/COLOR][/B]</title>
+        <link>$doregex[makelist2]</link>
+http://legionworldtv.com/master/movies/icon.PNGhttp://legionworldtv.com/master/movies/fanart.PNG
+        ]]></listrepeat>
+<expres>playlist:"(.*?)" name:"(.*?)" info:"(.*?)";</expres>
+<page>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/pruevadisko</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR skyblue][makelist2.param2][/COLOR][/COLOR][/B]</title>
+        <link>$doregex[makelist]</link>
+		[makelist2.param3]
+        ]]></listrepeat>
+<expres>class="name" href="(.*?)">(.*?)<[\w\W\s]{0,190}src="(.*?)"</expres>
+<page>[makelist3.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title> [makelist.param3][/COLOR][/B]</title>
+        <link>$doregex[getUrl]</link>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx[makelist2.param1]/list,1,20</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx[makelist2.param1]/list,1,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+http://legionworldtv.com/master/movies/icon.PNGhttp://legionworldtv.com/master/movies/fanart.PNG
+</item>
