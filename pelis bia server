@@ -4,10 +4,10 @@
 <title>[B][COLOR  white]MOVIES ES[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
-<name>mp4</name>
+<name>LATINO</name>
 <listrepeat><![CDATA[
-   <title>[COLOR yellow][mp4.param3][/COLOR] [COLOR dodgerblue]([mp4.param1])[/COLOR]</title>
-   <link>http://ns313607.ovh.net/esp/[hmp4.param3].[mp4.param1][hd.param2]</link>
+   <title>[COLOR yellow][LATINO.param3][/COLOR] [COLOR dodgerblue]([LATINO.param1])[/COLOR]</title>
+   <link>http://ns313607.ovh.net/esp/[LATINO.param3].[LATINO.param1][LATINO.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[avi|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
