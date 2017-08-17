@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>[B][COLOR  white]MOVIES ES[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://ns313607.ovh.net/esp/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(d{3,4}p)(.+?[|mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
-<page>http://ns313607.ovh.net/esp/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
+
 
 <item>
 <title>[B][COLOR  white]MOVIES ES[/COLOR][/B]</title>
@@ -26,7 +12,7 @@
    <link>http://ns313607.ovh.net/esp/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.*?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
 <page>http://ns313607.ovh.net/esp/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
