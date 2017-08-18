@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title> Movies </title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.my-film.in/s1/Movie/?C=M&O=D[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.my-film.in/s1/Movie/?C=M&O=D</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
   <item> 
 <title>[COLOR yellow][B]CINEVALL[/B] [/COLOR][COLOR white]  ESTRENOS  Audio Latino[/COLOR]  </title>
-  
-  <link>$doregex[makelist3]</link>
+<link>$doregex[makelist3]</link>
  
- 
-   <regex>
+<regex>
 <name>makelist3</name>
 <listrepeat><![CDATA[
 <title>[makelist3.param1]</title>
