@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+  <item> 
+<title>[COLOR yellow][B]CINEVALL[/B] [/COLOR][COLOR white]  ESTRENOS  Audio Latino[/COLOR]  </title>
+  
+  <link>$doregex[makelist3]</link>
+ 
+ 
+   <regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param1]</title>
+ <link>$doregex[finalURL]|User-Agent=iPad</link>
+ <regex>
+<name>finalURL</name>
+<expres>file: '(.*?)'</expres>
+<page>http://cine.cinevall.info/[makelist3.param2]php</page>
+</regex>
+<thumbnail>http://www.cinevall.info/[makelist3.param3]</thumbnail>
+ </item>  
+]]></listrepeat>
+<expres>text:\s'(.*?)\&.*x5engine.utils.location\(\'(.*?)html.*src="(.*?)"</expres>
+<page>http://www.cinevall.info</page>
+</regex>
+<thumbnail></thumbnail>
+ </item>
+
 <item> 
 <title>[COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR white]   Estrenos   [Audio Latino][/COLOR] </title>
 <link>$doregex[makelist3]</link>
