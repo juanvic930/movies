@@ -50,9 +50,24 @@
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 </item>
 
+<item>
+<title>[B][COLOR  white]MOVIES.IR 2017 (1)[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?).(?:720p|1080p|HDCam)]]></expres>
+<page>http://sr.smovies.ir/dl2/Film/2017/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
 
 <item>
-<title>[B][COLOR  white]MOVIES.IR 2017[/COLOR][/B]</title>
+<title>[B][COLOR  white]MOVIES.IR 2017(2)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -68,7 +83,23 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]ALL MOVIES.IR 2017[/COLOR][/B]</title>
+<title>[B][COLOR  white]MOVIES.IR 2017(2.1)[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://sr2.smovies.ir/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.(?:720p|1080p|HDCam)]]></expres>
+<page>http://sr2.smovies.ir/Film/2017/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  white]ALL MOVIES.IR 2017(2.1)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -105,7 +136,7 @@
    <link>http://sr2.smovies.ir/Film/2016/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\(?:720p|1080p)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
 <page>http://sr2.smovies.ir/Film/2016/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
