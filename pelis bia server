@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item> 
+<title> [COLOR lime]•[/COLOR]    [COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR blue]Estrenos    [Audio Latino][/COLOR] </title>
+<link>$doregex[makelist3]</link>
 
+<regex>
+   <name>makelist3</name>
+   <listrepeat><![CDATA[
+       <title>Pagina [makelist3.param1]</title>
+    
+    <link>$doregex[makelist2]</link>
+
+<thumbnail></thumbnail>
+   ]]></listrepeat>
+   <expres><![CDATA[paginado:"(.*?)";]]></expres>
+   <page>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/pruevadisko</page>
+   <cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+	<name>makelist2</name>
+	<listrepeat><![CDATA[
+	   <title>[makelist2.param2]</title>
+	   <link>$doregex[makelist]</link>
+	   <thumbnail>[makelist2.param3]</thumbnail>
+	]]></listrepeat>
+	<expres><![CDATA[href="(.*?)"[\w\W\s]{0,670}one-line">(.*?)<[\w\W\s]{0,975}src="(.*?)"]]></expres>
+	<page>http://www.pelisplanet.com/genero/estrenos/page/[makelist3.param1]/</page>
+ </regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist2.param2]  - idioma:[makelist.param2] </title>
+  <urlsolve>$doregex[getRTMP]</urlsolve>
+    <regex>
+    <name>getRTMP</name>
+    <expres>file: "(.*?)"</expres>
+    <page>http://pelispp.com/gkvip/vip/[makelist.param1]</page>
+    <referer>http://www.pelisplanet.com</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+
+<regex>
+        <name>createCFCookie</name>
+        <expres></expres>
+        <page>$pyFunction:cloudflare.createCookie('http://www.pelisplanet.com',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
+        <cookieJar></cookieJar>
+</regex>
+  <thumbnail>[makelist2.param3]</thumbnail>
+]]></listrepeat>
+<expres>gkvip/vip/(.*?)".*title_calidad.*\n(.*?)<</expres>
+<page>[makelist2.param1]</page>
+<referer>http://www.pelisplanet.com</referer>
+</regex>
+<thumbnail></thumnail>
+</item>
 
 
 <item>
