@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item> 
-<title> [COLOR lime]•[/COLOR]    [COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR blue]Estrenos    [Audio Latino][/COLOR] </title>
+<title>[COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR white]   Estrenos   [Audio Latino][/COLOR] </title>
 <link>$doregex[makelist3]</link>
 
 <regex>
