@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-
 <item>
-<title>[COLOR yellow][B]SALVATION[/B] [/COLOR]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-<title>[hd.param2].720p[hd.param1]</title>
-<link>http://dl.melimedia.net/mersad/serial/Salvation/s01/[hd.param2].720p[hd.param1]</link>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[720p(.+?.mkv)">(.*?).720p]]></expres>
-<page>http://dl.melimedia.net/mersad/serial/Salvation/s01/</page>
-</regex>
-</item>
-
-<item>
-<title>[B][COLOR  white]SALVATION[/COLOR][/B]</title>
+<title>[B][COLOR yellow]SALVATION[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -27,7 +11,7 @@
    <link>http://dl.melimedia.net/mersad/serial/Salvation/s01/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|480p)]]></expres>
 <page>http://dl.melimedia.net/mersad/serial/Salvation/s01/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
