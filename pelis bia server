@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR  yellow]TV SHOWS IN PROGRESS[/COLOR][/B]</title>
+<link>ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
+</item>
+
+<item>
 <title> Movies </title>
 <link>$doregex[hd]</link>
 <regex>
