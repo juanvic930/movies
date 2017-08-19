@@ -13,11 +13,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl.my-film.in/s1/Movie/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://sr2.smovies.ir/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl.my-film.in/s1/Movie/</page>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:...)]]></expres>
+<page>http://sr2.smovies.ir/Film/2017/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
