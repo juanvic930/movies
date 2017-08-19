@@ -24,11 +24,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
 <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-<link>http://20.mydl.host/Download/Series/The.Sinner/[hd.param3].[hd.param1][hd.param2]</link>
+<link>http://dl.my-film.in/s1/serial/The.Sinner/01-720p.HDTV.x265/[hd.param3].[hd.param1][hd.param2]</link>
 <thumbnail>https://image.tmdb.org/t/p/w640/mzQyhOoKxWTFtIKjQfPx2ttYyQQ.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]></expres>
-<page>http://20.mydl.host/Download/Series/The.Sinner/</page>
+<page>http://dl.my-film.in/s1/serial/The.Sinner/01-720p.HDTV.x265/</page>
 </regex>
 <thumbnail>https://image.tmdb.org/t/p/w640/mzQyhOoKxWTFtIKjQfPx2ttYyQQ.jpg</thumbnail>
 </item>
