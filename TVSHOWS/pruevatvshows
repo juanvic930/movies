@@ -12,7 +12,71 @@
 <link>http://www.walk4help.de/dl3/S/Salvation/S01/720p/[hd.param3].[hd.param1][hd.param2]</link>
 <thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
 ]]></listrepeat>
+<expres><![CDATA[href.*?(.+?[mkv|mp4])">(.*?)\(?:720p)]]></expres>
+<page>http://www.walk4help.de/dl3/S/Salvation/S01/720p/</page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SALVATION[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://www.walk4help.de/dl3/S/Salvation/S01/720p/[hd.param3].[hd.param1][hd.param2]</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(.+?[mkv|mp4])">(.*?)(?:720p)]]></expres>
+<page>http://www.walk4help.de/dl3/S/Salvation/S01/720p/</page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SALVATION[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://www.walk4help.de/dl3/S/Salvation/S01/720p/[hd.param3].[hd.param1][hd.param2]</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(.+?[mkv|mp4])">(.*?)\s(?:720p)]]></expres>
+<page>http://www.walk4help.de/dl3/S/Salvation/S01/720p/</page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SALVATION[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://www.walk4help.de/dl3/S/Salvation/S01/720p/[hd.param3].[hd.param1][hd.param2]</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+]]></listrepeat>
 <expres><![CDATA[href.*?(.+?[mkv|mp4])">(.*?)\.(?:720p)]]></expres>
+<page>http://www.walk4help.de/dl3/S/Salvation/S01/720p/</page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SALVATION[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://www.walk4help.de/dl3/S/Salvation/S01/720p/[hd.param3].[hd.param1][hd.param2]</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(.+?[mkv])">(.*?)(?:720p)]]></expres>
 <page>http://www.walk4help.de/dl3/S/Salvation/S01/720p/</page>
 </regex>
 <thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
