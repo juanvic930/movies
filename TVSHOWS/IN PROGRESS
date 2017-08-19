@@ -1,0 +1,17 @@
+
+
+
+<item>
+<title>720p</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[hd.param2].720p[hd.param1]</title>
+<link>http://dl.melimedia.net/mersad/serial/Salvation/s01/[hd.param2].720p[hd.param1]</link>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[720p(.+?.mkv)">(.*?).720p]]></expres>
+<page>http://dl.melimedia.net/mersad/serial/Salvation/s01/</page>
+</regex>
+</item>
