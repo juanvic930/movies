@@ -7,12 +7,28 @@
 <regex>
 <name>hd</name>
 <listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl.melimedia.net/mersad/serial/Salvation/s01/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://www.walk4help.de/dl3/S/Salvation/S01/720p-x265/[hd.param3].[hd.param1][hd.param2]</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|480p)]]></expres>
-<page>http://dl.melimedia.net/mersad/serial/Salvation/s01/</page>
+<page>http://www.walk4help.de/dl3/S/Salvation/S01/720p-x265/</page>
 </regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]THE SINNER[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://www.walk4help.de/dl3/T/The%20Sinner/S01/720p-x265/[hd.param3].[hd.param1][hd.param2]</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/mzQyhOoKxWTFtIKjQfPx2ttYyQQ.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|480p)]]></expres>
+<page>http://www.walk4help.de/dl3/T/The%20Sinner/S01/720p-x265/</page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/w640/mzQyhOoKxWTFtIKjQfPx2ttYyQQ.jpg</thumbnail>
 </item>
