@@ -159,7 +159,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]MOVIES.IR 2017 (1)[/COLOR][/B]</title>
+<title>[B][COLOR  white]MOVIES.IR 2017 (sr)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -175,7 +175,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]MOVIES.IR 2017(2)[/COLOR][/B]</title>
+<title>[B][COLOR  white]MOVIES.IR 2017(sr)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -191,7 +191,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]MOVIES.IR 2017(2.1)[/COLOR][/B]</title>
+<title>[B][COLOR  white]MOVIES.IR 2017(sr2)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -207,7 +207,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]ALL MOVIES.IR 2017(2.1)[/COLOR][/B]</title>
+<title>[B][COLOR  white]ALL MOVIES.IR 2017(sr2)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -221,7 +221,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]ALL MOVIES.IR 2016[/COLOR][/B]</title>
+<title>[B][COLOR  white]ALL MOVIES.IR sr2 2016[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -235,7 +235,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]MOVIES.IR 2016[/COLOR][/B]</title>
+<title>[B][COLOR  white]MOVIES.IR sr2 2016[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
