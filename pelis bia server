@@ -16,6 +16,12 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
+
+<item><title>[B][COLOR  yellow]CINECANAL.TV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/LIVE%20TV</externallink>
+</item>
+
 <item><title>.IPTV PRO Server S1 </title>
 <link>http://Ignoreme</link>
 <externallink>http://iptv.fiberbox.tk:8000/get.php?username=ravi&amp;password=ravi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
