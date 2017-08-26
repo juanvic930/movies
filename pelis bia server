@@ -7,7 +7,7 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param2][/COLOR] [/COLOR]</title>
-   <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param2].[hd.param1]</link>
+   <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param3].[hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.]]></expres>
