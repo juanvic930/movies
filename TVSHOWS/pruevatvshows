@@ -28,7 +28,7 @@
    <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param3].[hd.param1]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.(?:720p|1080p)]]></expres>
 <page>http://sr.smovies.ir/dl2/Film/2017/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
