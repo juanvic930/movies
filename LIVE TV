@@ -2,6 +2,24 @@
 
 
 <item>
+<title>Cinestrenos.TV - Todos Los Canales | Espanol</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv[makelist.param1]</sportsdevil>
+<referer></referer>
+<thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>a href="(.*)".*title="(.*?)".*?src="(.*?)"</expres>
+<page>http://cinestrenostv.tv/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+<item>
 <title>[COLOR red].[/COLOR][COLOR green][B]M3U Lists[/B] [/COLOR][COLOR white ][I]Click Here Needed Me f4mTester[/I][/COLOR]</title>
 <thumbnail>http://www.freeiptvlinks4u.com/wp-content/uploads/2016/04/uyuyuy3-1.png</thumbnail><fanart></fanart>
 <link>$doregex[makelist2]</link>
