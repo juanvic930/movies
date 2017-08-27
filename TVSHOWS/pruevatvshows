@@ -18,6 +18,8 @@
 <thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
 </item>
 
+[hd.param3][hd.param1]
+
 <item>
 <title>[B][COLOR  white]MOVIES.IR 2017(sr)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
