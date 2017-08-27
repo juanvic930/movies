@@ -19,7 +19,7 @@
 
 <item><title>[B][COLOR  yellow]CINECANAL.TV[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/LIVE%20TV</externallink>
+<externallink>rtmp://$OPT:rtmp-raw=rtmp://2202.janjuaplayer.com/live playpath=actionperu666?id=74395&pk=9f0cba93374853538309a2f85edcac5e02fff08321bed29 58d5e63dcd749a7a5 swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf live=1 pageUrl=http://www.janjuaplayer.com/embedplayer/actionperu666/1/600/400 Conn=S:OK</externallink>
 </item>
 
 <item><title>.IPTV PRO Server S1 </title>
