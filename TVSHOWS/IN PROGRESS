@@ -55,7 +55,7 @@
 <title>[makelist2.param2]/</title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?S01)]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?\/)]]></expres>
 <page>http://dl3.downloadoo.site/Tvshow/[makelist3.param1]</page>
 <referer></referer>
 <cookieJar></cookieJar>
