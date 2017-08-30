@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
-<item>
-<title>[B][COLOR yellow]SALVATION[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-<link>http://20.mydl.host/Download/Series/Salvation/[hd.param3].[hd.param1][hd.param2]</link>
-<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]></expres>
-<page>http://20.mydl.host/Download/Series/Salvation/</page>
-</regex>
-<thumbnail>https://image.tmdb.org/t/p/w640/hXCd9FUT7ZjoB390cGioVhEiXOB.jpg</thumbnail>
-</item>
-
-<item>
-<title>[B][COLOR yellow]THE SINNER[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-<link>hhttp://www.walk4help.de/dl3/S/Salvation/S01/[hd.param3].[hd.param1][hd.param2]</link>
-<thumbnail>https://image.tmdb.org/t/p/w640/mzQyhOoKxWTFtIKjQfPx2ttYyQQ.jpg</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]></expres>
-<page>http://www.walk4help.de/dl3/S/Salvation/S01/</page>
-</regex>
-<thumbnail>https://image.tmdb.org/t/p/w640/mzQyhOoKxWTFtIKjQfPx2ttYyQQ.jpg</thumbnail>
-</item>
-
 <item>
 <title>[COLOR yellow][B]TV SHOWS[/B] [/COLOR]</title>
 <link>$doregex[makelist3]</link>
@@ -76,39 +43,9 @@
 <fanart></fanart>
 </item>
 
-<item>
-<title>[B][COLOR white]DL5.DOWNLOAD[/COLOR][/B]</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[B][COLOR blue] [makelist2.param2][/COLOR][/B] </title>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres>href="(.*?)/">(.*?)/<</expres>
-<page>http://www.walk4help.de/dl3/S/S01/Salvation/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2] </title>
-<link>http://www.walk4help.de/dl3/S/Salvation/S01/[makelist2.param1]/[makelist.param1]</link>
-]]></listrepeat>
-<expres>href="(.*?)">(.*?)<</expres>
-<page>http://www.walk4help.de/dl3/S/Salvation/S01/[makelist2.param1]/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
 
 <item>
-<title>[B][COLOR white]DL.TEHMOVIES[/COLOR][/B]</title>
+<title>[B][COLOR white]SALVATION[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
  
 <regex>
@@ -129,7 +66,7 @@
 <title>[makelist.param2] </title>
 <link>http://www.walk4help.de/dl3/S/Salvation/S01/[makelist2.param1]/[makelist.param1]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?720)</expres>
+<expres>href="(.*?)">(.*?\/)</expres>
 <page>http://www.walk4help.de/dl3/S/Salvation/S01/[makelist2.param1]/</page>
 <referer></referer>
 <cookieJar></cookieJar>
