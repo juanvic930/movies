@@ -9,7 +9,7 @@
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[makelist2.param1] [makelist2.param2]  </title>
+<title>[makelist2.param1]  </title>
 <link>$doregex[makelist]</link>
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
