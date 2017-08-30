@@ -43,7 +43,7 @@
 <title>[COLOR yellow] [makelist3.param2] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
 <page>http://dl3.downloadoo.site/Tvshow/</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -55,7 +55,7 @@
 <title>[COLORyellow][makelist2.param2]/[COLOR] </title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
 <page>http://dl3.downloadoo.site/Tvshow/[makelist3.param1]</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -67,7 +67,7 @@
 <title> [COLORyellow][makelist.param2][/COLOR]</title>
 <link>http://dl3.downloadoo.site/Tvshow/[makelist3.param1][makelist2.param2][makelist.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
 <page>http://dl3.downloadoo.site/Tvshow/[makelist3.param1][makelist2.param2]</page>
 <referer></referer>
 <cookieJar></cookieJar>
