@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item><title>[B][COLOR  dodgerblue]ADULT ZONE[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/PORN/ADULT%20ZONE</externallink>
+</item>
+
+
+
 <item>
 <title>[B][COLOR  yellow]TIMEPASSBD[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -31,6 +38,7 @@
 </item>
 
 
+
 <item>
 <title>[B][COLOR  yellow]MOVIES HD[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
@@ -47,10 +55,13 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
+
+
 <item><title>[B][COLOR  dodgerblue]MOVIES.IR[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dl.smovies.ir</externallink>
 </item>
+
 
 
 <item><title>[B][COLOR  yellow]CINECANAL.TV[/COLOR][/B]</title>
@@ -58,10 +69,13 @@
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/pruevatvshows</externallink>
 </item>
 
+
+
 <item><title>[B][COLOR  dodgerblue] IPTV server 1[/COLOR][/B] </title>
 <link>http://Ignoreme</link>
 <externallink>http://iptv.fiberbox.tk:8000/get.php?username=ravi&amp;password=ravi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 </item>
+
 
 
 <item>
@@ -69,6 +83,7 @@
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
 </item>
+
 
 
 <item> 
@@ -93,6 +108,7 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 <item> 
@@ -154,6 +170,7 @@
 </item>
 
 
+
 <item>
 <title>[B][COLOR  dodgerblue]MOVIES ES(dl2)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -169,12 +186,14 @@
 </item>
 
 
+
 <item>
 <title>[B][COLOR  yellow]DISKOKOSMIKO[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/diskoregex</externallink>
 <thumbnail></thumbnail>
 </item>
+
 
 
 <item>
@@ -185,11 +204,13 @@
 </item>
 
 
+
 <item>
 <title>[B][COLOR  yellow]TELEVION EN VIVO SD[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/latino.m3u</externallink>
 </item>
+
 
 
 <item>
@@ -199,11 +220,13 @@
 </item>
 
 
+
 <item>
 <title>[B][COLOR  yellow]ADRYANLIST[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 </item>
+
 
 
 <item>
@@ -222,6 +245,8 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
+
+
 <item>
 <title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
@@ -237,6 +262,7 @@
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
+
 
 
 <item>
@@ -272,6 +298,7 @@
 </item>
 
 
+
 <item>
 <title>[B][COLOR  dodgerblue]DL3.MIHANPIX[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -285,6 +312,8 @@
 <page>http://dl3.mihanpix.com/reza/film/</page>
 </regex>
 </item>
+
+
 
 <item>
 <title>[B][COLOR  yellow]DL3.MIHANPIX 2[/COLOR][/B]</title>
@@ -301,6 +330,8 @@
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
+
+
 
 <item>
 <title>[B][COLOR dodgerblue]DL5.DOWNLOAD[/COLOR][/B]</title>
@@ -333,6 +364,8 @@
 <fanart></fanart>
 </item>
 
+
+
 <item>
 <title>[B][COLOR yellow]DL.TEHMOVIES[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
@@ -363,6 +396,8 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
+
+
 
 <item>
 <title>[COLOR dodgerblue][B]TVSHOWS 2[/B] [/COLOR]</title>
@@ -407,6 +442,8 @@
 <fanart></fanart>
 </item>
 
+
+
 <item>
 <title>[B][COLOR  yellow]Movies Collection 1(720p|1080p)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
@@ -423,6 +460,8 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
+
+
 <item>
 <title>[B][COLOR  dodgerblue] MOVIES.DLFILE2[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -436,6 +475,8 @@
 <page>http://dl.dlfile.pro/2/</page>
 </regex>
 </item>
+
+
 
 item>
 <title>[B][COLOR  yellow] 720p[/COLOR][/B]</title>
