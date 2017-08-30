@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>[B][COLOR  white]MOVIES.IR 2017(sr)[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param2][/COLOR] [/COLOR]</title>
-   <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param3].[hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.]]></expres>
-<page>http://sr.smovies.ir/dl2/Film/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+<item><title>[B][COLOR  yellow]CINECANAL.TV[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/pruevatvshows</externallink>
 </item>
 
 
