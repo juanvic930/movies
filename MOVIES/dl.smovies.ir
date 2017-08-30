@@ -29,7 +29,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
-<page>http://www.omdbapi.com/st=[makelist2.param1]</page>
+<page>http://www.omdbapi.com/s=[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
 </item>
@@ -47,7 +47,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
         ]]></listrepeat>
 <expres>href="(.*?)(20.*?720.*?)"</expres>
-<page>http://dl.smovies.ir/film/khareji/?C=M;O=D</page>
+<page>http://sr.smovies.ir/dl2/Film/2017/</page>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar>
 </regex>
@@ -56,7 +56,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]     [makelist2.param2]  </title>
-<link>http://dl.smovies.ir/film/khareji/[makelist2.param1][makelist2.param2]</link>
+<link>http://sr.smovies.ir/dl2/Film/2017/[makelist2.param1][makelist2.param2]</link>
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
@@ -79,7 +79,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>href="(.*?)(20.*?1080.*?)"</expres>
-<page>http://dl.smovies.ir/film/khareji/?C=M;O=D</page>
+<page>http://sr.smovies.ir/dl2/Film/2017/</page>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar>
 </regex>
@@ -88,7 +88,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]     [makelist2.param2]  </title>
-<link>http://dl.smovies.ir/film/khareji/[makelist2.param1][makelist2.param2]</link>
+<link>http://sr.smovies.ir/dl2/Film/2017/[makelist2.param1][makelist2.param2]</link>
 <fanart>[makelist.param2]</fanart>
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
