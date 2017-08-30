@@ -27,7 +27,7 @@
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/pruevatvshows</externallink>
 </item>
 
-<item><title>.IPTV PRO Server S1 </title>
+<item><title>[B][COLOR  dodgerblue] IPTV server 1[/COLOR][/B] </title>
 <link>http://Ignoreme</link>
 <externallink>http://iptv.fiberbox.tk:8000/get.php?username=ravi&amp;password=ravi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 </item>
@@ -41,7 +41,7 @@
 
 
 <item> 
-<title>[COLOR dodgerblue][B]CINEVALL[/B] [/COLOR][COLOR white]  ESTRENOS  Audio Latino[/COLOR]  </title>
+<title>[COLOR dodgerblue][B]CINEVALL[/B] [/COLOR][COLOR dodgerblue]  ESTRENOS  Audio Latino[/COLOR]  </title>
 <link>$doregex[makelist3]</link>
  
 <regex>
@@ -65,7 +65,7 @@
 
 
 <item> 
-<title>[COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR white]   Estrenos   [Audio Latino][/COLOR] </title>
+<title>[COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR yellow]   Estrenos   Audio Latino[/COLOR] </title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -162,7 +162,7 @@
 
 
 <item>
-<title>FREEWORLD</title>
+<title>[B][COLOR  dodgerblue] FREEWORLD[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>http://legionworldtv.com/master/movies/freeworld.xml</externallink>
 </item>
@@ -207,20 +207,19 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
+
 <item>
-<title>[B][COLOR  dodgerblue]DL3.VAIOMUSIC.ORG[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
+<title>[B][COLOR  dodgerblue]VAIOMUSIC.ORG[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
 <regex>
-<name>hd</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl3.vaiomusic.org/Movie/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+<title>[COLOR yellow][makelist.param2][/COLOR]</title>
+<link>http://dl3.vaiomusic.org/Movie/[makelist.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
 <page>http://dl3.vaiomusic.org/Movie/</page>
 </regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
 
@@ -248,10 +247,10 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
+<title>[COLOR yellow][makelist.param2][/COLOR]</title>
 <link>http://dl3.mihanpix.com/reza/film/[makelist.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
 <page>http://dl3.mihanpix.com/reza/film/</page>
 </regex>
 </item>
@@ -378,7 +377,7 @@
 </item>
 
 <item>
-<title> Movies Collection 1(720p|1080p)</title>
+<title>[B][COLOR  yellow]Movies Collection 1(720p|1080p)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -394,7 +393,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  yellow] MOVIES.DLFILE2[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue] MOVIES.DLFILE2[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -407,8 +406,8 @@
 </regex>
 </item>
 
-<item>
-<title>720p</title>
+item>
+<title>[B][COLOR  yellow] 720p[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -424,8 +423,8 @@
 
 
 
-<item>
-<title>1080p</title>
+item>
+<title>[B][COLOR  yellow] 1080p[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
