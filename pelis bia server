@@ -2,7 +2,7 @@
 
 <item><title>[B][COLOR  yellow]MOVIES.IR[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dl.my-film.org</externallink>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dl.smovies.ir</externallink>
 </item>
 
 
@@ -16,29 +16,15 @@
 <externallink>http://iptv.fiberbox.tk:8000/get.php?username=ravi&amp;password=ravi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 </item>
 
+
 <item>
 <title>[B][COLOR  yellow]TV SHOWS IN PROGRESS[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
 </item>
 
-<item>
-<title> Movies </title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://sr2.smovies.ir/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:...|720p)]]></expres>
-<page>http://sr2.smovies.ir/Film/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
 
-  <item> 
+<item> 
 <title>[COLOR yellow][B]CINEVALL[/B] [/COLOR][COLOR white]  ESTRENOS  Audio Latino[/COLOR]  </title>
 <link>$doregex[makelist3]</link>
  
@@ -59,7 +45,8 @@
 <page>http://www.cinevall.info</page>
 </regex>
 <thumbnail></thumbnail>
- </item>
+</item>
+
 
 <item> 
 <title>[COLOR yellow][B]PELISPLANET[/B] [/COLOR][COLOR white]   Estrenos   [Audio Latino][/COLOR] </title>
@@ -78,7 +65,6 @@
    <page>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/pruevadisko</page>
    <cookieJar></cookieJar>
 </regex>
-
 
 <regex>
 	<name>makelist2</name>
@@ -137,12 +123,14 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
+
 <item>
 <title>[B][COLOR  yellow]DISKOKOSMIKO[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/diskoregex</externallink>
 <thumbnail></thumbnail>
 </item>
+
 
 <item>
 <title>[B][COLOR  yellow]MOVIES[/COLOR][/B]</title>
@@ -151,11 +139,13 @@
 <thumbnail></thumbnail>
 </item>
 
+
 <item>
 <title>[B][COLOR  yellow]TELEVION EN VIVO SD[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/latino.m3u</externallink>
 </item>
+
 
 <item>
 <title>FREEWORLD</title>
@@ -163,119 +153,13 @@
 <externallink>http://legionworldtv.com/master/movies/freeworld.xml</externallink>
 </item>
 
+
 <item>
 <title>[B][COLOR  yellow]ADRYANLIST[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 </item>
 
-<item>
-<title>[B][COLOR  white]MOVIES.IR 2017 (sr)[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?).(?:720p|1080p|HDCam)]]></expres>
-<page>http://sr.smovies.ir/dl2/Film/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
-
-<item>
-<title>[B][COLOR  white]MOVIES.IR 2017(sr)[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://sr.smovies.ir/dl2/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.(?:720p|1080p|HDCam)]]></expres>
-<page>http://sr.smovies.ir/dl2/Film/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
-
-<item>
-<title>[B][COLOR  white]MOVIES.IR 2017(sr2)[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://sr2.smovies.ir/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?)\.(?:720p|1080p|HDCam)]]></expres>
-<page>http://sr2.smovies.ir/Film/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
-
-<item>
-<title>[B][COLOR  white]MOVIES.IR 2017(sr2)[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://sr2.smovies.ir/Film/2017/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4|avi])">(.*?).(?:720p|1080p|HDCam)]]></expres>
-<page>http://sr2.smovies.ir/Film/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
-
-<item>
-<title>[B][COLOR  white]ALL MOVIES.IR 2017(sr2)[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://sr2.smovies.ir/Film/2017/[makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://sr2.smovies.ir/Film/2017/</page>
-</regex>
-</item>
-
-<item>
-<title>[B][COLOR  white]ALL MOVIES.IR sr2 2016[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://sr2.smovies.ir/Film/2016/[makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://sr2.smovies.ir/Film/2016/</page>
-</regex>
-</item>
-
-<item>
-<title>[B][COLOR  white]MOVIES.IR sr2 2016[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://sr2.smovies.ir/Film/2016/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
-<page>http://sr2.smovies.ir/Film/2016/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
 
 <item>
 <title>[B][COLOR  white]MY-FILM.ORG[/COLOR][/B]</title>
@@ -357,21 +241,6 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
-<item>
-<title>[B][COLOR  white]NEW MOVIES[/COLOR][/B]</title>
-<link>$doregex[hd]</link>
-<regex>
-<name>hd</name>
-<listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/[hd.param3].[hd.param1][hd.param2]</link>
-   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">.*?<\/a>.*?:....(.*?)]]></expres>
-<page>http://203.95.220.90/ftp/HDD1/English%20Movies/2017/</page>
-</regex>
-<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
-</item>
 
 <item>
 <title>[B][COLOR  white]DL3.MIHANPIX[/COLOR][/B]</title>
@@ -633,17 +502,5 @@
 </regex>
 </item>
 
-<item>	
-<title>[B][COLOR  white]mi regex[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR green][makelist.param2] -- [makelist.param1][/COLOR]</title>
-<link>http://dl5.downloadoo.ir/Masih/Film/2015/[makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)".*?>]]></expres>
-<page>http://dl5.downloadoo.ir/Masih/Film/2015/</page>
-</regex>
-</item>
+
 
