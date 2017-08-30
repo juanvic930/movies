@@ -13,3 +13,19 @@
 <page>http://192.95.47.60/ISTAR-Movies/</page>
 </regex>
 </item>
+
+
+
+<item>
+<title>[B][COLOR  dodgerblue]XXX.FILM[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://ns3051255.ip-91-121-84.eu/xxx/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<page>http://ns3051255.ip-91-121-84.eu/xxx/</page>
+</regex>
+</item>
