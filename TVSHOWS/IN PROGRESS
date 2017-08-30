@@ -111,7 +111,7 @@
 <link>http://www.walk4help.de/dl3/S/Salvation/[makelist3.param1][makelist2.param1]/[makelist.param1]</link>
 ]]></listrepeat>
 <expres>href="(.*?)">(.*?)<</expres>
-<page>http://www.walk4help.de/dl3/S/Salvation/[makelist2.param1]/</page>
+<page>http://www.walk4help.de/dl3/S/Salvation/[makelist3.param1]/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
