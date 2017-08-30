@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR  dodgerblue]EVONETBD.COM[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://fs.evonetbd.com/Media/Movies/English%20Movies/2017/?C=M;O=D[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<page>http://fs.evonetbd.com/Media/Movies/English%20Movies/2017/?C=M;O=D</page>
+</regex>
+</item>
+
+
+<item>
 <title>[B][COLOR  yellow]MOVIES HD[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
