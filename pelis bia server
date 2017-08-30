@@ -16,7 +16,7 @@
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 </item>
 
-<item><title>[B][COLOR  yellow]MOVIES.IR[/COLOR][/B]</title>
+<item><title>[B][COLOR  dodgerblue]MOVIES.IR[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dl.smovies.ir</externallink>
 </item>
@@ -34,14 +34,14 @@
 
 
 <item>
-<title>[B][COLOR  yellow]TV SHOWS IN PROGRESS[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]TV SHOWS 1[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
 </item>
 
 
 <item> 
-<title>[COLOR yellow][B]CINEVALL[/B] [/COLOR][COLOR white]  ESTRENOS  Audio Latino[/COLOR]  </title>
+<title>[COLOR dodgerblue][B]CINEVALL[/B] [/COLOR][COLOR white]  ESTRENOS  Audio Latino[/COLOR]  </title>
 <link>$doregex[makelist3]</link>
  
 <regex>
@@ -124,7 +124,7 @@
 
 
 <item>
-<title>[B][COLOR  white]MOVIES ES(dl2)[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue]MOVIES ES(dl2)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -147,7 +147,7 @@
 
 
 <item>
-<title>[B][COLOR  yellow]MOVIES[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue]MOVIES[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/movies.m3u</externallink>
 <thumbnail></thumbnail>
@@ -176,7 +176,7 @@
 
 
 <item>
-<title>[B][COLOR  white]MY-FILM.ORG[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue]MY-FILM.ORG[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -192,7 +192,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]HASTIDOWLOAD[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -208,7 +208,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]DL3.VAIOMUSIC.ORG[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue]DL3.VAIOMUSIC.ORG[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -226,7 +226,7 @@
 
 
 <item>
-<title>[B][COLOR  white]DL.MY-FILM.IN 720-X265[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]DL.MY-FILM.IN 720-X265[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -243,7 +243,7 @@
 
 
 <item>
-<title>[B][COLOR  white]DL3.MIHANPIX[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue]DL3.MIHANPIX[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -257,7 +257,7 @@
 </item>
 
 <item>
-<title>[B][COLOR  white]DL3.MIHANPIX 2[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]DL3.MIHANPIX 2[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -273,7 +273,7 @@
 </item>
 
 <item>
-<title>[B][COLOR white]DL5.DOWNLOAD[/COLOR][/B]</title>
+<title>[B][COLOR dodgerblue]DL5.DOWNLOAD[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
  
 <regex>
@@ -304,7 +304,7 @@
 </item>
 
 <item>
-<title>[B][COLOR white]DL.TEHMOVIES[/COLOR][/B]</title>
+<title>[B][COLOR yellow]DL.TEHMOVIES[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
  
 <regex>
@@ -335,7 +335,7 @@
 </item>
 
 <item>
-<title> [COLOR green]•[/COLOR]    [COLOR white][B]TV SHOWS[/B] [/COLOR]</title>
+<title>[COLOR dodgerblue][B]TVSHOWS 2[/B] [/COLOR]</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -394,17 +394,16 @@
 </item>
 
 <item>
-<title>1080p</title>
-<link>$doregex[hd]</link>
+<title>[B][COLOR  yellow] MOVIES.DLFILE2[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
 <regex>
-<name>hd</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<title>[hd.param2].1080p[hd.param1]</title>
-<link>http://dl.hastidownload.biz/2/[hd.param2].1080p[hd.param1]</link>
-<thumbnail></thumbnail>
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://dl.dlfile.pro/2/[makelist.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[1080p(.+?.mkv)">(.*?).1080p]]></expres>
-<page>http://dl.hastidownload.biz/2/</page>
+<expres><![CDATA[href="(.*?)">(.*?mkv)]]></expres>
+<page>http://dl.dlfile.pro/2/</page>
 </regex>
 </item>
 
@@ -423,69 +422,7 @@
 </regex>
 </item>
 
-<item>
-<title>ALL MOVIES</title>
-<link>$doregex[makelist2]</link>
 
-<regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-        <title>[makelist2.param1]      [makelist2.param2]  </title>
-        <link>$doregex[makelist]</link>
-		<fanart>[makelist.param2]</fanart>
-<thumbnail>[makelist.param2]</thumbnail>
-        ]]></listrepeat>
-<expres>href="(.*?)(20.*?)"</expres>
-<page>http://dl5.downloadoo.ir/Masih/Film/2016/</page>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]     [makelist2.param2]  </title>
-<link>http://dl5.downloadoo.ir/Masih/Film/2016/[makelist2.param1][makelist2.param2]</link>
-<fanart>[makelist.param2]</fanart>
-<thumbnail>[makelist.param2]</thumbnail>
-]]></listrepeat>
-<expres>title":"(.*?)".*thumb":"(.*?)</expres>
-<page>https://image.tmdb.org/t/p/original[makelist2.param1]</page>
-</regex>
-<thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
-</item>
-
-<item>
-<title>ALL MOVIES</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-        <title>[makelist2.param1]      [makelist2.param2]  </title>
-        <link>$doregex[makelist]</link>
-		<fanart>[makelist.param2]</fanart>
-<thumbnail>[makelist.param2]</thumbnail>
-        ]]></listrepeat>
-<expres>href="(.*?)(20.*?)"</expres>
-<page>http://dl5.downloadoo.ir/Masih/Film/2016/</page>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]     [makelist2.param2]  </title>
-<link>http://dl5.downloadoo.ir/Masih/Film/2016/[makelist2.param1][makelist2.param2]</link>
-<fanart>[makelist.param2]</fanart>
-<thumbnail>[makelist.param2]</thumbnail>
-]]></listrepeat>
-<expres>src="(.*?)"</expres>
-<page>https://www.themoviedb.org/[makelist2.param1]</page>
-</regex>
-<thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
-</item>
 
 <item>
 <title>1080p</title>
