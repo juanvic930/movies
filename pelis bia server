@@ -7,10 +7,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR yellow][makelist.param2] [/COLOR]</title>
-<link>http://www.time-tu-v2.com/movies/boxoffice.fr/2017/?C=M;O=D[makelist.param1]</link>
+<link>http://www.time-tu-v2.com/movies/boxoffice.fr/2017/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
-<page>http://www.time-tu-v2.com/movies/boxoffice.fr/2017/?C=M;O=D</page>
+<page>http://www.time-tu-v2.com/movies/boxoffice.fr/2017/</page>
 </regex>
 </item>
 
