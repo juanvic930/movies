@@ -29,7 +29,7 @@
 <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
-<page>http://www.omdbapi.com/s=[makelist2.param1]</page>
+<page>http://www.omdbapi.com/?s=[makelist2.param1]</page>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/peliculas.jpg</thumbnail>
 </item>
