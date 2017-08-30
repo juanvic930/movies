@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR  white]MOVIES ES[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]MOVIES HD[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
