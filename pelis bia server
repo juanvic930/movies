@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR  dodgerblue]MY-FILM.IN[/COLOR][/B]</title>
+<title>[B][COLOR  dodgerblue]TU-V2[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR yellow][makelist.param2] [/COLOR]</title>
-<link>http://dl.my-film.in/reza/film/[makelist.param1]</link>
+<link>http://www.time-tu-v2.com/movies/boxoffice.fr/2017/?C=M;O=D[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
-<page>http://dl.my-film.in/reza/film/</page>
+<page>http://www.time-tu-v2.com/movies/boxoffice.fr/2017/?C=M;O=D</page>
 </regex>
 </item>
 
