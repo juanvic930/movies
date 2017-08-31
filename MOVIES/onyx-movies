@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[B][COLOR  yellow]PAGE-----1[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://dl.onyx-movie.com/Movie/1/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.onyx-movie.com/Movie/1/</page>
+</regex>
+</item>
+
+
+
+<item>
+<title>[B][COLOR  yellow]PAGE-----2[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://dl.onyx-movie.com/Movie/2/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.onyx-movie.com/Movie/2/</page>
+</regex>
+</item>
+
+
+
+<item>
+<title>[B][COLOR  yellow]PAGE-----3[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://dl.onyx-movie.com/Movie/3/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.onyx-movie.com/Movie/3/</page>
+</regex>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]PAGE-----4[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://dl.onyx-movie.com/Movie/4/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<page>http://dl.onyx-movie.com/Movie/4/</page>
+</regex>
+</item>
