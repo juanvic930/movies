@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item><title>[B][COLOR  yellow]TEH-MOVIES[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/tehmovies</externallink>
+</item>
+
+
+
 <item>
 <title>[B][COLOR  dodgerblue]JAMES BOND MOVIE COLLECTION[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
