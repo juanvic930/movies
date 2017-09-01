@@ -19,7 +19,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR yellow] [makelist.param2] [/COLOR ][/B] </title>
+<title>[B][COLOR yellow] [makelist.param2] [/COLOR][/B] </title>
 <link>http://dl.melimedia.net/mersad/movie/94/[makelist2.param1]/[makelist.param1]</link>
 ]]></listrepeat>
 <expres>href="(.*?mkv)">(.*?\dp)</expres>
@@ -53,7 +53,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR yellow][makelist.param2][/COLOR ][/B] </title>
+<title>[B][COLOR yellow][makelist.param2][/COLOR][/B] </title>
 <link>http://dl.melimedia.net/mersad/movie/95/[makelist2.param1]/[makelist.param1]</link>
 ]]></listrepeat>
 <expres>href="(.*?mkv)">(.*?\dp)</expres>
