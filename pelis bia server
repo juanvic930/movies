@@ -1,57 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>[B][COLOR  yellow]TVSHOWS[/COLOR][/B]</title>
+<link>ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
+</item>
+
+
+
 
 <item><title>[B][COLOR  yellow]MOVIES   melimedia.net[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/melimedia</externallink>
 </item>
-
-
-
-
-<item>
-<title>[COLOR dodgerblue][B]TV SHOWS   melimedia.net[/B] [/COLOR]</title>
-<link>$doregex[makelist3]</link>
-
-<regex>
-<name>makelist3</name>
-<listrepeat><![CDATA[
-<title>[COLOR yellow] [makelist3.param2] [/COLOR] </title>
-<link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
-<page>http://dl3.melimedia.net/mersad/serial/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[makelist2.param2]/</title>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?\/)]]></expres>
-<page>http://dl3.melimedia.net/mersad/serial/[makelist3.param1]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title> [COLORyellow][makelist.param2][/COLOR]</title>
-<link>http://dl3.melimedia.net/mersad/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?720p)]]></expres>
-<page>http://dl3.melimedia.net/mersad/serial/[makelist3.param1][makelist2.param2]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
- <thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
 
 
 
@@ -64,7 +25,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]JAMES BOND MOVIE COLLECTION[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]JAMES BOND MOVIE COLLECTION[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -100,7 +61,7 @@
 
 
 
-<item><title>[B][COLOR  dodgerblue]ADULT ZONE[/COLOR][/B]</title>
+<item><title>[B][COLOR  yellow]ADULT ZONE[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/PORN/ADULT%20ZONE</externallink>
 </item>
@@ -124,7 +85,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]TU-V2[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]TU-V2[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -157,7 +118,7 @@
 
 
 
-<item><title>[B][COLOR  dodgerblue]MOVIES.IR[/COLOR][/B]</title>
+<item><title>[B][COLOR  yellow]MOVIES.IR[/COLOR][/B]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dl.smovies.ir</externallink>
 </item>
@@ -171,23 +132,15 @@
 
 
 
-<item><title>[B][COLOR  dodgerblue] IPTV server 1[/COLOR][/B] </title>
+<item><title>[B][COLOR  yellow] IPTV server 1[/COLOR][/B] </title>
 <link>http://Ignoreme</link>
 <externallink>http://autoiptv.net/playlist.php</externallink>
 </item>
 
 
 
-<item>
-<title>[B][COLOR  yellow]TV SHOWS 1[/COLOR][/B]</title>
-<link>ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
-</item>
-
-
-
 <item> 
-<title>[COLOR dodgerblue][B]CINEVALL[/B] [/COLOR][COLOR dodgerblue]  ESTRENOS  Audio Latino[/COLOR]  </title>
+<title>[COLOR yellow][B]CINEVALL[/B] [/COLOR][COLOR dodgerblue]  ESTRENOS  Audio Latino[/COLOR]  </title>
 <link>$doregex[makelist3]</link>
  
 <regex>
@@ -272,7 +225,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]MOVIES ES(dl2)[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]MOVIES ES(dl2)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -297,7 +250,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]MOVIES[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]MOVIES[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/movies.m3u</externallink>
 <thumbnail></thumbnail>
@@ -314,7 +267,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue] FREEWORLD[/COLOR][/B]</title>
+<title>[B][COLOR  yellow] FREEWORLD[/COLOR][/B]</title>
 <link>ignoreme</link>
 <externallink>http://legionworldtv.com/master/movies/freeworld.xml</externallink>
 </item>
@@ -330,7 +283,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]MY-FILM.ORG[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]MY-FILM.ORG[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
 <name>hd</name>
@@ -366,7 +319,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]VAIOMUSIC.ORG[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]VAIOMUSIC.ORG[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -400,7 +353,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue]DL3.MIHANPIX[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]DL3.MIHANPIX[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -434,7 +387,7 @@
 
 
 <item>
-<title>[B][COLOR dodgerblue]DL5.DOWNLOAD[/COLOR][/B]</title>
+<title>[B][COLOR yellow]DL5.DOWNLOAD[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
  
 <regex>
@@ -500,51 +453,6 @@
 
 
 <item>
-<title>[COLOR dodgerblue][B]TVSHOWS 2[/B] [/COLOR]</title>
-<link>$doregex[makelist3]</link>
-
-<regex>
-<name>makelist3</name>
-<listrepeat><![CDATA[
-<title>[COLOR white] [makelist3.param2] [/COLOR] </title>
-<link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
-<page>http://dl.my-film.in/serial/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[makelist2.param2] </title>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
-<page>http://dl.my-film.in/serial/[makelist3.param1]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title> [makelist.param2]</title>
-<link>http://dl.my-film.in/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
-]]></listrepeat>
-<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
-<page>http://dl.my-film.in/serial/[makelist3.param1][makelist2.param2]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
- <thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-
-<item>
 <title>[B][COLOR  yellow]Movies Collection 1(720p|1080p)[/COLOR][/B]</title>
 <link>$doregex[hd]</link>
 <regex>
@@ -563,7 +471,7 @@
 
 
 <item>
-<title>[B][COLOR  dodgerblue] MOVIES.DLFILE2[/COLOR][/B]</title>
+<title>[B][COLOR  yellow] MOVIES.DLFILE2[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
