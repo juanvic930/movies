@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR yellow][B]TV SHOWS[/B] [/COLOR]</title>
+<title>[COLOR yellow][B]TV SHOWS   download.net[/B] [/COLOR]</title>
 <link>$doregex[makelist3]</link>
 
 <regex>
@@ -44,33 +44,92 @@
 </item>
 
 
+
 <item>
-<title>[B][COLOR white]SALVATION[/COLOR][/B]</title>
+<title>[COLOR yellow][B]TV SHOWS   melimedia.net[/B] [/COLOR]</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow] [makelist3.param2] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
- 
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)<]]></expres>
+<page>http://dl3.melimedia.net/mersad/serial/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR blue] [makelist2.param2][/COLOR][/B] </title>
+<title>[makelist2.param2]/</title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?\/)<</expres>
-<page>http://www.walk4help.de/dl3/S/Salvation/S01/</page>
+<expres><![CDATA[href="(.*?)">(.*?\/)]]></expres>
+<page>http://dl3.melimedia.net/mersad/serial/[makelist3.param1]</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
- 
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2] </title>
-<link>http://www.walk4help.de/dl3/S/Salvation/S01/[makelist2.param1]/[makelist.param1]</link>
+<title> [COLORyellow][makelist.param2][/COLOR]</title>
+<link>http://dl3.melimedia.net/mersad/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?\/)</expres>
-<page>http://www.walk4help.de/dl3/S/Salvation/S01/[makelist2.param1]/</page>
+<expres><![CDATA[href="(.*?)">(.*?720p)]]></expres>
+<page>http://dl3.melimedia.net/mersad/serial/[makelist3.param1][makelist2.param2]</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
+ <thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR dodgerblue][B]TVSHOWS  my-film.in[/B] [/COLOR]</title>
+<link>$doregex[makelist3]</link>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[COLOR white] [makelist3.param2] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
+<page>http://dl.my-film.in/serial/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2] </title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
+<page>http://dl.my-film.in/serial/[makelist3.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title> [makelist.param2]</title>
+<link>http://dl.my-film.in/serial/[makelist3.param1][makelist2.param2][makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[td><a href="(.*?)">(.*?)<]]></expres>
+<page>http://dl.my-film.in/serial/[makelist3.param1][makelist2.param2]</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
