@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <plugin>
-<title>[B][COLOR  yellow]TVSHOWS[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]test[/COLOR][/B]</title>
 <link>http://www.walk4help.de/dl4/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </plugin>
 
 
