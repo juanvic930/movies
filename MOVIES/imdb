@@ -1,0 +1,478 @@
+<item>
+<title>Most Popular This Week</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param1][/B]: [makelist.param2]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param4]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param1]</title>
+        <year>[makelist.param2]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    u = client.request('http://www.nzbmovieseeker.com/Toplists/')
+    e = re.findall('(?s)class="release-wrapper">.+?f="[^"]*.+?>([^\(]*)\(([^\)]*).+?bar" id="([^"]*).+?img src="([^"]*)', u)
+    e = [(i[0],i[1],'tt'+i[2],i[3]) for i in e]
+    return e
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<title>Most Popular This Month</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param1][/B]: [makelist.param2]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param4]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param1]</title>
+        <year>[makelist.param2]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    u = client.request('http://www.nzbmovieseeker.com/Toplists/Downloads/Month/')
+    e = re.findall('(?s)class="release-wrapper">.+?f="[^"]*.+?>([^\(]*)\(([^\)]*).+?bar" id="([^"]*).+?img src="([^"]*)', u)
+    e = [(i[0],i[1],'tt'+i[2],i[3]) for i in e]
+    return e
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Most Popular This Year</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param1][/B]: [makelist.param2]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param4]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param1]</title>
+        <year>[makelist.param2]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    u = client.request('http://www.nzbmovieseeker.com/Toplists/Downloads/Year/')
+    e = re.findall('(?s)class="release-wrapper">.+?f="[^"]*.+?>([^\(]*)\(([^\)]*).+?bar" id="([^"]*).+?img src="([^"]*)', u)
+    e = [(i[0],i[1],'tt'+i[2],i[3]) for i in e]
+    return e
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>IMDB Top 200+</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param3][/B] [makelist.param4]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param2]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param1]</imdb>
+        <title>[makelist.param4]</title>
+        <year>[makelist.param5]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    u = client.request('http://m.imdb.com/chart/top?ref_=m_nv_ch_250')
+    e = re.findall('(?s)class="media">.+?tconst="([^"]*).+?src-x2="([^"]*).+?unbold">([^<]*).+?\n([^\n]*).+?unbold">\(([^\)]*)', u)
+    return e
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Top User Rated</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param3][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param2]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param1]</imdb>
+        <title>[makelist.param3]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    u = client.request('http://m.imdb.com/chart/moviemeter?sort=ur,desc&page=1')
+    e = re.findall('(?s)media">.+?tconst="([^"]*).+?src-x2="([^"]*).+?h[0-9]>\s*([^<]*).+?">\(([^\)]*)', u)
+    return e
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Top Rated Indian Movies</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param2][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param1]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param2]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = client.request('http://www.imdb.com/india/top-rated-indian-movies/?ref_=nv_mv_250_in_7')
+    express = re.findall('(?s)class="posterColumn">.+?src="(.+?)".+?" >(.+?)<.+?secondaryInfo">(.+?)<.+?data-titleid="(.+?)"', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Top Rated Movies</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param2][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param1]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param2]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = client.request('http://www.imdb.com/chart/top')
+    express = re.findall('(?s)class="posterColumn">.+?src="(.+?)".+?" >(.+?)<.+?secondaryInfo">(.+?)<.+?data-titleid="(.+?)"', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Most Popular Movies</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param2][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param1]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param2]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = client.request('http://www.imdb.com/chart/moviemeter')
+    express = re.findall('(?s)class="posterColumn">.+?src="(.+?)".+?" >(.+?)<.+?secondaryInfo">(.+?)<.+?data-titleid="(.+?)"', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Top 60 Horror Movies [B](2014-2017)[/B]</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param3][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param2]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param1]</imdb>
+        <title>[makelist.param3]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = client.request('http://www.imdb.com/list/ls066928396/')
+    express = re.findall('(?s)class="image">.+?data-const="(.+?)".+?src="(.+?)".+?"    >(.+?)<.+?type">(.+?)<', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>Top 100 Horror Movies [B](2000-2016)[/B]</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param3][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param2]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param1]</imdb>
+        <title>[makelist.param3]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = client.request('http://www.imdb.com/list/ls059633855/')
+    express = re.findall('(?s)class="image">.+?data-const="(.+?)".+?src="(.+?)".+?"    >(.+?)<.+?type">(.+?)<', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[B]Most Popular Horror Feature Films[/B]</title>
+<thumbnail>http://phoenixtv.offshorepastebin.com/art/tv/phoenixmoviestoprated.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param1][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param2]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param3]</imdb>
+        <title>[makelist.param1]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = ''
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=2&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=3&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=4&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=5&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=6&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=7&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=8&ref_=adv_nxt')
+    url += client.request('http://www.imdb.com/search/title?genres=horror&title_type=feature&sort=moviemeter,asc&page=9&ref_=adv_nxt')
+    express = re.findall('(?s)class="lister-item-image float-left">.+?alt="(.+?)".+?loadlate="(.+?)".+?data-tconst="(.+?)".+?unbold">(.+?)<', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[B]The Greatest Crime/Gangster Films
+by BA-Baracus[/B]</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param2][/B] [B][makelist.param5][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param3]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param1]</imdb>
+        <title>[makelist.param2]</title>
+        <year>[makelist.param5]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = ''
+    url += client.request('http://m.imdb.com/list/title/ls000052030/')
+    url += client.request('http://m.imdb.com/list/title/ls000052030/?page=2&sort=list_order,asc&mode=detail&ref_=m_ls_nxt#main')
+    url += client.request('http://m.imdb.com/list/title/ls000052030/?page=3&sort=list_order,asc&mode=detail&ref_=m_ls_nxt#main')
+    express = re.findall('(?s)class="media".+?data-tconst="(.+?)".+?alt="(.+?)".+?data-src-x2="(.+?)".+?h4 unbold">(.+?)<.+?nowrap">(.+?)<', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<dir>
+<name>Community IMDB</name>
+<link>https://pastebin.com/raw/n2h6hez6</link>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+</dir>
+
+<dir>
+<name>Movie Boxsets</name>
+<link>https://pastebin.com/raw/7YjPGxYT</link>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+</dir>
+
+<dir>
+<name>Genres</name>
+<link>https://pastebin.com/raw/FCswMpUu</link>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+</dir>
+
+<dir>
+<name>Years</name>
+<link>https://pastebin.com/raw/AT50PrhX</link>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+</dir>
+
+<item>
+<title>Classics 1900s-1960s</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    u = client.request('https://free-classic-movies.com/')
+    e = re.findall('<li>.+?f="([^"]*).+?>([^<]*)', u)
+    checks = ['1910s','1920s','1930s','1940s','1950s','1960s']; c =[]
+    for i in e:
+        if any(f for f in checks if f in i[0]): c.append((i[0],i[1]))
+    return c
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+        <title>[B][makelist2.param1][makelist2.param3][/B] </title>
+        <link>[makelist2.param2]$doregex[makelist3]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    url = client.request('[makelist.param1]')
+    express = re.findall('class="month">([^<]*).+?="([^"]*)">([^<]*)', url)
+    express = [([i[0],'https:'+i[1].replace('index.php',''),i[2]]) for i in express]
+    return express
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>makelist3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    url = client.request('[makelist2.param2]index.php')
+    express = re.findall('file: \'([^\']*)', url)[0]
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
