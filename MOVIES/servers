@@ -1,0 +1,169 @@
+<item>
+<title>vexmovies.org - New Movies</title>
+<link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param3] : [makelist.param4]</title>
+        <link>$doregex[makelist2]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+    url = 'http://vexmovies.org/release-year/2017/page/'
+    u = []
+    for i in range(1, 10): u += [url + str(i)]
+    u = cache.get(page().run, 24, u)
+    express = re.findall('(?s)"item">.+?f="([^"]*).+?c="([^"]*)" alt="([^"]*).+?calidad2">([^<]*)', u)
+    return  express
+]]></expres>
+<page></page>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param2]</title>
+        <link>[makelist2.param1]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re, urllib, xbmc, xbmcgui
+    url = '[makelist.param1]'
+    from resources.lib.modules import control
+    bennuresolver = control.cdnImport('https://pastebin.com/raw/SQTrqhdx', 'bennuresolver')
+    bennuresolver = bennuresolver.streamer()
+    url = bennuresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>Mintmovies.to - Latest</title>
+<link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[makelist2]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+    url = 'https://www.mintmovies.to/category/movie/page/'
+    u = []
+    for i in range(1, 11): u += [url + str(i) + '/?filtre=date']
+    u = cache.get(page().run, 24, u)
+    express = re.findall('(?s)<li class="border-radius-.+?c="([^"]*).+?e="([^"]*).+?f="([^"]*)', u)
+    express = [(i[0],i[1],i[2]) for i in express]
+    return  express
+]]></expres>
+<page></page>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param2]</title>
+        <link>[makelist2.param1]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re, urllib, xbmc, xbmcgui
+    url = '[makelist.param3]'
+    from resources.lib.modules import control
+    bennuresolver = control.cdnImport('https://pastebin.com/raw/SQTrqhdx', 'bennuresolver')
+    bennuresolver = bennuresolver.streamer()
+    url = bennuresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>losmovies.cc - Popular</title>
+<link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param3]:[B][makelist.param4][/B]</title>
+        <link>$doregex[makelist2]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+    url = 'http://losmovies.cc/?page='
+    u = []
+    for i in range(1, 6): u += [url + str(i)]
+    u = cache.get(page().run, 24, u)
+    express = re.findall('(?s)class="movieInfo">.+?f="([^"]*).+?c="([^"]*).+?Text">([^<]*).+?Quality.+?">.+?\s+([^\s]*)', u)
+    express = [('http://losmovies.cc'+i[0],i[1],i[2],i[3]) for i in express]
+    return  express
+]]></expres>
+<page></page>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param2]</title>
+        <link>[makelist2.param1]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re, urllib, xbmc, xbmcgui
+    url = '[makelist.param1]'
+    from resources.lib.modules import control
+    bennuresolver = control.cdnImport('https://pastebin.com/raw/SQTrqhdx', 'bennuresolver')
+    bennuresolver = bennuresolver.streamer()
+    url = bennuresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
