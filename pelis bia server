@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<plugin>
-<title>[B][COLOR  yellow]test[/COLOR][/B]</title>
-<link>http://www.walk4help.de/dl4/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
+<item>
+<title>[B]Top Movies [/B]</title>
+<thumbnail>http://i.imgur.com/wp8b5Np.png</thumbnail>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][makelist.param3][/B]</title>
+        <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+        <thumbnail>[makelist.param2]</thumbnail>
+        </link>
+        <meta>
+        <content>movie</content>
+        <imdb>[makelist.param1]</imdb>
+        <title>[makelist.param3]</title>
+        <year>[makelist.param4]</year>
+        </meta>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re,urllib
+    url = client.request('http://www.imdb.com/list/ur56871734/')
+    express = re.findall('(?s)class="image">.+?data-const="(.+?)".+?src="(.+?)".+?"    >(.+?)<.+?type">(.+?)<', url)
+    return express
+]]></expres>
+<page></page>
+</regex>
+</item>
+
 
 
 <item>
