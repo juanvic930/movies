@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>externallink</title>
+<link>ignoreme</link>
+<externallink>http://104.245.96.214:8000/get.php?username=feria&password=feria&type=m3u&amp;output=ts$$TSDOWNLOADER$$</externallink>
+</item>
+
 
 <item>
 <title>externallink</title>
