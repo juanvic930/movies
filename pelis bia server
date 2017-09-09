@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<stream>
-<item>
-<title>NAT GEO WILD</title>
-<link><link>plugin://plugin.video.f4mTester/?url=http://104.245.96.214:8000/live/feria/feria/10.ts&amp;streamtype=TSDOWNLOADER&amp;name=[COLOR green]VIC[/COLOR]</link>
-<thumbnail></thumbnail>
-</item>
-</stream>
+
 
 <item>
 <title>externallink</title>
 <link>ignoreme</link>
-<externallink>http://server.org:8000/get.php?username=abcdefg&amp;password=123456&amp;type=m3u&amp;output=ts$$TSDOWNLOADER$$</externallink>
+<externallink>http://104.245.96.214:8000/get.php?username=feria&password=feria&type=m3u&amp;output=ts$$TSDOWNLOADER$$</externallink>
 </item>
 
 
