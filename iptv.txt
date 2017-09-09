@@ -1,7 +1,15 @@
 Server:"1 [COLOR yellow](ES)[/COLOR]" URL="http://163.172.52.83:8000/get.php?username=59hkV7fNS2U&password=21g2yiAUkP4&type=m3u
 Server:"2 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=negro&password=negro&type=m3u
-Server:"3 [COLOR yellow](ES-LA)[/COLOR]" URL="http://192.99.148.73:8080/get.php?username=rolha&password=rolha&type=m3u
-Server:"4 [COLOR yellow](ES)[/COLOR]" URL="http://158.69.52.43/listas/get.php?user=DEMOPRUEBA&pass=DEMOPRUEBA&adult=true&movie=true&type=m3u
-
-
-http://192.99.148.73:8080/live/rolha/0605/
+Server:"3 [COLOR yellow](ES-LA)[/COLOR]" URL="http://163.172.217.107:1944/get.php?username=7&password=zf8TH5W6jb&type=m3u
+Server:"4 [COLOR yellow](ES-LA)[/COLOR]" URL="http://194.88.105.20:8080/get.php?username=natalia&password=natalia&type=m3u
+Server:"5 [COLOR yellow](ES-LA)[/COLOR]" URL="http://isriptv.com:25461/get.php?username=dhadora12@gmail.com&password=xk3JE0Tqkt&type=m3u
+Server:"6 [COLOR yellow](ES-LA)[/COLOR]" URL="http://thepk.co:2095/get.php?username=racecar1&password=racecar1&type=m3u
+Server:"7 [COLOR yellow](ES-LA)[/COLOR]" URL="http://93.190.141.131:8000/get.php?username=burns&password=burns&type=m3u
+Server:"8 [COLOR yellow](ES-LA)[/COLOR]" URL="http://ip156.ip-193-70-116.eu:8080/get.php?username=aliguner1&password=fIZgJmqKp2&type=m3u
+Server:"9 [COLOR yellow](ES-LA)[/COLOR]" URL="http://5.135.232.194:8080/get.php?username=run259&password=LiRdslrtAU&type=m3u
+Server:"10 [COLOR yellow](ES-LA)[/COLOR]" URL="http://src1.56473src.com:8080/get.php?username=run259&password=LiRdslrtAU&type=m3u
+Server:"11 [COLOR yellow](ES-LA)[/COLOR]" URL="http://193.70.116.156:8080/get.php?username=aliguner1&password=fIZgJmqKp2&type=m3u
+Server:"12 [COLOR yellow](ES-LA)[/COLOR]" URL="http://185.71.66.54:15004/get.php?username=uXtRy5ajvS&password=0kS3oQo2vJ&type=m3u
+Server:"13 [COLOR yellow](ES-LA)[/COLOR]" URL="
+Server:"14 [COLOR yellow](ES-LA)[/COLOR]" URL="
+Server:"15 [COLOR yellow](ES-LA)[/COLOR]" URL="
