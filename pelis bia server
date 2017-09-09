@@ -12,7 +12,7 @@
  <thumbnail></thumbnail>
  ]]></listrepeat>
 <expres>Server:"(.*?)"[\w\W\s]{0,6}http:\/\/(.*?)\/g[\w\W\s]{0,11}name=(.*?)&amp;password=(.*?)&amp;t</expres>
-<page>http://adryanlist.org/adryan/servers.txt</page>
+<page>https://raw.githubusercontent.com/juanvic930/movies/master/iptv.txt</page>
 </regex>
 <regex>
 <name>makelist2</name>
