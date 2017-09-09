@@ -1,15 +1,23 @@
-Server:"1 [COLOR yellow](ES)[/COLOR]" URL="http://163.172.52.83:8000/get.php?username=59hkV7fNS2U&password=21g2yiAUkP4&type=m3u
-Server:"2 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=negro&password=negro&type=m3u
-Server:"3 [COLOR yellow](ES-LA)[/COLOR]" URL="http://163.172.217.107:1944/get.php?username=7&password=zf8TH5W6jb&type=m3u
-Server:"4 [COLOR yellow](ES-LA)[/COLOR]" URL="http://194.88.105.20:8080/get.php?username=natalia&password=natalia&type=m3u
-Server:"5 [COLOR yellow](ES-LA)[/COLOR]" URL="http://isriptv.com:25461/get.php?username=dhadora12@gmail.com&password=xk3JE0Tqkt&type=m3u
-Server:"6 [COLOR yellow](ES-LA)[/COLOR]" URL="http://thepk.co:2095/get.php?username=racecar1&password=racecar1&type=m3u
-Server:"7 [COLOR yellow](ES-LA)[/COLOR]" URL="http://93.190.141.131:8000/get.php?username=burns&password=burns&type=m3u
-Server:"8 [COLOR yellow](ES-LA)[/COLOR]" URL="http://ip156.ip-193-70-116.eu:8080/get.php?username=aliguner1&password=fIZgJmqKp2&type=m3u
-Server:"9 [COLOR yellow](ES-LA)[/COLOR]" URL="http://5.135.232.194:8080/get.php?username=run259&password=LiRdslrtAU&type=m3u
-Server:"10 [COLOR yellow](ES-LA)[/COLOR]" URL="http://src1.56473src.com:8080/get.php?username=run259&password=LiRdslrtAU&type=m3u
-Server:"11 [COLOR yellow](ES-LA)[/COLOR]" URL="http://193.70.116.156:8080/get.php?username=aliguner1&password=fIZgJmqKp2&type=m3u
-Server:"12 [COLOR yellow](ES-LA)[/COLOR]" URL="http://185.71.66.54:15004/get.php?username=uXtRy5ajvS&password=0kS3oQo2vJ&type=m3u
-Server:"13 [COLOR yellow](ES-LA)[/COLOR]" URL="
-Server:"14 [COLOR yellow](ES-LA)[/COLOR]" URL="
-Server:"15 [COLOR yellow](ES-LA)[/COLOR]" URL="
+Server:"1 [COLOR yellow](ES)[/COLOR]" URL="http://maxtvv.abdou123.com:9300/get.php?username=Tttt&password=zNJ6ZXhjuc&type=m3u
+
+Server:"2 [COLOR yellow](ES)[/COLOR]" URL="http://ns506448.ip-192-99-148.net:8080/get.php?username=rolha&password=0605&type=m3u 
+
+Server:"3 [COLOR yellow](ES)[/COLOR]" URL="http://194.88.105.20:8080/get.php?username=julia&password=julia&type=m3u
+
+Server:"4 [COLOR yellow](ES)[/COLOR]" URL="http://46.105.119.223:8000/get.php?username=hasanturan&password=turan&type=m3u
+
+Server:"5 [COLOR yellow](ES)[/COLOR]" URL="http://192.99.148.73:8080/get.php?username=rolha&password=0605&type=m3u
+
+Server:"6 [COLOR yellow](ES)[/COLOR]" URL="http://194.88.105.20:8080/get.php?username=teste3&password=teste3&type=m3u
+
+Server:"7 [COLOR yellow](ES)[/COLOR]" URL="http://149.202.199.11:8181/get.php?username=emrah&password=emrah&type=m3u
+
+Server:"8 [COLOR yellow](ES)[/COLOR]" URL="http://geantiptv.ddns.net:61555/get.php?username=geantsat.com-5628&password=03-09fggffgcy2017&type=m3u
+
+Server:"9 [COLOR yellow](ES)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=aaa&password=aaa&type=m3u
+
+Server:"10 [COLOR yellow](ES)[/COLOR]" URL="http://194.88.107.30:25461/get.php?username=dhadora12@gmail.com&password=xk3JE0Tqkt&type=m3u
+
+Server:"11 [COLOR yellow](ES)[/COLOR]" URL="http://83.55.184.246:9981/playlist
+
+Server:"12 [COLOR yellow](ES)[/COLOR]" URL="http://92.244.233.58:8000/playlist.m3u8
