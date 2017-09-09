@@ -1,4 +1,4 @@
 Server:"1 [COLOR yellow](ES)[/COLOR]" URL="http://163.172.52.83:8000/get.php?username=59hkV7fNS2U&password=21g2yiAUkP4&type=m3u
 Server:"2 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=negro&password=negro&type=m3u
-Server:"3 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=negro&password=negro&type=m3u
+Server:"3 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=DEMOPRUEBA&password=DEMOPRUEBA&type=m3u
 Server:"4 [COLOR yellow](ES)[/COLOR]" URL="http://158.69.52.43/listas/get.php?user=DEMOPRUEBA&pass=DEMOPRUEBA&adult=true&movie=true&type=m3u
