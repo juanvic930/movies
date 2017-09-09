@@ -1,0 +1,3 @@
+Server:"1 [COLOR yellow](ES)[/COLOR]" URL="http://163.172.52.83:8000/get.php?username=59hkV7fNS2U&password=21g2yiAUkP4&type=m3u
+Server:"2 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=feria&password=feria&type=m3u
+Server:"3 [COLOR yellow](ES-LA)[/COLOR]" URL="http://104.245.96.214:8000/get.php?username=hermes&password=hermes&type=m3u&output
