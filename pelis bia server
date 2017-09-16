@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>BOX</title>
+<link>ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/box</externallink>
+</item>
+
+
+<item>
 <title>[COLOR yellow][B] SERVERS  IPTV[/B] [/COLOR]</title>
 <link>$doregex[makelist3]</link>
 <regex>
