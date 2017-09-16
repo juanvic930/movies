@@ -40,7 +40,7 @@
 <item>
 <title>externallink</title>
 <link>ignoreme</link>
-<externallink>http://104.245.96.214:8000/get.php?username=feria&password=feria&type=m3u&amp;output=ts$$TSDOWNLOADER$$</externallink>
+<externallink>http://www.tbs-tv.com:25461/get.php?username=home&password=home&type=m3u&amp;output=ts$$TSDOWNLOADER$$</externallink>
 </item>
 
 
