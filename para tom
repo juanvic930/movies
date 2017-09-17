@@ -1,41 +1,36 @@
-<item>
-<title>[B][COLOR  yellow]MOVIES[/COLOR][/B]</title>
-<link>ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dirmovies</externallink>
-</item>
 
-<item>
-<title>[B][COLOR  yellow]TVSHOWS[/COLOR][/B]</title>
-<link>ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</externallink>
-</item>
+<dir>
+<name>[COLOR yellow][B]MOVIES[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/dirmovies</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
-<item>
-<title>[B][COLOR  yellow]MOVIES 2[/COLOR][/B]</title>
-<link>https://raw.githubusercontent.com/juanvic930/movies/master/box</link>
-</item>
+<dir>
+<name>[COLOR yellow][B]TV SHOWS[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/IN%20PROGRESS</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
-<item>
-<title>[B][COLOR  yellow]MUSIC VIDEOS[/COLOR][/B]</title>
-<link>ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/pelis%20bia%20server</externallink>
-</item>
+<dir>
+<name>[COLOR yellow][B]MOVIES 2[/B][/COLOR]</name>
+<link>https://github.com/juanvic930/movies/blob/master/pelis%20bia%20server</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
-<item>
-<title>[B][COLOR  yellow]TOM[/COLOR][/B]</title>
-<link>ignoreme</link>
-<externallink>https://pastebin.com/raw/xLgE2TgN</externallink>
-</item>
+<dir>
+<name>[COLOR yellow][B]MUSIC VIDEOS[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/vieos%20de%20musica</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
-item>
-<title>BOX</title>
-<link>ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/box</externallink>
-</item>
-
-item>
-<title>BOX</title>
-<link>ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/box</externallink>
-</item>
+<dir>
+<name>[COLOR yellow][B]tom[/B][/COLOR]</name>
+<link>https://pastebin.com/raw/xLgE2TgN</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
