@@ -2,7 +2,7 @@
 
 <plugin>
 <title>[COLOR lime]mexicana[/COLOR]</title>
-<link>plugin://plugin.video.youtube/channel/UCBB5iiT4wElEH4vse4siklw/playlist/PLmRj3qozIPE6N67HeyKJwmaa5sXe7-vq8&disable_pol/</link>
+<link>plugin://plugin.video.youtube/channel/UCBB5iiT4wElEH4vse4siklw/playlist/PLmRj3qozIPE6N67HeyKJwmaa5sXe7-vq8/</link>
 <thumbnail>http://cdn8.staztic.com/app/a/2647/2647516/spanish-songs-1-0-s-307x512.jpg</thumbnail>
 <fanart>https://i.ytimg.com/vi/UogNgeSlJ-A/maxresdefault.jpg</fanart>
 </plugin>
