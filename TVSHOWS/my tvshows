@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
+
+
+<plugin>
+<title>[B][COLOR  yellow]playurbanomp3.com[/COLOR][/B]</title>
+<link>http://playurbanomp3.com/Videos/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
 <plugin>
 <title>[B][COLOR  yellow]downloadoo.site[/COLOR][/B]</title>
 <link>http://dl3.downloadoo.site/Tvshow/</link>
