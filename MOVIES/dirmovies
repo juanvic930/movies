@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
+ <plugin>
+<title>[B][COLOR  yellow]playurbanomp3.com[/COLOR][/B]</title>
+<link>http://playurbanomp3.com/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+ 
 <plugin>
 <title>[B][COLOR  yellow]dlfile.pro[/COLOR][/B]</title>
 <link>http://dl.dlfile.pro/2/</link>
