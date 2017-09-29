@@ -35,6 +35,13 @@
 <fanart></fanart>
 </plugin>
 
+<plugin>
+<title>[B][COLOR  yellow]sv4avadl.uploadet.ir[/COLOR][/B]</title>
+<link>http://sv4avadl.uploadet.ir/Serial/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
 dir>
 <name>The Blacklist</name>
 <thumbnail>http://thetvdb.com/banners/posters/266189-14.jpg</thumbnail>
