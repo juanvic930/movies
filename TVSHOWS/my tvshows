@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>[B][COLOR  white]MY TVSHOWS 1[/COLOR][/B]</title>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/tomtvshows</externallink>
-</item>
+<dir>
+<name>[COLOR yellow][B]TEST 1[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/movies/master/TVSHOWS/tomtvshows</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
 <plugin>
 <title>[B][COLOR  yellow]MY TVSHOWS[/COLOR][/B]</title>
