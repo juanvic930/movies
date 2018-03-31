@@ -1,3 +1,30 @@
+<dir>
+<name>The Blacklist</name>
+<thumbnail>http://thetvdb.com/banners/posters/266189-14.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/266189-7.jpg</fanart>
+<meta>
+<content>tvshow</content>
+<imdb>tt2741602</imdb>
+<tvdb>266189</tvdb>
+<tvshowtitle>The Blacklist</tvshowtitle>
+<year>2013</year>
+</meta>
+<link>-</link>
+</dir>
+
+dir>
+<name>Billions</name>
+<thumbnail>http://thetvdb.com/banners/posters/266189-14.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/266189-7.jpg</fanart>
+<meta>
+<content>tvshow</content>
+<imdb>tt4270492</imdb>
+<tvdb>279536</tvdb>
+<tvshowtitle>Billions</tvshowtitle>
+<year>2016</year>
+</meta>
+<link>-</link>
+</dir>
 
 <item>
 <title>Billions</title>
