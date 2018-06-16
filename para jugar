@@ -3,6 +3,33 @@
 <![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]>
 
 <item>
+<title>http://www.socceron.md/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2]</title>
+  <link>$doregex[getUrl]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)".class=".*\n(?:.*2">|.*?)(\w.*?)</span]]></expres>
+<page>http://www.socceron.md/framev.htm</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m,purl='http://www.socceron.md/'):
+  link=re.findall('iframe.src=[\'"]([^\'"]+)',requests.get(purl+re.findall('iframe.src=[\'"](?:.*?md/|)([^\'"]+)',page_data)[0]).text)[0]
+  if 'streamango' in link:
+    return urlresolver.resolve(link)
+  else:
+    return re.findall('source.*?[\'"]([^\'"]+)',requests.get(purl+link).text)[0]+'|User-Agent=VLC'
+]]></expres>
+<page>http://www.socceron.md/[makelist.param1]</page>
+</regex>
+</item>
+
+<item>
 <title>americatv</title>
 <link>https://dai.google.com/linear/hls/event/OY2i_lL4SMyXE5Zaj4ULEg/master.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Mobile Safari/537.36</link>
 </item>
