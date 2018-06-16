@@ -3,6 +3,15 @@
 <![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]>
 
 <item>
+<title>[B][COLOR red]LI[/COLOR][COLOR white]VE[/COLOR][COLOR crimson]  TV[/COLOR][COLOR lime]»»[/COLOR][COLOR white]V[/COLOR][/B]</title>
+<premium>True</premium>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=title%3diLive.to%2b%2528World%2bTV%2529%26url%3dcustoms%252Filive.to.cfg%26definedIn%3dcustoms.cfg%26director%3dilive.to%26genre%3dLive%2bTV%26type%3drss%26icon%3dC%253A%255CUsers%255CKevin%255CAppData%255CRoaming%255CKodi%255Caddons%255Cplugin.video.SportsDevil%255Cresources%255Cimages%255Cstreamlive.png&amp;mode=1</jsonrpc>
+<thumbnail>http://legionworldtv.com/goldentv/images/1.png</thumbnail>
+<fanart>http://legionworldtv.com/goldentv/images/F6.jpg</fanart>
+</item>
+
+<item>
 <title>Sports</title>
 <link>$doregex[makelist]</link>
 <regex>
