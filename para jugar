@@ -11,7 +11,7 @@
 <title>[COLOR yellow][makelist.param2] [/COLOR]</title>
 <link>http://dlst18.xyz/dl/vip/film/2018/[makelist.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)(?:720p)]]></expres>
 <page>http://dlst18.xyz/dl/vip/film/2018/</page>
 </regex>
 </item>
@@ -26,7 +26,7 @@
    <link>http://dlst18.xyz/dl/vip/film/2018/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)(?:720p|1080p)]]></expres>
 <page>http://dlst18.xyz/dl/vip/film/2018/</page>
 </regex>
 <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
