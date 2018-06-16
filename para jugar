@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<![CDATA[href="(.*?)">.*?<\/a>.*?:...(.*?) ]]>
+<![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p)]]>
+
+<item>
+<title>Sports</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>https://unblocked.lol/unblocked/logo2.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA["col-sm-3.*?href=(.*?).tar.*?>(.*?)<]]></expres>
+<page>https://unblocked.lol/tv</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return 'https://'+re.findall('<video[\w\W]*?src="//(.*?)"',page_data)[0]+'|User-Agent=iPad'
+]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+<thumbnail>https://unblocked.lol/unblocked/logo2.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>Cine En Espanol</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/juanvic930/movies/master/MOVIES/Cine%20En%20Espanol</externallink>
+</item>
+
+<item>
+<title>test2</title>
+<link>https://hls.ssh101.com/live/senal1/1527342959631.ts</link>
+</item>
+
+<item>
+<title>https://fr.onmovies.to/film/fOK/Anon?ep=22366</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>Server: [makelist.param5] ([makelist.param1])</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  list=re.findall('"ts"(?s)(.*)',page_data)[0].replace('\\','');return re.findall('title="(.*?)".*?data-id="(.*?)".*?"(\d+)".*?"(\d+)".*?"(.*?)".*?index="(\d+)"',list)
+]]></expres>
+<page>https://fr.onmovies.to/ajax/mep.php?id=$doregex[getmid]</page>
+<referer>https://fr.onmovies.to/film/fOK/Anon?ep=22366</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+<regex>
+<name>getts</name>
+<expres>"ts":"(.*?)"</expres>
+<page>https://fr.onmovies.to/ajax/mep.php?id=$doregex[getmid]</page>
+<referer>https://fr.onmovies.to/film/fOK/Anon?ep=22366</referer>
+<x-req>XMLHttpRequest</x-req>
+</regex>
+</regex>
+<regex>
+<name>getmid</name>
+<expres><![CDATA[so.php\?mid=(.*?)&]]></expres>
+<page>https://fr.onmovies.to/film/fOK/Anon?ep=22366</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+  source=requests.get('https://fr.onmovies.to/ajax/movie_embed.php?eid=[makelist.param2]&lid=undefined&ts=$doregex[getts]&up=0&mid=$doregex[getmid]&gid=g1V&epNr=[makelist.param3]&type=film&server=[makelist.param5]&epIndex=[makelist.param6]&so=[makelist.param4]&srvr=',headers={'Referer':'https://fr.onmovies.to/film/fOK/Anon?ep=[makelist.param2]','X-Requested-With':'XMLHttpRequest'}).text
+  return urlresolver.resolve(re.findall('"src":"(.*?)\?',source)[0].replace('\\',''))
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item><title>[COLOR cyan]fox-sports-premium[/COLOR]</title>
+<genre></genre><thumbnail></thumbnail><info></info>
+<link>$doregex[quote]</link>
+<regex><name>getPhp</name>
+<expres><![CDATA["GET", "(.*?)"]]></expres>
+<page>http://futbollibre.online/fox-sports-premium/player_embed.html</page>
+<cookieJar></cookieJar>
+</regex>
+<regex><name>getlink</name>
+<expres><![CDATA["fox-sports-premium":"(.*?)"]]></expres>
+<page>$doregex[getPhp]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>quote</name>
+<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+<page></page>
+</regex>
+</item>
+
+
+
+<item><title>[B][COLOR  yellow]TEH-MOVIES[/COLOR][/B]</title>
+<link>http://Ignoreme</link>
+<externallink>https://pastebin.com/raw/hw1296J4</externallink>
+</item>
+
+<item>
+<title>[B][COLOR  yellow]TIMEPASSBD[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
+<link>http://www.walk4help.de/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href=(.*?)">(.*?\/)<]]></expres>
+<page>http://www.walk4help.de/</page>
+</regex>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]MOVIES HD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl.tehmovies.com/94/11/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
+<page>http://dl.tehmovies.com/94/11/</page>
+</regex>
+<thumbnail>http://moviemogul.com/wp-content/uploads/2017/04/moviemogul-logo.png</thumbnail>
+</item>
+
+
+<item>
+<title>ESPN ES</title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/canal-1</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/canal-1</page>
+<referer>http://vipracing.info/channel/canal-1</referer>
+</regex>
+</item>
+
+<item>
+<title>FOXSPORTS1 EN</title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/fox1sport</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/fox1sport</page>
+<referer>http://vipracing.info/channel/fox1sport</referer>
+</regex>
+</item>
+
+<item>
+<title>ESPN1 EN</title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/espnusa</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/espnusa</page>
+<referer>http://vipracing.info/channel/espnusa</referer>
+</regex>
+</item>
+
+<item>
+<title>ESPN2 EN</title>
+<link>http://$doregex[url]|Referer=http://www.streamlive.to/</link>
+<regex>
+<name>url</name>
+<expres>file": "\/\/(.*?)"</expres>
+<page>https://www.streamlive.to/embedplayer_new2.php?width=653&amp;height=370&amp;channel=$doregex[channel]&amp;autoplay=true</page>
+<referer>http://vipracing.info/channel/espn2</referer>
+</regex>
+<regex>
+<name>channel</name>
+<expres>embed\/(.*?)\&</expres>
+<page>http://vipracing.info/channel/espn2</page>
+<referer>http://vipracing.info/channel/espn2</referer>
+</regex>
+</item>
