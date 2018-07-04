@@ -131,3 +131,26 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+<title>[COLOR white]Server [COLOR red]1[/COLOR]</title>
+    		
+<link>$doregex[encodedURL]|User-Agent=iPad</link>
+		<regex>
+		<name>encodedURL</name>
+		<expres><![CDATA[#$pyFunction
+import requests, re
+def GetLSProData(page_data,Cookie_Jar,m,url = 'hxxp://widestream.io/embed-
+
+24489'):
+ headers = {'User-Agent': 'Mozilla/5.0','Referer': ''}
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('file.*?[\'"]
+
+(h.*?wmsAuthSign.*?)[\'"]', source.text)[0]
+ return m3u8 + '|Referer=' + url
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<item>
+
