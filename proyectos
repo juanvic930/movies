@@ -1,0 +1,60 @@
+<item>
+<title>https://www.fullhdfilmizlesene.org/dram-filmleri-izle/kyra-nerede-where-is-kyra/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>Server [B][makelist.param3][/B]</title>
+   <link>$doregex[getUrl]</link>
+]]></listrepeat>
+<expres><![CDATA["vidid":"(\d+)"."name":"(.*?)"."nameTxt":"(.*?)".*?order":(\d+)]]></expres>
+<page>https://www.fullhdfilmizlesene.org/dram-filmleri-izle/kyra-nerede-where-is-kyra/</page>
+</regex>
+<regex>
+<name>data</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m,url='https://www.fullhdfilmizlesene.org/player/api.php?id=[makelist.param1]&type=t&name=[makelist.param2]&get=video&format=json'):#streamwatcher2013
+  data=re.findall('html":"([^"]+)',requests.get(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.fullhdfilmizlesene.org/dram-filmleri-izle/kyra-nerede-where-is-kyra/'}).content.decode('ascii','ignore'))[0]
+  return data
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>link</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,binascii
+def GetLSProData(page_data,Cookie_Jar,m,data='$doregex[data]'):
+  serv='[makelist.param3]'
+  hex=data.encode('hex');decode=binascii.a2b_hex(hex);html=re.findall('src=[\'"](h[^\'"]+)',decode)[0]
+  if 'Fast' in serv:
+    dta=re.findall('file.*?[\'"](.*?)[\'"]',requests.get(html,headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.fullhdfilmizlesene.org/dram-filmleri-izle/kyra-nerede-where-is-kyra/'}).content.decode('ascii','ignore'))[0]
+    hex2=dta.encode("hex");dcode=binascii.a2b_hex(hex2);return dcode
+  elif 'Rapid' in serv:
+    return re.findall('src=[\'"](.*?e/[^\'"]+)',requests.get(html,headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.fullhdfilmizlesene.org/dram-filmleri-izle/kyra-nerede-where-is-kyra/'}).content.decode('ascii','ignore'))[0]
+  else:
+    return re.findall('src=[\'"](.*?o(?:k.ru|load)[^\'"]+)',requests.get(html,headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.fullhdfilmizlesene.org/dram-filmleri-izle/kyra-nerede-where-is-kyra/'}).content.decode('ascii','ignore'))[0]
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urlresolver,binascii
+def GetLSProData(page_data,Cookie_Jar,m,url='$doregex[link]'):
+  if 'rapid' in url:
+    source=requests.get(url,headers={'User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore')
+    if '1080p' in source:
+      return re.findall('id="videojs".*?source.src=[\'"](.*?)[\'"]',requests.get(url+'&q=1080p',headers={'User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]
+    elif '720p' in source:
+      return re.findall('id="videojs".*?source.src=[\'"](.*?)[\'"]',requests.get(url+'&q=720p',headers={'User-Agent':'Mozilla/5.0'}).content.decode('ascii','ignore'))[0]
+  elif 'openload' in url:
+    return urlresolver.resolve(url)
+  elif 'ok.ru' in url:
+    return urlresolver.resolve(url)
+  else:
+    hex=url.encode('hex');dcode=binascii.a2b_hex(hex);return re.findall('(.*)',dcode)[0]
+]]></expres>
+<page></page>
+</regex>
+</item>
