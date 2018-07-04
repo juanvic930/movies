@@ -75,3 +75,43 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 </item>
+
+
+<item>
+<title>http://toplive.info/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param1][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  list=re.findall('table-filter">(?s)(.*?)</table',page_data)[0].replace('&#233;','é')
+  return re.findall('</i>.(.*?)</h4>[\w\W]*?href="([^"]+)',list)
+]]></expres>
+<page>http://toplive.info/</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  url='[makelist.param2]'
+  if 'http' in url:
+    link='http://toplive.info/'+url.replace('clap.php','embedclap.php')
+    return re.findall('Clappr.Player.*\n.*source: "([^"]+)',requests.get(link,headers={'User-Agent':'Mozilla/5.0','Referer':url}).content.decode('ascii','ignore'))[0]+'|User-Agent=Mozilla/5.0&Referer='+link
+  else:
+    link='http://toplive.info/'+re.findall('src="(embed[^"]+)',requests.get('http://toplive.info/%s'%url,headers={'User-Agent':'Mozilla/5.0','Referer':'http://toplive.info/'}).content.decode('ascii','ignore'))[0]
+    url=re.findall('iframe src=[\'"]([^\'"]+)',requests.get(link,headers={'User-Agent':'Mozilla/5.0','Referer':'http://toplive.info/'+url}).content.decode('ascii','ignore'))[0]
+    source=requests.get(url,headers={'User-Agent':'Mozilla/5.0','Referer':link}).content.decode('ascii','ignore')
+    pID=re.findall('(?:stream_url|file).*?(\w.*?)\(',source)[0];values=re.findall(r'%s.*\n.*\((\[.*?)\.join.*\+ (.*?)\.join.*ById\("(.*?)"'%pID,source)[0]
+    part1=''.join(eval(values[0])).replace('\\','').replace('wss','https');part2=re.findall('var %s = (.*?);'%values[1],source)[0];part2=''.join(eval(part2));part3=re.findall('id=%s>(.*?)<'%values[2],source)[0]
+    return '%s%s%s|Referer=%s&User-Agent=Mozilla/5.0'%(part1,part2,part3,url)
+]]></expres>
+<page></page>
+</regex>
+</item>
+
