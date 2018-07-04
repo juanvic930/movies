@@ -154,3 +154,4 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'hxxp://widestream.io/embed-
 </regex>
 <item>
 
+https://medcomgo-livestream.akamaized.net/medcom-stream/rpc-livetv/rpc-live/streamout2-270p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny80LzIwMTggNjowNDo1NSBQTSZoYXNoX3ZhbHVlPTNKL1Y1eEVVTkc0MmxFY1dnOGdKZmc9PSZ2YWxpZG1pbnV0ZXM9MzYw
