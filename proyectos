@@ -58,3 +58,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url='$doregex[link]'):
 <page></page>
 </regex>
 </item>
+
+
+<item>
+<title>[COLOR cyan]dynamo[/COLOR]</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64
+def GetLSProData(page_data,Cookie_Jar,m):
+  url=requests.get('https://www.dinamo.im/?tv=true',headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.dinamo.im/?tv=true'},allow_redirects=False).headers['Location']
+  link=re.findall('id="player"[\w\W]*?src="([^"]+)',requests.get(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.dinamo.im/?tv=true'}).content)[0]
+  return re.findall('source:"([^"]+)',base64.b64decode(re.findall('id="player"[\w\W]*?atob\("([^"]+)',requests.get(link,headers={'User-Agent':'Mozilla/5.0','Referer':url}).content)[0]))+'|User-Agent=iPad'
+]]></expres>
+<page></page>
+</regex>
+</item>
