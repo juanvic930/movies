@@ -3,7 +3,8 @@
 http://ultra.widestream.io:8081/wideedge/pawssfv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8zLzIwMTggOTo1OTowMCBQTSZoYXNoX3ZhbHVlPXk4SEl6KzdUQk13ZFNVclIxaGZ3NlE9PSZ2YWxpZG1pbnV0ZXM9MjA=
 #EXTINF:-1,Telemundo
 http://ultra.widestream.io:8081/wideedge/pawssfv/chunks.m3u8?nimblesessionid=53622933&wmsAuthSign=c2VydmVyX3RpbWU9OC8zLzIwMTggOTo1OTowMCBQTSZoYXNoX3ZhbHVlPXk4SEl6KzdUQk13ZFNVclIxaGZ3NlE9PSZ2YWxpZG1pbnV0ZXM9MjA=
-http://185.62.188.167:80/live/Petko/123456/16545.ts
+#EXTINF:-1 tvg-logo="https://www.holonix.it/wp-content/uploads/2016/10/rai-3.jpg" group-title"Global Channels",RAI 3
+http://style.kastream.biz:8081/edge/verff031f8adcd4b6054a730738956c2933/chunks.m3u8?nimblesessionid=349964&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMi8yMDE4IDg6MzU6MjAgUE0maGFzaF92YWx1ZT1vYmszSUxNWFd0OWQ4b2J2RVNHN09nPT0mdmFsaWRtaW51dGVzPTEyMA==
 #EXTINF:-1,A&E LAM
 http://185.62.188.167:80/live/Petko/123456/16013.ts
 #EXTINF:-1,AMC LAM
