@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="" goup-title="",ESPN BRASIL 2
+http://ultra.widestream.io:8081/wideedge/a5p2x4p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMTggMTI6Mjk6MjUgQU0maGFzaF92YWx1ZT1lVVltRExHT1pmd0Z1MFFmUCtjL0hnPT0mdmFsaWRtaW51dGVzPTIw
+ 
+#EXTINF:-1 tvg-logo="" goup-title="",FOX SPORTS 2
+http://ultra.widestream.io:8081/wideedge/o56n0qg/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMTggMTI6MzQ6NDIgQU0maGFzaF92YWx1ZT1pUzZrTXZRYk1FNmxFN21lVE0zaXp3PT0mdmFsaWRtaW51dGVzPTIw
+ 
+#EXTINF:-1 tvg-logo="" goup-title="",SPORTV OP.3
+http://ultra.widestream.io:8081/wideedge/jpngqiw/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMTggMTI6Mzg6MjUgQU0maGFzaF92YWx1ZT1RcnVlK1pUYjVSRG52WHpQKzBzQzZBPT0mdmFsaWRtaW51dGVzPTIw
 #EXTINF:-1,prueva
 http://ultra.widestream.io:8081/wideedge/pawssfv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8zLzIwMTggOTo1OTowMCBQTSZoYXNoX3ZhbHVlPXk4SEl6KzdUQk13ZFNVclIxaGZ3NlE9PSZ2YWxpZG1pbnV0ZXM9MjA=
 #EXTINF:-1,Telemundo
