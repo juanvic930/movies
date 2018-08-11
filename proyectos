@@ -1462,3 +1462,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
  
 </item>
+
+<item>
+<title>pelis 720</title>
+<link>$doregex[makelist2]</link>
+ 
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[makelist2.param1]      [makelist2.param2]  </title>
+        <link>$doregex[makelist]</link>
+        <fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+        ]]></listrepeat>
+<expres>href="(.*?)(20.*?720.*?)"</expres>
+<page>http://79.127.127.112/sr1/mari/97/5/</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+ 
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]     [makelist2.param2]  </title>
+<link>http://79.127.127.112/sr1/mari/97/5/[makelist2.param1][makelist2.param2]</link>
+<fanart>[makelist.param2]</fanart>
+<thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>Title":"(.*?)".*Poster":"(.*?)"</expres>
+<page>http://www.omdbapi.com/?t=[makelist2.param1]</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
