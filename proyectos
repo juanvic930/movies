@@ -1494,3 +1494,54 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>AQUIPELIS.NET</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[makelist.param2]</title>
+  <link>$doregex[makelist2]</link>
+  <thumbnail>https://aquipelis.net/wp-content/themes/moviescript/images/logo-light.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  list=re.findall('title="Genres">(?s)(.*?)</ul',page_data)[0]
+  return re.findall('href="(.*?)".+>(.*?)<',list)
+]]></expres>
+<page>http://aquipelis.tv/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[makelist2.param3] ([makelist2.param4]) | [makelist2.param5]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  count=re.findall("class='extend'.+?>(\d[^<]+)",page_data)[0];pn=1;data=[]
+  while pn <= int(count):
+     page='[makelist.param1]page/'+str(pn)+'/';source=requests.get(page).content.decode('ascii','ignore');list=re.findall('id="main">(?s)(.*?)id="pagination',source)[0]
+     data +=re.findall('href="(.*?)".*\n.*data-original="(.*?)".*\n.*h2>(.*?)\sonline\s\((\d+)\).*\n.*quality">(.*?)<',list);pn +=1
+  return data
+]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+  if 'http' in page_data:
+    return urlresolver.resolve(re.findall('id="reproductor1".*?src="(.*?)"',page_data)[0])
+  else:
+    return urlresolver.resolve('https:'+re.findall('id="reproductor1".*?src="(.*?)"',page_data)[0])
+]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+<thumbnail>https://aquipelis.net/wp-content/themes/moviescript/images/logo-light.png</thumbnail>
+</item>
