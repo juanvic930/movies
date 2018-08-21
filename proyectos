@@ -1545,3 +1545,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://aquipelis.net/wp-content/themes/moviescript/images/logo-light.png</thumbnail>
 </item>
+
+<item>
+<title>redmp3</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue][makelist.param2][/COLOR]</title>
+<link>http://red-mp3.su[makelist.param1]|Cookie=mp3key=[makelist.param5]</link>
+<thumbnail>http://red-mp3.su[makelist.param3]</thumbnail>
+<info>Album: [makelist.param4]</info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re, requests, HTMLParser
+  h = HTMLParser.HTMLParser()
+  url = 'http://red-mp3.su/Theme/Styles?v=7vKBz5QcHPxuacJPF0oDUG2MSnkVJ8-dYZZRWOuSHrY1'
+  items = re.findall('data-mp3url="([^"]+)"[^"]+"([^"]+)(?s).*?(/cover[^"]+)"\s*alt="([^"]+)',page_data)
+  songs = []
+  headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1'}
+  r = requests.get(url,headers=headers)
+  mp3key = r.cookies['mp3key']
+  for surl,title,thumb,album in items:
+    title = h.unescape(title.decode('utf8')).encode('utf8')
+    thumb = thumb.replace('50x50','460x460')
+    album = h.unescape(album.decode('utf8')).encode('utf8')
+    songs.append((surl,title,thumb,album,mp3key))
+  return songs
+]]></expres>
+<page>http://red-mp3.su/</page>
+</regex>
+</item>
