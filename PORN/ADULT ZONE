@@ -1,31 +1,506 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR  yellow]ISTAR-MOVIES[/COLOR][/B]</title>
+<name>[B][COLOR hotpink]PANDAMOV[/B][/COLOR]</name>
 <link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
-<link>http://192.95.47.60/ISTAR-Movies/[makelist.param1]</link>
+        <title>[makelist.param2] [B][makelist.param1][/B]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param4]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
-<page>http://192.95.47.60/ISTAR-Movies/</page>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+    def unescape(s):
+        return re.sub('&#(\d+);', '', s)         
+
+    url = 'https://pandamovie.eu/adult/watch-hd-movies-online-free/page/'
+    url2 = 'https://pandamovie.eu/adult/list-movies/page/'
+    u = []
+    for i in range(1, 5): u += [url + str(i)]
+    for i in range(1, 5): u += [url2 + str(i)]
+    u = cache.get(page().run, 24, u)
+    e = re.findall('(?s)item-post">.+?ce_([^"]*).+?title="([^"]*).+?f="([^"]*).+?c="([^"]*)', u)
+    e = [(i[0], i[1].decode('utf-8').encode("ascii","ignore"), i[2], i[3]) for i in e]
+    e = [(i[0], unescape(i[1]), i[2], i[3]) for i in e]  
+    return e
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<listrepeat><![CDATA[
+        <title>[playurl.param1]</title>
+        <link>[playurl.param2]</link>
+        <thumbnail>[makelist.param4]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param3]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
 </regex>
 </item>
 
 
-
 <item>
-<title>[B][COLOR  dodgerblue]XXX.FILM[/COLOR][/B]</title>
+<name>[B][COLOR hotpink]PORNHEEL[/B][/COLOR]</name>
 <link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR yellow][makelist.param2] [/COLOR]</title>
-<link>http://ns3051255.ip-91-121-84.eu/xxx/[makelist.param1]</link>
+        <title>[makelist.param3]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)<\/a>.*?:....(.*?)]]></expres>
-<page>http://ns3051255.ip-91-121-84.eu/xxx/</page>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+
+    url = 'https://beeg.com/channels'
+    u = []
+    for i in range(1, 3): u += [url + str(i)]
+    u = cache.get(page().run, 24, u)
+    e = re.findall('(?s)"content-anninapro">.+?f="([^"]*).+?c="([^"]*).+?rk">([^<]*).+?', u)
+    e = [(i[0],client.request(i[1], output='geturl'),i[2]) for i in e if i]
+    e = [(client.replaceHTMLCodes(i[0]), client.replaceHTMLCodes(i[1]), client.replaceHTMLCodes(i[2])) for i in e]
+    return e
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<listrepeat><![CDATA[
+        <title>[playurl.param2]</title>
+        <link>[playurl.param1]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param1]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<name>[B][COLOR hotpink]SATAN18[/COLOR][/B]</name>
+<link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+
+    url = 'https://beeg.com/'
+    u = []
+    for i in range(1, 10): u += [url + str(i)]
+    u = cache.get(page().run, 24, u)
+    e = re.findall('(?s)post3".+?f="([^"]*).+?rc="([^"]*).+?alt="([^"]*)', u)
+    return e
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param1]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<name>[B][COLOR hotpink]SPREADPORN[/B][/COLOR]</name>
+<link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+
+    url = 'http://spreadporn.org/category/movies/page/'
+    u = []
+    for i in range(1, 5): u += [url + str(i) + '\/']
+    u = cache.get(page().run, 24, u)
+    e = re.findall('(?s)<ul class="categorys none">.+?srcset="([^,]*).+?f="([^"]*)"\stitle="([^"]*)', u)
+    return e
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<listrepeat><![CDATA[
+        <title>[playurl.param3]</title>
+        <link>[playurl.param1]</link>
+        <thumbnail>[playurl.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param2]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<name>[B][COLOR hotpink]4TUBE[/COLOR][/B]</name>
+<link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param3] [makelist.param4]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+
+    url = 'https://www.4tube.com/videos?p='
+    u = []
+    for i in range(1, 5): u += [url + str(i) + '&sort=date&quality=hd']
+    u = cache.get(page().run, 24, u)
+    e = client.parseDOM(u, 'div', attrs = {'class': 'col thumb_video'})
+    e = [(client.parseDOM(i, 'a', ret='href')[0] , client.parseDOM(i, 'img', ret='data-master')[0] , client.parseDOM(i, 'img', ret='alt')[0] , client.parseDOM(i, 'li', attrs = {'class': 'duration-top'})[0]) for i in e]
+    e = [('https://www.4tube.com'+i[0],i[1],i[2],i[3]) for i in e if 'pornerbros' not in i[0]]
+    return e
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param1]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<name>[B][COLOR hotpink]ANYPORN[/COLOR][/B]</name>
+<link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param2] [makelist.param4]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]       
+
+    url = 'http://anyporn.com/categories/hd/'
+    u = []
+    for i in range(1, 3): u += [url + str(i) + '/']
+    u = cache.get(page().run, 24, u)
+    r = re.findall('(?s)<div class=\'item.+?original="([^"]*).+?t="([^"]*).+?f=\'([^\']*).+?HTML\s=\s"([^"]*)', u)
+    r = [(i[0],i[1],i[2],i[3]) for i in r]
+    return r
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param3]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<name>[B][COLOR hotpink]HQPORNER[/COLOR][/B]</name>
+<link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param2] [makelist.param4]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]       
+
+    url = 'http://hqporner.com/category/1080p-porn/'
+    u = []
+    for i in range(1, 5): u += [url + str(i)]
+    u = cache.get(page().run, 24, u)
+    r = re.findall('(?s)id="cover.+?c="([^"]*).+?t="([^"]*).+?href="([^"]*).+?data">([^<]*)', u)
+    r = [('http:'+i[0],i[1],'http://hqporner.com'+i[2],i[3]) for i in r]
+    return r
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param3]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<name>[B][COLOR hotpink]PORN[/COLOR][/B]</name>
+<link>$doregex[makelist]</link>
+<thumbnail><https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528/thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param3] [makelist.param4]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]       
+
+    url = 'https://www.porn.com/videos/hd?p='
+    u = []
+    for i in range(1, 5): u += [url + str(i)]
+    u = cache.get(page().run, 24, u)
+    r = re.findall('(?s)class="newest"><a href="([^"2]*).+?c="([^"]*).+?le">([^"]*)"added">([^<]*)', u)
+    r = [('https://porn.com'+i[0],i[1],i[2],i[3]) for i in r]
+    return r
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param1]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+<item>
+<name>[B][COLOR hotpink]XTHEATRE[/B][/COLOR]</name>
+<link>$doregex[makelist]</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/egamia/images/9/9b/ACB-X18%2B-Large.svg/revision/latest?cb=20160212130528</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[makelist.param2]</title>
+        <link>$doregex[playurl]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import cache,client,workers
+    import re,urllib,xbmc,xbmcgui
+
+    class page:
+        def run(self, r):
+            threads = [] ; self.r = [] ; r = [(r.index(i)+1, i) for i in r]
+            for i in r: threads.append(workers.Thread(self.request, i))
+            [i.start() for i in threads] ; [i.join() for i in threads]
+            return ''.join([str(i[1]) for i in sorted(self.r, key=lambda x: x[0])])
+        def request(self, i):
+            self.r += [(i[0], client.request(i[1]))]
+    def unescape(s):
+        return re.sub('&#(\d+);', '', s)         
+
+    url = 'https://xtheatre.net/category/movies/page/'
+    u = []
+    for i in range(1, 9): u += [url + str(i) + '/?filtre=date']
+    u = cache.get(page().run, 24, u)
+    e = re.findall('(?s)class="left".+?c="([^"]*).+?le="([^"]*).+?f="([^"]*)', u)
+    return e
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>playurl</name>
+<listrepeat><![CDATA[
+        <title>[playurl.param2]</title>
+        <link>[playurl.param1]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    import re
+    url = '[makelist.param3]'
+    from resources.lib.modules import control
+    adultresolver = control.cdnImport('http://legionworldtv.com/source/boyfile.txt', 'adultresolver')
+    adultresolver = adultresolver.streamer()
+    url = adultresolver.resolve(url)
+    r = url
+    r0 = [i[0] for i in r] ; r1 = [i[1].upper() for i in r]
+
+    if len(r1) > 1:
+        label = control.infoLabel('listitem.label')
+        select = control.dialog.select(label.upper(), r1)
+        if select == -1: return
+        link = r0[select]
+    else:
+        link = r0[0]
+    return link
+]]></expres>
+<page></page>
 </regex>
 </item>
