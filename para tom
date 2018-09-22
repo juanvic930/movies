@@ -96,3 +96,8 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </dir>
+
+	<dir>
+		<title>Telenovelas</title>
+		<imdburl>list/ls026537951</imdburl>
+	</dir>
