@@ -1699,8 +1699,8 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <item>
 <title>Hotel Transylvania 3</title>
 <link>http://ignore.me</link>
-<thumbnail>http://s.libertaddigital.com/esradio/programa/375/0/1.png</thumbnail>
-<externallink>$doregex[losantos]</externallink>
+<thumbnail></thumbnail>
+<externallink>$doregex[Hotel Transylvania 3]</externallink>
 <regex>
 <name>Hotel Transylvania 3</name>
 <expres>$pyFunction:myFunctions.HotelTransylvania3.mkv(http://dl8.uploadt.com/Movie/2018.09/)</expres>
