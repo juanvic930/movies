@@ -1,11 +1,17 @@
 
 <dir>
-<title>Sci-fi</title>
-<tmdb>genre/tv/5148</tmdb>
+<title>Movies</title>
+<tmdb>genre/movies/9648</tmdb>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </dir>
 
+<dir>
+<title>Tv-shows</title>
+<tmdb>genre/shows/9648</tmdb>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
 
 <dir>
 <name>Law & Order: Criminal Intent</name>
