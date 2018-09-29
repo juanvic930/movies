@@ -1,12 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="" goup-title="",UDN
-https://s10.limpi.tv/live/40373.m3u8?token=Letc_eAFf8C7aF9PVTzmHQ&expires=1538199550&ip=24.239.130.96
+https://limpi.tv/live/40373.m3u8?token=Letc_eAFf8C7aF9PVTzmHQ&expires=1538199550&ip=24.239.130.96
 #EXTINF:-1 tvg-logo="" goup-title="",UDN
-https://s10.limpi.tv/live/40373.m3u8 
+https://limpi.tv/live/40373.m3u8 
 #EXTINF:-1 tvg-logo="" goup-title="",UDN
-https://s10.limpi.tv/live/40373.m3u8?
+https://www.limpi.tv/live/40373.ts
 #EXTINF:-1 tvg-logo="" goup-title="",UDN
-https://s10.limpi.tv/live/40373.ts
+https://www.limpi.tv/live/40373
 
 
 #EXTINF:-1 tvg-logo="" goup-title="",FOX SPORTS 2
