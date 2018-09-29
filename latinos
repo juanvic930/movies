@@ -1,7 +1,14 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" goup-title="",ESPN BRASIL 2
-http://ultra.widestream.io:8081/wideedge/a5p2x4p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMTggMTI6Mjk6MjUgQU0maGFzaF92YWx1ZT1lVVltRExHT1pmd0Z1MFFmUCtjL0hnPT0mdmFsaWRtaW51dGVzPTIw
- 
+#EXTINF:-1 tvg-logo="" goup-title="",UDN
+https://s10.limpi.tv/live/40373.m3u8?token=Letc_eAFf8C7aF9PVTzmHQ&expires=1538199550&ip=24.239.130.96
+#EXTINF:-1 tvg-logo="" goup-title="",UDN
+https://s10.limpi.tv/live/40373.m3u8 
+#EXTINF:-1 tvg-logo="" goup-title="",UDN
+https://s10.limpi.tv/live/40373.m3u8?
+#EXTINF:-1 tvg-logo="" goup-title="",UDN
+https://s10.limpi.tv/live/40373.ts
+
+
 #EXTINF:-1 tvg-logo="" goup-title="",FOX SPORTS 2
 http://ultra.widestream.io:8081/wideedge/o56n0qg/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMTggMTI6MzQ6NDIgQU0maGFzaF92YWx1ZT1pUzZrTXZRYk1FNmxFN21lVE0zaXp3PT0mdmFsaWRtaW51dGVzPTIw
  
