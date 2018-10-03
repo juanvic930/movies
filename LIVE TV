@@ -1,48 +1,28 @@
-
-<dir>
-<title>[B][COLOR yellow]Search series[/COLOR][/B]</title>
-<imdburl>searchseries</imdburl>
+<item>
+<title>The Darkest Minds (2018)</title>
+<meta>
+<content>movie</content>
+<imdb>tt4073790</imdb>
+<title>The Darkest Minds</title>
+<year>2018</year>
+</meta>
+<link>http://dl8.uploadt.com/Movie/2018.09/The.Darkest.Minds.2018.720p.WEB-DL_AVADL.ME.mkv</link>
 <thumbnail></thumbnail>
-</dir>
+</item>
 
-<dir>
-<title>[B][COLOR yellow]Newest[/COLOR][/B]</title>
-<imdburl>tvshows/new</imdburl>
+<item>
+<title>The Darkest Minds (2018)</title>
+<meta>
+<content>movie</content>
+<imdb>tt4073790</imdb>
+<title>The Darkest Minds</title>
+<year>2018</year>
+</meta>
+<link>
+<sublink>http://dl8.uploadt.com/Movie/2018.09/The.Darkest.Minds.2018.720p.WEB-DL_AVADL.ME.mkv</sublink>
+<sublink>http://dl8.uploadt.com/Movie/2018.09/3.An.Eye.For.an.Eye.2018.720p.WEB-DL_AVADL.ME.mkv</sublink>
+<sublink>hhttp://dl8.uploadt.com/Movie/2018.09/Alien.Predator.2018.720p.WEB-DL.x264_AVADL.ME.mkv</sublink>
+</link>
 <thumbnail></thumbnail>
-</dir>
+</item>
 
-<dir>
-<title>[B][COLOR yellow]Best Ratings[/COLOR][/B]</title>
-<imdburl><tvshows/rating/imdburl>
-<thumbnail></thumbnail>
-</dir>
-
-<dir>
-<title>[B][COLOR yellow]Most Viewed[/COLOR][/B]</title>
-<imdburl>tvshows/mostviews</imdburl>
-<thumbnail></thumbnail>
-</dir>
-
-<dir>
-<title>[B][COLOR yellow]Chart Best Rated[/COLOR][/B]</title>
-<imdburl>charttv/toptv</imdburl>
-<thumbnail></thumbnail>
-</dir>
-
-<dir>
-<title>[B][COLOR yellow]IMDB Action TV Shows[/COLOR][/B]</title>
-<imdburl>genres/action</imdburl>
-<thumbnail></thumbnail>
-</dir>
-
-<dir>
-<title>[B][COLOR yellow]IMDB genres[/COLOR][/B]</title>
-<imdburl>genres/genres</imdburl>
-<thumbnail></thumbnail>
-</dir>
-
-<dir>
-<title>[B][COLOR yellow]IMDB genre[/COLOR][/B]</title>
-<imdburl>genres/genre</imdburl>
-<thumbnail></thumbnail>
-</dir>
