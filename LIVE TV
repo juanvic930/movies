@@ -1,5 +1,5 @@
 <item>
-<title>A Simple Favor (2018)</title>
+<title>[B][COLOR yellow]A Simple Favor (2018)[/COLOR][/B]</title>
 <meta>
 <content>movie</content>
 <imdb>tt7040874</imdb>
@@ -14,5 +14,25 @@
 </link>
 <thumbnail>https://image.tmdb.org/t/p/w600_and_h900_bestv2/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg</thumbnail>
 <fanart>https://image.tmdb.org/t/p/w533_and_h300_bestv2/xRHRTyGt0pceKMTn3EPyRjmHHDt.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow]Ant-Man and the Wasp (2018)[/COLOR][/B]</title>
+<meta>
+<content>movie</content>
+<imdb>tt5095030</imdb>
+<title>Ant-Man and the Wasp</title>
+</meta>
+<link>
+<sublink>http://dl8.uploadt.com/Movie/2018.09/Ant.Man.and.the.Wasp.2018.1080p.WEB-DL.x265.HEVC_AVADL.ME.mkv(1080p x265)</sublink>
+<sublink>http://dl8.uploadt.com/Movie/2018.09/Ant.Man.and.the.Wasp.2018.720p.WEB-DL.x265.HEVC_AVADL.ME.mkv(720p x265)</sublink>
+<sublink>http://dl8.heyserver.in/film/2018-10/Ant.Man.and.the.Wasp.2018.1080p.WEB-DL.x264.6CH.MkvCage.mkv(1080p x264)</sublink>
+<sublink>http://dl8.heyserver.in/film/2018-10/Ant.Man.and.the.Wasp.2018.720p.WEB-DL.MkvCage.mkv(720p)</sublink>
+<sublink>http://dl8.heyserver.in/film/2018-10/Ant.Man.and.the.Wasp.2018.480p.WEB-DL.mkv(480p)</sublink>
+<sublink>search</sublink>
+</link>
+<thumbnail>https://image.tmdb.org/t/p/w600_and_h900_bestv2/rv1AWImgx386ULjcf62VYaW8zSt.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/w533_and_h300_bestv2/6P3c80EOm7BodndGBUAJHHsHKrp.jpg</fanart>
 </item>
 
