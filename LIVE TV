@@ -1,43 +1,32 @@
-
-
 <dir>
-<title>[COLOR gold][B]Sports Center[/B][/COLOR]</title>
-<sport_stream>games</sport_stream>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
+    <title>ABC Network shows</title>
+    <tvmaze>network/3/1</tvmaze>
+    </dir>
+    
+     <dir>
+    <title>Web Channels</title>
+    <tvmaze>web_channel/1</tvmaze>
+    </dir>
+    
+    <dir>
+    <title>Fox Network shows</title>
+    <tvmaze>network/4/1</tvmaze>
+    </dir> 
+    
+     <dir>
+    <title>All Networks</title>
+    <tvmaze>country/United States/1</tvmaze>
+    </dir>
 
-<plugin>
-<title>[COLOR gold][B]Sports Channels[/B][/COLOR]</title>
-<link>plugin://script.module.dslive/list_channels/36</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
+    -------------------------------------------------------------
 
-<plugin>
-<title>[COLOR gold][B]UK TV and MOVIE Channels[/B][/COLOR]</title>
-<link>plugin://script.module.dslive/list_channels/42</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold][B]USA TV Channels[/B][/COLOR]</title>
-<link>plugin://script.module.dslive/list_channels/41</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold][B]Documentaries[/B][/COLOR]</title>
-<link>plugin://script.module.dslive/list_channels/39</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold][B]Kids[/B][/COLOR]</title>
-<link>plugin://script.module.dslive/list_channels/38</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
+    TV CALENDAR usage
+    <dir>
+        <title>TV Calendar</title>
+        <tvmaze>calendar</tvmaze>
+    </dir>
+    -------------------------------------------------------------
+    <dir>
+    <title>Unites States Networks</title>
+    <tvmaze>country/United States/1</tvmaze>
+    </dir>
