@@ -1,32 +1,48 @@
+
 <dir>
-    <title>ABC Network shows</title>
-    <tvmaze>network/3/1</tvmaze>
-    </dir>
-    
-     <dir>
-    <title>Web Channels</title>
-    <tvmaze>web_channel/1</tvmaze>
-    </dir>
-    
-    <dir>
-    <title>Fox Network shows</title>
-    <tvmaze>network/4/1</tvmaze>
-    </dir> 
-    
-     <dir>
-    <title>All Networks</title>
-    <tvmaze>country/United States/1</tvmaze>
-    </dir>
+<title>[B][COLOR yellow]Search series[/COLOR][/B]</title>
+<imdburl>searchseries</imdburl>
+<thumbnail></thumbnail>
+</dir>
 
-    -------------------------------------------------------------
+<dir>
+<title>[B][COLOR yellow]Newest[/COLOR][/B]</title>
+<imdburl>tvshows/new</imdburl>
+<thumbnail></thumbnail>
+</dir>
 
-    TV CALENDAR usage
-    <dir>
-        <title>TV Calendar</title>
-        <tvmaze>calendar</tvmaze>
-    </dir>
-    -------------------------------------------------------------
-    <dir>
-    <title>Unites States Networks</title>
-    <tvmaze>country/United States/1</tvmaze>
-    </dir>
+<dir>
+<title>[B][COLOR yellow]Best Ratings[/COLOR][/B]</title>
+<imdburl><tvshows/rating/imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]Most Viewed[/COLOR][/B]</title>
+<imdburl>tvshows/mostviews</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]Chart Best Rated[/COLOR][/B]</title>
+<imdburl>charttv/toptv</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]IMDB Action TV Shows[/COLOR][/B]</title>
+<imdburl>genres/action</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]IMDB genres[/COLOR][/B]</title>
+<imdburl>genres/genres</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]IMDB genre[/COLOR][/B]</title>
+<imdburl>genres/genre</imdburl>
+<thumbnail></thumbnail>
+</dir>
