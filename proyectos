@@ -1795,3 +1795,124 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <cookieJar></cookieJar>
 </regex>
 </item>
+
+<item>
+<title>http://www.movibot.net/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param2][/COLOR]</title>
+  <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('href=[\'"](h.+?genre[^\'"]+)[\'"]>([^<]+)',re.findall('Genres(?s)(.*?)"clearfix"',page_data)[0])
+]]></expres>
+<page>http://www.movibot.net/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist2.param3][/COLOR] ([makelist2.param4])</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  count=20;pn=1;data=[]
+  while pn <= int(count):
+     page='[makelist.param1]/'+str(pn);source=requests.get(page).text;list=re.findall('class="browse-inner">(?s)(.*?)"blog-pagenat-wthree',source)[0]
+     data +=re.findall('href=[\'"](.*?)[\'"].*\n.*src=[\'"](.*?)[\'"].title=[\'"](.*?)\s\((\d+)',list);pn +=1
+  return  data
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('id="videojs"[\w\W]*?src=[\'"]([^\'"]+)',requests.get(re.findall('"modal-body".*\n.*iframe.src=[\'"]([^\'"]+)',page_data)[0],headers={'Referer':'[makelist2.param1]'}).text)[0]+'|User-Agent=iPad'
+]]></expres>
+<page>[makelist2.param1]</page>
+<referer>[makelist.param1]</referer>
+</regex>
+</item>
+
+<item>
+<title>http://betticket.tv/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR yellow][makelist.param2][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>http://betticket.tv/tvlogo.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('href=[\'"]/(.*?)[\'"].title=[\'"]([^\'"]+)',re.findall('scrollbar-outer list">(?s)(.*?)</section',page_data)[0])
+]]></expres>
+<page>http://betticket.tv/</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urllib
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  r=requests.get('http://betticket.tv/[makelist.param1]',headers={'Referer':'http://betticket.tv/','User-Agent':'Mozilla/5.0'},verify=False)
+  url=re.findall('id="player"[\w\W]*?src="([^"]+)',r.text)[0]
+  source=requests.get(url,headers={'Referer':'http://betticket.tv/[makelist.param1]','User-Agent':'Mozilla/5.0'},cookies=r.cookies).text
+  return re.findall('var.source.+?[\'"]([^\'"]+)',source)[0]+'|User-Agent=iPad&Referer='+url
+]]></expres>
+<page></page>
+<referer></referer>
+</regex>
+<thumbnail>http://betticket.tv/tvlogo.png</thumbnail>
+</item>
+
+<item>
+<title>http://www.sportshd.me/nba</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR yellow][makelist.param3][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>http://www.sportshd.me/[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  list=re.findall('</h1>(?s)(.*?)<script',page_data)[0]
+  return re.findall("href='/(.*?)'[\w\W]*?src='/(.*?)'[\w\W]*?media-heading.+?>(.*?)<",list)
+]]></expres>
+<page>http://www.sportshd.me/nba</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urlresolver
+from urlresolver.plugins.lib import jsunpack
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  source=requests.get('http://www.sportshd.me/[makelist.param1]',headers={'Referer':'http://www.sportshd.me/mlb'}).text
+  if 'p,a,c,k,e,d' in source:
+    packed=jsunpack.unpack(source).replace('\\','')
+    return re.findall('[\'"](h[^\'"]+)',packed)[0]+'|User-Agent=iPad&Referer=http://www.sportshd.me/[makelist.param1]'
+  else:
+    url=re.findall("embed-responsive[\w\W]*?src='([^']+)",source)[0]
+    r=requests.get(url,headers={'Referer':'http://www.sportshd.me/[makelist.param1]'})
+    inf=re.findall('class="embed-responsive[\w\W]*?zmid.+?"(.*?)".+pid.+?(\d+).+?"([^"]+)',r.text)[0]
+    link='https://%s/sdembed?v=%s'%(inf[2],inf[0])
+    source=requests.post(link,headers={'Referer':url,'User-Agent':'Mozilla/5.0'},data={'pid':inf[1]},cookies=r.cookies,verify=False).text
+    html=re.findall('playerObj.remove[\w\W]*?[\'"](h.*?)[\'"].*\n.+?[\'"](.+?live/[^\'"]+)',source)[0]
+    return html[0]+html[1]+'|User-Agent=iPad&Referer=%s'%link
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://viterbicareers.usc.edu/wp-content/uploads/2018/06/NBA-logo.jpg</thumbnail>
+</item>
