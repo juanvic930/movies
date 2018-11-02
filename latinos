@@ -2,11 +2,11 @@
 #EXTINF:-1 tvg-logo="" goup-title="",UDN
 https://player.limpi.tv/U2FsdGVkX1825i7Zg39Q7hF%2B%2FLw42KP6YqFgOOdqvAg%3D/40373
 #EXTINF:-1 tvg-logo="" goup-title="",Canal de las estrellas
-http://23.237.22.52:25461/live/newKeyman/nottoday/5.m3u8
+http://23.237.22.52:25461/live/newKeyman/nottoday/5.m3u8?
 #EXTINF:-1 tvg-logo="" goup-title="",Canal 5
-http://23.237.22.157:25461/live/newKeyman/nottoday/6.m3u8
+http://23.237.22.157:25461/live/newKeyman/nottoday/6.m3u8?
 #EXTINF:-1 tvg-logo="" goup-title="",Azteca 7
-http://23.237.22.157:25461/live/newKeyman/nottoday/57.m3u8
+http://23.237.22.157:25461/live/newKeyman/nottoday/57.m3u8?
 
 #EXTINF:-1 tvg-logo="" goup-title="",FOX SPORTS 2
 http://ultra.widestream.io:8081/wideedge/o56n0qg/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMTggMTI6MzQ6NDIgQU0maGFzaF92YWx1ZT1pUzZrTXZRYk1FNmxFN21lVE0zaXp3PT0mdmFsaWRtaW51dGVzPTIw
