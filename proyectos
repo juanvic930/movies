@@ -1916,3 +1916,35 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 </regex>
 <thumbnail>https://viterbicareers.usc.edu/wp-content/uploads/2018/06/NBA-logo.jpg</thumbnail>
 </item>
+
+<item>
+<title>[COLOR hotpink]Cable Gratis[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://cablegratis.tv/logos/cable-gratis-tv.png</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param2][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[<a\s*href="([^"]+)"\s*class="card"\s*title="([^"]+)">\s*<img\s*src="([^"]+)]]></expres>
+<page>http://cablegratis.tv/</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re, requests
+  id = re.findall("id='([^']+)';", page_data)[0]
+  eurl = 'https://player.limpi.tv/embed/U2FsdGVkX1%2BQ7tFg%2FwygKsrM%2FPWeVOHv5f%2B3zjct2d4%3D/{}'.format(id)
+  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+             'Referer': 'http://cablegratis.tv/'}
+  html = requests.get(eurl, headers=headers).text
+  strurl = re.findall('source: "([^"]+)', html)[0]
+  return '{}|User-Agent={}&Referer=https://player.limpi.tv/'.format(strurl, headers['User-Agent'])
+]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
