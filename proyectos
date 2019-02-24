@@ -1948,3 +1948,36 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+ <title>[COLOR yellow][B]Total Play Servidor [/B][/COLOR]</title>
+ <link>$doregex[free]</link>
+ <regex>
+ <name>free</name>
+ <listrepeat><![CDATA[
+<title>[COLOR blue][B][free.param3][/B][/COLOR]</title>
+<link>[free.param2]|Referer=http://cablegratis.tv/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<thumbnail>https://icon.apkmirrordownload.com/com.TotalPlay.totalplay.png</thumbnail>
+<fanart>https://i2.cdn.cnn.com/cnnnext/dam/assets/160122140719-beyond-the-call-of-duty-background-full-169.jpg</fanart>
+]]></listrepeat>
+ <expres><![CDATA[(?s)src='(.*?)'.*?<a href='(.*?)'.*?playlist__track__title'>(.*?)<.*?]]></expres>
+ <page>http://cablegratis.tv/</page>
+ </regex>
+</item>
+
+<item>
+ <title>[COLOR yellow][B]dazplayer [/B][/COLOR]</title>
+ <link>$doregex[free]</link>
+ <regex>
+ <name>free</name>
+ <listrepeat><![CDATA[
+<title>[COLOR blue][B][free.param3][/B][/COLOR]</title>
+<link>[free.param2]|Referer=http://dazplayer.com/chh/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<thumbnail>https://icon.apkmirrordownload.com/com.TotalPlay.totalplay.png</thumbnail>
+<fanart>https://i2.cdn.cnn.com/cnnnext/dam/assets/160122140719-beyond-the-call-of-duty-background-full-169.jpg</fanart>
+]]></listrepeat>
+ <expres><![CDATA[(?s)src='(.*?)'.*?<a href='(.*?)'.*?playlist__track__title'>(.*?)<.*?]]></expres>
+ <page>http://dazplayer.com/chh/</page>
+ </regex>
+</item>
+
+
