@@ -1,0 +1,15 @@
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/a/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/a/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
