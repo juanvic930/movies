@@ -8,13 +8,59 @@
 <link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\(?:720p|1080p)]]></expres>
 <page>http://dl.sitemovie.ir/movie/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>[B][COLOR  yellow]haylimoviez[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)(?:720p|1080p)]]></expres>
+<page>http://dl.sitemovie.ir/movie/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>[B][COLOR  yellow]haylimoviez[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
+<page>http://dl.sitemovie.ir/movie/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  yellow]haylimoviez[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl.sitemovie.ir/movie/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 <title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
