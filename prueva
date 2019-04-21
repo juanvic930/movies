@@ -5,11 +5,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
 <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-<link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
+<link>http://103.114.38.38/HDD2/English%20Movies/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\(?:720p|1080p)]]></expres>
-<page>http://dl.sitemovie.ir/movie/</page>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://103.114.38.38/HDD2/English%20Movies/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -21,11 +21,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
 <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-<link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
+<link>http://103.114.38.38/HDD1/English%20Movies/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)(?:720p|1080p)]]></expres>
-<page>http://dl.sitemovie.ir/movie/</page>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://103.114.38.38/HDD1/English%20Movies/movie/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -37,11 +37,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
 <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-<link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
+<link>http://dl2.film2serial.ir/film2serial/film/asli/98/1/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?).(?:720p|1080p)]]></expres>
-<page>http://dl.sitemovie.ir/movie/</page>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/98/1/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
