@@ -4,12 +4,12 @@
 <regex>
 <name>hd</name>
 <listrepeat><![CDATA[
-   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202019/[hd.param3].[hd.param1][hd.param2]</link>
+<title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+<link>http://dl2.film2serial.ir/film2serial/film/asli/98/1/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202019/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/98/1/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
