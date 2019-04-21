@@ -8,7 +8,7 @@
 <title>[B][COLOR yellow] [makelist2.param2][/COLOR][/B] </title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres><tr><td><a href="(.*?)">(.*?)\/<</expres>
+<expres>href="(.*?)">(.*?)\/<</expres>
 <page>http://s1.tinydl.info/Movies2/</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -20,7 +20,7 @@
 <title>[makelist.param2] </title>
 <link>http://s1.tinydl.info/Movies2/Film/[makelist2.param1]/[makelist.param1]</link>
 ]]></listrepeat>
-<expres><tr><td><a href="(.*?)">(.*?)\/<</expres>
+<expres>href="(.*?)">(.*?)\/<</expres>
 <page>http://s1.tinydl.info/Movies2/[makelist2.param1]/</page>
 <referer></referer>
 <cookieJar></cookieJar>
