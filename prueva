@@ -13,3 +13,446 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/b/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/b/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/c/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/c/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/d/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/d/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/e/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/e/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/f/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/f/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/g/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/g/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/h/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/h/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/i/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/i/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/j/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/j/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/k/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/k/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/l/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/l/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/m/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/m/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/n/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/n/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/o/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/o/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/p/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/p/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/q/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/q/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/r/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/r/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/s/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/s/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/t/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/t/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/u/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/u/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/v/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/v/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/w/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/w/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/x/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/x/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/y/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/y/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/z/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/z/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.uploadzone.ir/movies/number/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.uploadzone.ir/movies/number/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
