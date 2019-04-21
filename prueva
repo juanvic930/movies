@@ -8,7 +8,7 @@
 <link>http://dl.sitemovie.ir/movie/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4]).*?>(.*?)\.(?:720p|1080p|\.)]]></expres>
 <page>http://dl.sitemovie.ir/movie/</page>
 </regex>
 <thumbnail></thumbnail>
