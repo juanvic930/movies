@@ -22,11 +22,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202018/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/12/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202018/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/12/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -39,11 +39,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202017/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/11/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202017/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/11/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -56,11 +56,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202016/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/10/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202016/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/10/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -73,11 +73,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202015/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/9/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202015/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/9/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -90,11 +90,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202014/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/8/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202014/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/8/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -107,11 +107,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202013/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/7/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202013/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/7/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -124,11 +124,11 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202001/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/6/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202001/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/6/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -141,11 +141,75 @@
 <name>hd</name>
 <listrepeat><![CDATA[
    <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
-   <link>http://dl2.haylimoviez.info/Movie%202000/[hd.param3].[hd.param1][hd.param2]</link>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/5/[hd.param3].[hd.param1][hd.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
-<page>http://dl2.haylimoviez.info/Movie%202000/</page>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/5/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/4/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/4/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/3/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/3/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/2/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/2/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR  yellow]HASTIDOWLOAD[/COLOR][/B]</title>
+<link>$doregex[hd]</link>
+<regex>
+<name>hd</name>
+<listrepeat><![CDATA[
+   <title>[COLOR yellow][hd.param3][/COLOR] [COLOR dodgerblue]([hd.param1])[/COLOR]</title>
+   <link>http://dl2.film2serial.ir/film2serial/film/asli/97/1/[hd.param3].[hd.param1][hd.param2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href.*?(\d{3,4}p)(.+?[mkv|mp4])">(.*?)\.(?:720p|1080p)]]></expres>
+<page>http://dl2.film2serial.ir/film2serial/film/asli/97/1/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
