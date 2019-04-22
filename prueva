@@ -9,7 +9,7 @@
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres>href="(.*?)">(.*?)\/<</expres>
-<page>http://s1.tinydl.info/Movies2/</page>
+<page>http://s1.tinydl.info/Movies3/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -18,10 +18,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2] </title>
-<link>http://s1.tinydl.info/Movies2/Film/[makelist2.param1]/[makelist.param1]</link>
+<link>http://s1.tinydl.info/Movies3/Film/[makelist2.param1]/[makelist.param1]</link>
 ]]></listrepeat>
-<expres>href="(.*?)">(.*?)<</expres>
-<page>http://s1.tinydl.info/Movies2/[makelist2.param1]/</page>
+<expres>href="(.*?)"(.*?)<</expres>
+<page>http://s1.tinydl.info/Movies3/[makelist2.param1]/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
